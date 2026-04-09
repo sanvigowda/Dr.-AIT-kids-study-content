@@ -1,0 +1,301 @@
+transaction_id,store,date,product,category,customer_id,customer_type,price,quantity,discount_pct,payment_method,city,rating,revenue,month,month_name,quarter,day_of_week,is_weekend,is_member,basket_size,has_discount
+TXN0001,Store B,2024-01-01 00:00:00.000000,Laptop,Electronics,CUST310,Member,55000.0,7,5,Debit Card,Chennai,5.0,365750.0,1,January,Q1,Monday,False,True,Premium (>₹20K),True
+TXN0002,Store A,2024-01-02 00:00:00.000000,Coffee,Food & Beverages,CUST268,Walk-In,349.0,3,0,Cash,Mumbai,5.0,1047.0,1,January,Q1,Tuesday,False,False,Medium (₹1K-5K),False
+TXN0003,Store B,2024-01-03 00:00:00.000000,Laptop,Electronics,CUST617,Walk-In,55000.0,4,0,Debit Card,Hyderabad,4.0,220000.0,1,January,Q1,Wednesday,False,False,Premium (>₹20K),False
+TXN0004,Store B,2024-01-04 00:00:00.000000,Smartphone,Electronics,CUST236,Walk-In,28000.0,3,5,Cash,Delhi,4.0,79800.0,1,January,Q1,Thursday,False,False,Premium (>₹20K),True
+TXN0005,Store E,2024-01-05 00:00:00.000000,Comics,Books,CUST823,Member,299.0,7,25,Credit Card,Hyderabad,4.0,1569.75,1,January,Q1,Friday,False,True,Medium (₹1K-5K),True
+TXN0006,Store C,2024-01-06 00:00:00.000000,Running Shoes,Sports,CUST211,Walk-In,4499.0,4,0,Credit Card,Chennai,4.0,17996.0,1,January,Q1,Saturday,True,False,Large (₹5K-20K),False
+TXN0007,Store C,2024-01-07 00:00:00.000000,Saree,Clothing,CUST139,Walk-In,2499.0,2,0,EMI,Delhi,4.0,4998.0,1,January,Q1,Sunday,True,False,Medium (₹1K-5K),False
+TXN0008,Store C,2024-01-08 00:00:00.000000,Saree,Clothing,CUST220,Member,2499.0,6,0,Debit Card,Hyderabad,3.0,14994.0,1,January,Q1,Monday,False,True,Large (₹5K-20K),False
+TXN0009,Store B,2024-01-09 00:00:00.000000,Football,Sports,CUST624,Walk-In,999.0,6,5,UPI,Chennai,5.0,5694.3,1,January,Q1,Tuesday,False,False,Large (₹5K-20K),True
+TXN0010,Store E,2024-01-10 00:00:00.000000,Fiction Novel,Books,CUST963,Member,399.0,2,5,UPI,Chennai,5.0,758.1,1,January,Q1,Wednesday,False,True,Small (<₹1K),True
+TXN0011,Store D,2024-01-11 00:00:00.000000,Tea,Food & Beverages,CUST198,Walk-In,249.0,5,10,Cash,Hyderabad,4.0,1120.5,1,January,Q1,Thursday,False,False,Medium (₹1K-5K),True
+TXN0012,Store D,2024-01-12 00:00:00.000000,Health Bar,Food & Beverages,CUST761,Walk-In,199.0,4,5,Debit Card,Mumbai,5.0,756.2,1,January,Q1,Friday,False,False,Small (<₹1K),True
+TXN0013,Store E,2024-01-13 00:00:00.000000,Headphones,Electronics,CUST180,Walk-In,8500.0,4,15,Debit Card,Hyderabad,4.0,28900.0,1,January,Q1,Saturday,True,False,Premium (>₹20K),True
+TXN0014,Store E,2024-01-14 00:00:00.000000,Dumbbells,Sports,CUST441,Member,2499.0,7,10,UPI,Delhi,4.0,15743.7,1,January,Q1,Sunday,True,True,Large (₹5K-20K),True
+TXN0015,Store E,2024-01-15 00:00:00.000000,Jacket,Clothing,CUST333,Walk-In,1899.0,5,5,UPI,Hyderabad,3.0,9020.25,1,January,Q1,Monday,False,False,Large (₹5K-20K),True
+TXN0016,Store C,2024-01-16 00:00:00.000000,Tea,Food & Beverages,CUST403,Member,249.0,6,15,Debit Card,Delhi,2.0,1269.9,1,January,Q1,Tuesday,False,True,Medium (₹1K-5K),True
+TXN0017,Store A,2024-01-17 00:00:00.000000,Self-Help,Books,CUST161,Member,499.0,1,20,UPI,Chennai,4.0,399.2,1,January,Q1,Wednesday,False,True,Small (<₹1K),True
+TXN0018,Store A,2024-01-18 00:00:00.000000,Running Shoes,Sports,CUST930,Member,4499.0,6,0,Debit Card,Delhi,4.0,26994.0,1,January,Q1,Thursday,False,True,Premium (>₹20K),False
+TXN0019,Store A,2026-04-03 20:55:50.950670,Self-Help,Books,CUST543,Walk-In,499.0,5,5,Debit Card,Chennai,5.0,2370.25,4,April,Q2,Friday,False,False,Medium (₹1K-5K),True
+TXN0020,Unknown Store,2024-01-20 00:00:00.000000,Tea,Food & Beverages,CUST229,Member,249.0,6,0,UPI,Unknown City,5.0,1494.0,1,January,Q1,Saturday,True,True,Medium (₹1K-5K),False
+TXN0021,Store E,2024-01-21 00:00:00.000000,Jacket,Clothing,CUST114,Member,1899.0,3,15,Debit Card,Delhi,4.0,4842.45,1,January,Q1,Sunday,True,True,Medium (₹1K-5K),True
+TXN0022,Store C,2024-01-22 00:00:00.000000,Tea,Food & Beverages,CUST987,Walk-In,249.0,4,5,UPI,Mumbai,4.0,946.2,1,January,Q1,Monday,False,False,Small (<₹1K),True
+TXN0023,Unknown Store,2024-01-23 00:00:00.000000,Dumbbells,Sports,CUST328,Walk-In,2499.0,4,5,Credit Card,Unknown City,5.0,9496.2,1,January,Q1,Tuesday,False,False,Large (₹5K-20K),True
+TXN0024,Store A,2024-01-24 00:00:00.000000,Juice Pack,Food & Beverages,CUST229,Walk-In,149.0,7,15,Credit Card,Delhi,4.0,886.55,1,January,Q1,Wednesday,False,False,Small (<₹1K),True
+TXN0025,Store B,2024-01-25 00:00:00.000000,Jacket,Clothing,CUST107,Member,1899.0,4,5,Credit Card,Hyderabad,5.0,7216.2,1,January,Q1,Thursday,False,True,Large (₹5K-20K),True
+TXN0026,Store E,2026-04-03 20:55:50.950670,Self-Help,Books,CUST323,Walk-In,499.0,7,5,Credit Card,Bangalore,5.0,3318.35,4,April,Q2,Friday,False,False,Medium (₹1K-5K),True
+TXN0027,Store A,2024-01-27 00:00:00.000000,Fiction Novel,Books,CUST830,Walk-In,399.0,5,5,UPI,Chennai,4.0,1895.25,1,January,Q1,Saturday,True,False,Medium (₹1K-5K),True
+TXN0028,Store B,2024-01-28 00:00:00.000000,Yoga Mat,Sports,CUST480,Member,1299.0,6,15,Debit Card,Mumbai,5.0,6624.9,1,January,Q1,Sunday,True,True,Large (₹5K-20K),True
+TXN0029,Store A,2024-01-29 00:00:00.000000,T-Shirt,Clothing,CUST277,Walk-In,799.0,4,10,UPI,Chennai,4.0,2876.4,1,January,Q1,Monday,False,False,Medium (₹1K-5K),True
+TXN0030,Store B,2024-01-30 00:00:00.000000,Dumbbells,Sports,CUST866,Member,2499.0,6,15,Cash,Chennai,5.0,12744.9,1,January,Q1,Tuesday,False,True,Large (₹5K-20K),True
+TXN0031,Store E,2024-01-31 00:00:00.000000,Smartwatch,Electronics,CUST126,Walk-In,15000.0,7,20,Cash,Hyderabad,5.0,84000.0,1,January,Q1,Wednesday,False,False,Premium (>₹20K),True
+TXN0032,Store B,2024-02-01 00:00:00.000000,Coffee,Food & Beverages,CUST402,Member,349.0,6,0,UPI,Bangalore,3.0,2094.0,2,February,Q1,Thursday,False,True,Medium (₹1K-5K),False
+TXN0033,Store A,2024-02-02 00:00:00.000000,Jeans,Clothing,CUST331,Member,1299.0,5,10,UPI,Bangalore,5.0,5845.5,2,February,Q1,Friday,False,True,Large (₹5K-20K),True
+TXN0034,Store D,2024-02-03 00:00:00.000000,Tea,Food & Beverages,CUST660,Walk-In,249.0,4,15,UPI,Hyderabad,3.0,846.6,2,February,Q1,Saturday,True,False,Small (<₹1K),True
+TXN0035,Store A,2024-02-04 00:00:00.000000,Coffee,Food & Beverages,CUST432,Member,349.0,6,20,UPI,Chennai,4.0,1675.2,2,February,Q1,Sunday,True,True,Medium (₹1K-5K),True
+TXN0036,Store A,2024-02-05 00:00:00.000000,Laptop,Electronics,CUST473,Walk-In,55000.0,4,15,Cash,Mumbai,3.0,187000.0,2,February,Q1,Monday,False,False,Premium (>₹20K),True
+TXN0037,Store C,2026-04-03 20:55:50.950670,Tablet,Electronics,CUST157,Walk-In,35000.0,3,5,UPI,Delhi,5.0,99750.0,4,April,Q2,Friday,False,False,Premium (>₹20K),True
+TXN0038,Store B,2024-02-07 00:00:00.000000,Headphones,Electronics,CUST363,Member,8500.0,6,10,EMI,Mumbai,5.0,45900.0,2,February,Q1,Wednesday,False,True,Premium (>₹20K),True
+TXN0039,Store D,2024-02-08 00:00:00.000000,Tablet,Electronics,CUST980,Member,35000.0,2,25,Debit Card,Delhi,5.0,52500.0,2,February,Q1,Thursday,False,True,Premium (>₹20K),True
+TXN0040,Store C,2024-02-09 00:00:00.000000,Comics,Books,CUST340,Member,299.0,2,5,UPI,Hyderabad,2.0,568.1,2,February,Q1,Friday,False,True,Small (<₹1K),True
+TXN0041,Store D,2024-02-10 00:00:00.000000,Self-Help,Books,CUST243,Member,499.0,7,0,EMI,Bangalore,2.0,3493.0,2,February,Q1,Saturday,True,True,Medium (₹1K-5K),False
+TXN0042,Store B,2026-04-03 20:55:50.950670,Biography,Books,CUST248,Walk-In,599.0,1,20,Credit Card,Bangalore,5.0,479.2,4,April,Q2,Friday,False,False,Small (<₹1K),True
+TXN0043,Store A,2024-02-12 00:00:00.000000,Headphones,Electronics,CUST788,Member,8500.0,7,10,UPI,Chennai,4.0,53550.0,2,February,Q1,Monday,False,True,Premium (>₹20K),True
+TXN0044,Store B,2024-02-13 00:00:00.000000,Laptop,Electronics,CUST725,Walk-In,55000.0,5,20,UPI,Chennai,2.0,220000.0,2,February,Q1,Tuesday,False,False,Premium (>₹20K),True
+TXN0045,Store D,2024-02-14 00:00:00.000000,Headphones,Electronics,CUST444,Walk-In,8500.0,4,0,EMI,Hyderabad,5.0,34000.0,2,February,Q1,Wednesday,False,False,Premium (>₹20K),False
+TXN0046,Store E,2024-02-15 00:00:00.000000,Smartphone,Electronics,CUST790,Member,28000.0,3,5,Credit Card,Delhi,4.0,79800.0,2,February,Q1,Thursday,False,True,Premium (>₹20K),True
+TXN0047,Store C,2024-02-16 00:00:00.000000,Running Shoes,Sports,CUST971,Walk-In,4499.0,4,25,UPI,Hyderabad,3.0,13497.0,2,February,Q1,Friday,False,False,Large (₹5K-20K),True
+TXN0048,Store B,2024-02-17 00:00:00.000000,Self-Help,Books,CUST485,Walk-In,499.0,7,20,UPI,Bangalore,1.0,2794.4,2,February,Q1,Saturday,True,False,Medium (₹1K-5K),True
+TXN0049,Store C,2024-02-18 00:00:00.000000,Jacket,Clothing,CUST358,Member,1899.0,3,10,UPI,Bangalore,5.0,5127.3,2,February,Q1,Sunday,True,True,Large (₹5K-20K),True
+TXN0050,Store A,2024-02-19 00:00:00.000000,Smartphone,Electronics,CUST570,Walk-In,28000.0,2,0,UPI,Hyderabad,4.0,56000.0,2,February,Q1,Monday,False,False,Premium (>₹20K),False
+TXN0051,Store D,2024-02-20 00:00:00.000000,Jeans,Clothing,CUST480,Walk-In,1299.0,1,0,UPI,Mumbai,5.0,1299.0,2,February,Q1,Tuesday,False,False,Medium (₹1K-5K),False
+TXN0052,Store E,2024-02-21 00:00:00.000000,Jeans,Clothing,CUST122,Walk-In,1299.0,2,5,UPI,Hyderabad,4.0,2468.1,2,February,Q1,Wednesday,False,False,Medium (₹1K-5K),True
+TXN0053,Store C,2024-02-22 00:00:00.000000,Laptop,Electronics,CUST622,Walk-In,55000.0,5,25,UPI,Delhi,5.0,206250.0,2,February,Q1,Thursday,False,False,Premium (>₹20K),True
+TXN0054,Store D,2024-02-23 00:00:00.000000,Cricket Bat,Sports,CUST708,Member,3999.0,2,0,UPI,Bangalore,3.0,7998.0,2,February,Q1,Friday,False,True,Large (₹5K-20K),False
+TXN0055,Store A,2024-02-24 00:00:00.000000,Health Bar,Food & Beverages,CUST685,Member,199.0,6,5,UPI,Delhi,5.0,1134.3,2,February,Q1,Saturday,True,True,Medium (₹1K-5K),True
+TXN0056,Store E,2024-02-25 00:00:00.000000,Biography,Books,CUST802,Walk-In,599.0,5,10,UPI,Hyderabad,5.0,2695.5,2,February,Q1,Sunday,True,False,Medium (₹1K-5K),True
+TXN0057,Store C,2024-02-26 00:00:00.000000,Health Bar,Food & Beverages,CUST815,Walk-In,199.0,2,5,Cash,Bangalore,5.0,378.1,2,February,Q1,Monday,False,False,Small (<₹1K),True
+TXN0058,Store B,2024-02-27 00:00:00.000000,Self-Help,Books,CUST805,Walk-In,499.0,4,15,UPI,Chennai,3.0,1696.6,2,February,Q1,Tuesday,False,False,Medium (₹1K-5K),True
+TXN0059,Store C,2024-02-28 00:00:00.000000,Running Shoes,Sports,CUST776,Member,4499.0,5,20,Credit Card,Chennai,5.0,17996.0,2,February,Q1,Wednesday,False,True,Large (₹5K-20K),True
+TXN0060,Store C,2024-02-29 00:00:00.000000,Health Bar,Food & Beverages,CUST446,Walk-In,199.0,1,15,UPI,Mumbai,5.0,169.15,2,February,Q1,Thursday,False,False,Small (<₹1K),True
+TXN0061,Store B,2024-03-01 00:00:00.000000,Comics,Books,CUST668,Member,299.0,3,5,Cash,Bangalore,4.0,852.15,3,March,Q1,Friday,False,True,Small (<₹1K),True
+TXN0062,Store C,2024-03-02 00:00:00.000000,Tea,Food & Beverages,CUST139,Walk-In,249.0,4,10,Credit Card,Delhi,1.0,896.4,3,March,Q1,Saturday,True,False,Small (<₹1K),True
+TXN0063,Store D,2024-03-03 00:00:00.000000,Cricket Bat,Sports,CUST231,Walk-In,3999.0,1,5,Cash,Hyderabad,4.0,3799.05,3,March,Q1,Sunday,True,False,Medium (₹1K-5K),True
+TXN0064,Store E,2024-03-04 00:00:00.000000,Kurti,Clothing,CUST934,Member,999.0,4,15,EMI,Bangalore,4.0,3396.6,3,March,Q1,Monday,False,True,Medium (₹1K-5K),True
+TXN0065,Store C,2024-03-05 00:00:00.000000,Headphones,Electronics,CUST726,Member,8500.0,4,0,UPI,Bangalore,5.0,34000.0,3,March,Q1,Tuesday,False,True,Premium (>₹20K),False
+TXN0066,Store B,2024-03-06 00:00:00.000000,T-Shirt,Clothing,CUST388,Walk-In,799.0,6,10,Debit Card,Chennai,4.0,4314.6,3,March,Q1,Wednesday,False,False,Medium (₹1K-5K),True
+TXN0067,Store B,2024-03-07 00:00:00.000000,Cricket Bat,Sports,CUST133,Walk-In,3999.0,4,0,Debit Card,Bangalore,4.0,15996.0,3,March,Q1,Thursday,False,False,Large (₹5K-20K),False
+TXN0068,Store A,2024-03-08 00:00:00.000000,Biography,Books,CUST778,Walk-In,599.0,6,25,EMI,Delhi,4.0,2695.5,3,March,Q1,Friday,False,False,Medium (₹1K-5K),True
+TXN0069,Store C,2024-03-09 00:00:00.000000,Snacks,Food & Beverages,CUST774,Member,299.0,4,0,Debit Card,Hyderabad,4.0,1196.0,3,March,Q1,Saturday,True,True,Medium (₹1K-5K),False
+TXN0070,Store B,2024-03-10 00:00:00.000000,Fiction Novel,Books,CUST131,Member,399.0,1,5,UPI,Bangalore,5.0,379.05,3,March,Q1,Sunday,True,True,Small (<₹1K),True
+TXN0071,Store E,2024-03-11 00:00:00.000000,Self-Help,Books,CUST430,Member,499.0,7,0,UPI,Chennai,4.0,3493.0,3,March,Q1,Monday,False,True,Medium (₹1K-5K),False
+TXN0072,Store A,2024-03-12 00:00:00.000000,Laptop,Electronics,CUST297,Walk-In,55000.0,6,5,Credit Card,Bangalore,5.0,313500.0,3,March,Q1,Tuesday,False,False,Premium (>₹20K),True
+TXN0073,Store A,2024-03-13 00:00:00.000000,Snacks,Food & Beverages,CUST980,Member,299.0,3,0,Debit Card,Chennai,4.0,897.0,3,March,Q1,Wednesday,False,True,Small (<₹1K),False
+TXN0074,Store D,2024-03-14 00:00:00.000000,Self-Help,Books,CUST137,Member,499.0,1,0,Credit Card,Hyderabad,4.0,499.0,3,March,Q1,Thursday,False,True,Small (<₹1K),False
+TXN0075,Store B,2024-03-15 00:00:00.000000,Cricket Bat,Sports,CUST496,Walk-In,3999.0,6,0,Debit Card,Chennai,4.0,23994.0,3,March,Q1,Friday,False,False,Premium (>₹20K),False
+TXN0076,Store D,2024-03-16 00:00:00.000000,Tea,Food & Beverages,CUST570,Walk-In,249.0,3,0,UPI,Mumbai,4.0,747.0,3,March,Q1,Saturday,True,False,Small (<₹1K),False
+TXN0077,Store C,2024-03-17 00:00:00.000000,Smartwatch,Electronics,CUST500,Walk-In,15000.0,3,20,Debit Card,Delhi,3.0,36000.0,3,March,Q1,Sunday,True,False,Premium (>₹20K),True
+TXN0078,Store B,2024-03-18 00:00:00.000000,Biography,Books,CUST873,Walk-In,599.0,6,15,UPI,Delhi,4.0,3054.9,3,March,Q1,Monday,False,False,Medium (₹1K-5K),True
+TXN0079,Store C,2024-03-19 00:00:00.000000,Kurti,Clothing,CUST199,Walk-In,999.0,2,0,Credit Card,Mumbai,4.0,1998.0,3,March,Q1,Tuesday,False,False,Medium (₹1K-5K),False
+TXN0080,Store D,2024-03-20 00:00:00.000000,T-Shirt,Clothing,CUST427,Walk-In,799.0,3,5,EMI,Hyderabad,3.0,2277.15,3,March,Q1,Wednesday,False,False,Medium (₹1K-5K),True
+TXN0081,Store D,2024-03-21 00:00:00.000000,Yoga Mat,Sports,CUST597,Member,1299.0,5,25,Credit Card,Bangalore,4.0,4871.25,3,March,Q1,Thursday,False,True,Medium (₹1K-5K),True
+TXN0082,Store C,2024-03-22 00:00:00.000000,Smartwatch,Electronics,CUST182,Member,15000.0,6,5,Credit Card,Delhi,5.0,85500.0,3,March,Q1,Friday,False,True,Premium (>₹20K),True
+TXN0083,Store A,2024-03-23 00:00:00.000000,Biography,Books,CUST152,Member,599.0,5,10,UPI,Bangalore,4.0,2695.5,3,March,Q1,Saturday,True,True,Medium (₹1K-5K),True
+TXN0084,Store D,2024-03-24 00:00:00.000000,Comics,Books,CUST456,Member,299.0,5,5,Cash,Mumbai,4.0,1420.25,3,March,Q1,Sunday,True,True,Medium (₹1K-5K),True
+TXN0085,Unknown Store,2024-03-25 00:00:00.000000,Kurti,Clothing,CUST262,Member,999.0,4,5,Debit Card,Unknown City,3.0,3796.2,3,March,Q1,Monday,False,True,Medium (₹1K-5K),True
+TXN0086,Store B,2024-03-26 00:00:00.000000,Running Shoes,Sports,CUST748,Member,4499.0,1,0,Debit Card,Bangalore,4.0,4499.0,3,March,Q1,Tuesday,False,True,Medium (₹1K-5K),False
+TXN0087,Store C,2024-03-27 00:00:00.000000,Dumbbells,Sports,CUST981,Walk-In,2499.0,7,0,Credit Card,Chennai,4.0,17493.0,3,March,Q1,Wednesday,False,False,Large (₹5K-20K),False
+TXN0088,Unknown Store,2024-03-28 00:00:00.000000,Health Bar,Food & Beverages,CUST929,Member,199.0,4,5,UPI,Unknown City,2.0,756.2,3,March,Q1,Thursday,False,True,Small (<₹1K),True
+TXN0089,Store C,2024-03-29 00:00:00.000000,Juice Pack,Food & Beverages,CUST804,Walk-In,149.0,7,5,Debit Card,Chennai,4.0,990.85,3,March,Q1,Friday,False,False,Small (<₹1K),True
+TXN0090,Store A,2024-03-30 00:00:00.000000,Smartwatch,Electronics,CUST364,Member,15000.0,7,5,UPI,Delhi,4.0,99750.0,3,March,Q1,Saturday,True,True,Premium (>₹20K),True
+TXN0091,Store E,2024-03-31 00:00:00.000000,Fiction Novel,Books,CUST137,Walk-In,399.0,2,15,EMI,Bangalore,5.0,678.3,3,March,Q1,Sunday,True,False,Small (<₹1K),True
+TXN0092,Store B,2024-04-01 00:00:00.000000,Football,Sports,CUST965,Walk-In,999.0,5,5,Credit Card,Hyderabad,4.0,4745.25,4,April,Q2,Monday,False,False,Medium (₹1K-5K),True
+TXN0093,Store E,2024-04-02 00:00:00.000000,Dumbbells,Sports,CUST465,Walk-In,2499.0,1,5,Debit Card,Hyderabad,5.0,2374.05,4,April,Q2,Tuesday,False,False,Medium (₹1K-5K),True
+TXN0094,Store D,2024-04-03 00:00:00.000000,Laptop,Electronics,CUST510,Walk-In,55000.0,4,20,EMI,Delhi,4.0,176000.0,4,April,Q2,Wednesday,False,False,Premium (>₹20K),True
+TXN0095,Store B,2024-04-04 00:00:00.000000,Tablet,Electronics,CUST947,Walk-In,35000.0,4,20,UPI,Delhi,5.0,112000.0,4,April,Q2,Thursday,False,False,Premium (>₹20K),True
+TXN0096,Store C,2026-04-03 20:55:50.950670,Biography,Books,CUST953,Member,599.0,3,10,UPI,Delhi,5.0,1617.3,4,April,Q2,Friday,False,True,Medium (₹1K-5K),True
+TXN0097,Store C,2024-04-06 00:00:00.000000,Tea,Food & Beverages,CUST887,Member,249.0,1,15,Cash,Mumbai,4.0,211.65,4,April,Q2,Saturday,True,True,Small (<₹1K),True
+TXN0098,Store D,2024-04-07 00:00:00.000000,Tea,Food & Beverages,CUST466,Walk-In,249.0,1,5,Debit Card,Delhi,4.0,236.55,4,April,Q2,Sunday,True,False,Small (<₹1K),True
+TXN0099,Store C,2024-04-08 00:00:00.000000,Saree,Clothing,CUST802,Member,2499.0,4,0,UPI,Chennai,5.0,9996.0,4,April,Q2,Monday,False,True,Large (₹5K-20K),False
+TXN0100,Store E,2026-04-03 20:55:50.950670,Biography,Books,CUST174,Member,599.0,7,25,UPI,Hyderabad,3.0,3144.75,4,April,Q2,Friday,False,True,Medium (₹1K-5K),True
+TXN0101,Store C,2024-04-10 00:00:00.000000,Fiction Novel,Books,CUST279,Member,399.0,2,0,UPI,Chennai,4.0,798.0,4,April,Q2,Wednesday,False,True,Small (<₹1K),False
+TXN0102,Store A,2024-04-11 00:00:00.000000,Tea,Food & Beverages,CUST194,Member,249.0,6,20,Credit Card,Mumbai,4.0,1195.2,4,April,Q2,Thursday,False,True,Medium (₹1K-5K),True
+TXN0103,Store A,2024-04-12 00:00:00.000000,Smartphone,Electronics,CUST178,Member,28000.0,1,15,Debit Card,Delhi,4.0,23800.0,4,April,Q2,Friday,False,True,Premium (>₹20K),True
+TXN0104,Store D,2024-04-13 00:00:00.000000,Laptop,Electronics,CUST137,Member,55000.0,7,0,Debit Card,Mumbai,4.0,385000.0,4,April,Q2,Saturday,True,True,Premium (>₹20K),False
+TXN0105,Store E,2026-04-03 20:55:50.950670,Biography,Books,CUST140,Member,599.0,2,25,UPI,Mumbai,3.0,898.5,4,April,Q2,Friday,False,True,Small (<₹1K),True
+TXN0106,Store D,2024-04-15 00:00:00.000000,Programming Book,Books,CUST504,Walk-In,899.0,4,0,UPI,Bangalore,2.0,3596.0,4,April,Q2,Monday,False,False,Medium (₹1K-5K),False
+TXN0107,Store C,2024-04-16 00:00:00.000000,Running Shoes,Sports,CUST906,Walk-In,4499.0,6,0,UPI,Hyderabad,5.0,26994.0,4,April,Q2,Tuesday,False,False,Premium (>₹20K),False
+TXN0108,Store D,2024-04-17 00:00:00.000000,Biography,Books,CUST670,Walk-In,599.0,4,0,Debit Card,Mumbai,5.0,2396.0,4,April,Q2,Wednesday,False,False,Medium (₹1K-5K),False
+TXN0109,Store B,2024-04-18 00:00:00.000000,Yoga Mat,Sports,CUST805,Member,1299.0,2,0,Debit Card,Hyderabad,2.0,2598.0,4,April,Q2,Thursday,False,True,Medium (₹1K-5K),False
+TXN0110,Store C,2024-04-19 00:00:00.000000,Smartwatch,Electronics,CUST513,Member,15000.0,6,5,Debit Card,Mumbai,4.0,85500.0,4,April,Q2,Friday,False,True,Premium (>₹20K),True
+TXN0111,Store C,2024-04-20 00:00:00.000000,Football,Sports,CUST564,Member,999.0,5,10,Cash,Hyderabad,4.0,4495.5,4,April,Q2,Saturday,True,True,Medium (₹1K-5K),True
+TXN0112,Store D,2024-04-21 00:00:00.000000,Football,Sports,CUST556,Walk-In,999.0,6,0,UPI,Chennai,4.0,5994.0,4,April,Q2,Sunday,True,False,Large (₹5K-20K),False
+TXN0113,Store C,2024-04-22 00:00:00.000000,Cricket Bat,Sports,CUST525,Walk-In,3999.0,5,5,UPI,Mumbai,5.0,18995.25,4,April,Q2,Monday,False,False,Large (₹5K-20K),True
+TXN0114,Store C,2024-04-23 00:00:00.000000,Juice Pack,Food & Beverages,CUST162,Walk-In,149.0,1,15,UPI,Hyderabad,2.0,126.65,4,April,Q2,Tuesday,False,False,Small (<₹1K),True
+TXN0115,Store E,2024-04-24 00:00:00.000000,Programming Book,Books,CUST464,Member,899.0,7,15,UPI,Delhi,3.0,5349.05,4,April,Q2,Wednesday,False,True,Large (₹5K-20K),True
+TXN0116,Store C,2024-04-25 00:00:00.000000,Coffee,Food & Beverages,CUST317,Walk-In,349.0,4,5,UPI,Chennai,4.0,1326.2,4,April,Q2,Thursday,False,False,Medium (₹1K-5K),True
+TXN0117,Store B,2024-04-26 00:00:00.000000,Running Shoes,Sports,CUST256,Walk-In,4499.0,5,5,Cash,Hyderabad,2.0,21370.25,4,April,Q2,Friday,False,False,Premium (>₹20K),True
+TXN0118,Store D,2024-04-27 00:00:00.000000,Jeans,Clothing,CUST805,Member,1299.0,5,10,UPI,Chennai,5.0,5845.5,4,April,Q2,Saturday,True,True,Large (₹5K-20K),True
+TXN0119,Store D,2024-04-28 00:00:00.000000,Jeans,Clothing,CUST976,Walk-In,1299.0,6,20,EMI,Delhi,4.0,6235.2,4,April,Q2,Sunday,True,False,Large (₹5K-20K),True
+TXN0120,Store E,2024-04-29 00:00:00.000000,Tea,Food & Beverages,CUST900,Member,249.0,3,15,UPI,Mumbai,4.0,634.95,4,April,Q2,Monday,False,True,Small (<₹1K),True
+TXN0121,Store D,2024-04-30 00:00:00.000000,Yoga Mat,Sports,CUST520,Walk-In,1299.0,3,5,EMI,Delhi,5.0,3702.15,4,April,Q2,Tuesday,False,False,Medium (₹1K-5K),True
+TXN0122,Store D,2024-05-01 00:00:00.000000,Jeans,Clothing,CUST554,Walk-In,1299.0,6,0,Credit Card,Delhi,4.0,7794.0,5,May,Q2,Wednesday,False,False,Large (₹5K-20K),False
+TXN0123,Store D,2024-05-02 00:00:00.000000,Kurti,Clothing,CUST436,Walk-In,999.0,5,15,UPI,Delhi,4.0,4245.75,5,May,Q2,Thursday,False,False,Medium (₹1K-5K),True
+TXN0124,Store D,2024-05-03 00:00:00.000000,Dumbbells,Sports,CUST200,Member,2499.0,2,10,UPI,Mumbai,5.0,4498.2,5,May,Q2,Friday,False,True,Medium (₹1K-5K),True
+TXN0125,Store E,2024-05-04 00:00:00.000000,Biography,Books,CUST442,Walk-In,599.0,4,5,Credit Card,Mumbai,4.0,2276.2,5,May,Q2,Saturday,True,False,Medium (₹1K-5K),True
+TXN0126,Store A,2024-05-05 00:00:00.000000,Headphones,Electronics,CUST612,Member,8500.0,2,20,UPI,Chennai,5.0,13600.0,5,May,Q2,Sunday,True,True,Large (₹5K-20K),True
+TXN0127,Store E,2024-05-06 00:00:00.000000,Smartphone,Electronics,CUST853,Member,28000.0,4,0,UPI,Delhi,4.0,112000.0,5,May,Q2,Monday,False,True,Premium (>₹20K),False
+TXN0128,Store B,2024-05-07 00:00:00.000000,Tea,Food & Beverages,CUST719,Walk-In,249.0,3,15,Cash,Mumbai,4.0,634.95,5,May,Q2,Tuesday,False,False,Small (<₹1K),True
+TXN0129,Store B,2024-05-08 00:00:00.000000,Health Bar,Food & Beverages,CUST359,Member,199.0,4,10,EMI,Delhi,4.0,716.4,5,May,Q2,Wednesday,False,True,Small (<₹1K),True
+TXN0130,Store A,2024-05-09 00:00:00.000000,Self-Help,Books,CUST107,Walk-In,499.0,5,10,UPI,Mumbai,4.0,2245.5,5,May,Q2,Thursday,False,False,Medium (₹1K-5K),True
+TXN0131,Store C,2024-05-10 00:00:00.000000,Snacks,Food & Beverages,CUST934,Member,299.0,2,10,Cash,Bangalore,2.0,538.2,5,May,Q2,Friday,False,True,Small (<₹1K),True
+TXN0132,Store D,2026-04-03 20:55:50.950670,Health Bar,Food & Beverages,CUST432,Member,199.0,5,0,Debit Card,Delhi,5.0,995.0,4,April,Q2,Friday,False,True,Small (<₹1K),False
+TXN0133,Store B,2024-05-12 00:00:00.000000,Smartwatch,Electronics,CUST888,Walk-In,15000.0,1,0,UPI,Chennai,4.0,15000.0,5,May,Q2,Sunday,True,False,Large (₹5K-20K),False
+TXN0134,Store E,2024-05-13 00:00:00.000000,Smartphone,Electronics,CUST598,Walk-In,28000.0,6,10,Debit Card,Bangalore,3.0,151200.0,5,May,Q2,Monday,False,False,Premium (>₹20K),True
+TXN0135,Store D,2024-05-14 00:00:00.000000,Laptop,Electronics,CUST466,Member,55000.0,1,0,Credit Card,Bangalore,2.0,55000.0,5,May,Q2,Tuesday,False,True,Premium (>₹20K),False
+TXN0136,Store A,2024-05-15 00:00:00.000000,Juice Pack,Food & Beverages,CUST832,Member,149.0,6,25,UPI,Hyderabad,5.0,670.5,5,May,Q2,Wednesday,False,True,Small (<₹1K),True
+TXN0137,Store E,2024-05-16 00:00:00.000000,Health Bar,Food & Beverages,CUST365,Member,199.0,4,10,Credit Card,Chennai,3.0,716.4,5,May,Q2,Thursday,False,True,Small (<₹1K),True
+TXN0138,Store E,2024-05-17 00:00:00.000000,Jacket,Clothing,CUST458,Walk-In,1899.0,4,20,UPI,Delhi,4.0,6076.8,5,May,Q2,Friday,False,False,Large (₹5K-20K),True
+TXN0139,Store D,2024-05-18 00:00:00.000000,Tablet,Electronics,CUST625,Member,35000.0,1,15,Debit Card,Hyderabad,4.0,29750.0,5,May,Q2,Saturday,True,True,Premium (>₹20K),True
+TXN0140,Store D,2026-04-03 20:55:50.950670,Jeans,Clothing,CUST570,Walk-In,1299.0,6,10,EMI,Hyderabad,4.0,7014.6,4,April,Q2,Friday,False,False,Large (₹5K-20K),True
+TXN0141,Store D,2024-05-20 00:00:00.000000,Fiction Novel,Books,CUST334,Member,399.0,1,20,UPI,Bangalore,4.0,319.2,5,May,Q2,Monday,False,True,Small (<₹1K),True
+TXN0142,Store A,2024-05-21 00:00:00.000000,Health Bar,Food & Beverages,CUST280,Walk-In,199.0,2,5,Cash,Chennai,4.0,378.1,5,May,Q2,Tuesday,False,False,Small (<₹1K),True
+TXN0143,Store C,2024-05-22 00:00:00.000000,Saree,Clothing,CUST199,Walk-In,2499.0,6,5,Credit Card,Hyderabad,4.0,14244.3,5,May,Q2,Wednesday,False,False,Large (₹5K-20K),True
+TXN0144,Store B,2024-05-23 00:00:00.000000,Laptop,Electronics,CUST288,Member,55000.0,4,15,UPI,Hyderabad,3.0,187000.0,5,May,Q2,Thursday,False,True,Premium (>₹20K),True
+TXN0145,Store B,2024-05-24 00:00:00.000000,Self-Help,Books,CUST454,Member,499.0,5,5,UPI,Bangalore,4.0,2370.25,5,May,Q2,Friday,False,True,Medium (₹1K-5K),True
+TXN0146,Store B,2024-05-25 00:00:00.000000,Self-Help,Books,CUST445,Member,499.0,6,10,UPI,Chennai,5.0,2694.6,5,May,Q2,Saturday,True,True,Medium (₹1K-5K),True
+TXN0147,Store B,2026-04-03 20:55:50.950670,Comics,Books,CUST510,Member,299.0,6,5,UPI,Delhi,2.0,1704.3,4,April,Q2,Friday,False,True,Medium (₹1K-5K),True
+TXN0148,Store B,2024-05-27 00:00:00.000000,Smartwatch,Electronics,CUST673,Member,15000.0,5,20,UPI,Bangalore,4.0,60000.0,5,May,Q2,Monday,False,True,Premium (>₹20K),True
+TXN0149,Store D,2024-05-28 00:00:00.000000,Saree,Clothing,CUST889,Member,2499.0,2,5,UPI,Bangalore,3.0,4748.1,5,May,Q2,Tuesday,False,True,Medium (₹1K-5K),True
+TXN0150,Store D,2024-05-29 00:00:00.000000,Fiction Novel,Books,CUST732,Member,399.0,7,10,Debit Card,Hyderabad,5.0,2513.7,5,May,Q2,Wednesday,False,True,Medium (₹1K-5K),True
+TXN0151,Store C,2024-05-30 00:00:00.000000,Snacks,Food & Beverages,CUST119,Walk-In,299.0,5,5,Debit Card,Delhi,5.0,1420.25,5,May,Q2,Thursday,False,False,Medium (₹1K-5K),True
+TXN0152,Store B,2024-05-31 00:00:00.000000,Biography,Books,CUST954,Member,599.0,4,10,EMI,Delhi,5.0,2156.4,5,May,Q2,Friday,False,True,Medium (₹1K-5K),True
+TXN0153,Store D,2024-06-01 00:00:00.000000,Kurti,Clothing,CUST452,Walk-In,999.0,4,10,Debit Card,Delhi,5.0,3596.4,6,June,Q2,Saturday,True,False,Medium (₹1K-5K),True
+TXN0154,Store B,2024-06-02 00:00:00.000000,Programming Book,Books,CUST437,Member,899.0,6,0,EMI,Chennai,3.0,5394.0,6,June,Q2,Sunday,True,True,Large (₹5K-20K),False
+TXN0155,Store E,2024-06-03 00:00:00.000000,Running Shoes,Sports,CUST248,Member,4499.0,1,15,UPI,Chennai,5.0,3824.15,6,June,Q2,Monday,False,True,Medium (₹1K-5K),True
+TXN0156,Store B,2024-06-04 00:00:00.000000,Self-Help,Books,CUST736,Member,499.0,4,0,Cash,Mumbai,5.0,1996.0,6,June,Q2,Tuesday,False,True,Medium (₹1K-5K),False
+TXN0157,Store D,2024-06-05 00:00:00.000000,Jacket,Clothing,CUST134,Member,1899.0,5,20,Credit Card,Bangalore,3.0,7596.0,6,June,Q2,Wednesday,False,True,Large (₹5K-20K),True
+TXN0158,Store A,2024-06-06 00:00:00.000000,Smartwatch,Electronics,CUST818,Member,15000.0,1,5,UPI,Bangalore,4.0,14250.0,6,June,Q2,Thursday,False,True,Large (₹5K-20K),True
+TXN0159,Store E,2024-06-07 00:00:00.000000,Jeans,Clothing,CUST856,Member,1299.0,2,10,UPI,Bangalore,5.0,2338.2,6,June,Q2,Friday,False,True,Medium (₹1K-5K),True
+TXN0160,Store B,2024-06-08 00:00:00.000000,T-Shirt,Clothing,CUST131,Member,799.0,3,15,UPI,Delhi,4.0,2037.45,6,June,Q2,Saturday,True,True,Medium (₹1K-5K),True
+TXN0161,Store A,2024-06-09 00:00:00.000000,Running Shoes,Sports,CUST518,Member,4499.0,2,10,Credit Card,Bangalore,3.0,8098.2,6,June,Q2,Sunday,True,True,Large (₹5K-20K),True
+TXN0162,Store A,2024-06-10 00:00:00.000000,Running Shoes,Sports,CUST110,Walk-In,4499.0,1,15,Cash,Bangalore,4.0,3824.15,6,June,Q2,Monday,False,False,Medium (₹1K-5K),True
+TXN0163,Store D,2024-06-11 00:00:00.000000,Yoga Mat,Sports,CUST930,Walk-In,1299.0,5,10,UPI,Chennai,4.0,5845.5,6,June,Q2,Tuesday,False,False,Large (₹5K-20K),True
+TXN0164,Store A,2024-06-12 00:00:00.000000,Jeans,Clothing,CUST359,Member,1299.0,2,0,UPI,Mumbai,5.0,2598.0,6,June,Q2,Wednesday,False,True,Medium (₹1K-5K),False
+TXN0165,Store B,2024-06-13 00:00:00.000000,Tea,Food & Beverages,CUST844,Walk-In,249.0,3,15,UPI,Mumbai,4.0,634.95,6,June,Q2,Thursday,False,False,Small (<₹1K),True
+TXN0166,Store C,2024-06-14 00:00:00.000000,Coffee,Food & Beverages,CUST350,Walk-In,349.0,1,20,Debit Card,Chennai,3.0,279.2,6,June,Q2,Friday,False,False,Small (<₹1K),True
+TXN0167,Store D,2024-06-15 00:00:00.000000,Tea,Food & Beverages,CUST298,Member,249.0,3,15,EMI,Chennai,4.0,634.95,6,June,Q2,Saturday,True,True,Small (<₹1K),True
+TXN0168,Store E,2024-06-16 00:00:00.000000,Coffee,Food & Beverages,CUST281,Member,349.0,6,0,UPI,Hyderabad,5.0,2094.0,6,June,Q2,Sunday,True,True,Medium (₹1K-5K),False
+TXN0169,Store A,2024-06-17 00:00:00.000000,Tablet,Electronics,CUST848,Member,35000.0,5,10,UPI,Mumbai,4.0,157500.0,6,June,Q2,Monday,False,True,Premium (>₹20K),True
+TXN0170,Store C,2024-06-18 00:00:00.000000,Saree,Clothing,CUST810,Member,2499.0,4,5,UPI,Hyderabad,5.0,9496.2,6,June,Q2,Tuesday,False,True,Large (₹5K-20K),True
+TXN0171,Store A,2024-06-19 00:00:00.000000,Football,Sports,CUST618,Member,999.0,7,0,Cash,Chennai,4.0,6993.0,6,June,Q2,Wednesday,False,True,Large (₹5K-20K),False
+TXN0172,Store D,2026-04-03 20:55:50.950670,Cricket Bat,Sports,CUST810,Member,3999.0,2,0,UPI,Chennai,4.0,7998.0,4,April,Q2,Friday,False,True,Large (₹5K-20K),False
+TXN0173,Store C,2024-06-21 00:00:00.000000,Jeans,Clothing,CUST534,Member,1299.0,4,15,UPI,Mumbai,5.0,4416.6,6,June,Q2,Friday,False,True,Medium (₹1K-5K),True
+TXN0174,Store D,2024-06-22 00:00:00.000000,Fiction Novel,Books,CUST688,Member,399.0,2,10,Credit Card,Chennai,3.0,718.2,6,June,Q2,Saturday,True,True,Small (<₹1K),True
+TXN0175,Store C,2024-06-23 00:00:00.000000,Programming Book,Books,CUST589,Walk-In,899.0,2,20,Debit Card,Hyderabad,4.0,1438.4,6,June,Q2,Sunday,True,False,Medium (₹1K-5K),True
+TXN0176,Store A,2024-06-24 00:00:00.000000,Football,Sports,CUST919,Member,999.0,2,10,Cash,Chennai,4.0,1798.2,6,June,Q2,Monday,False,True,Medium (₹1K-5K),True
+TXN0177,Store A,2024-06-25 00:00:00.000000,Saree,Clothing,CUST774,Member,2499.0,2,0,Debit Card,Chennai,5.0,4998.0,6,June,Q2,Tuesday,False,True,Medium (₹1K-5K),False
+TXN0178,Unknown Store,2024-06-26 00:00:00.000000,Smartphone,Electronics,CUST107,Member,28000.0,2,5,Debit Card,Unknown City,2.0,53200.0,6,June,Q2,Wednesday,False,True,Premium (>₹20K),True
+TXN0179,Store C,2024-06-27 00:00:00.000000,Laptop,Electronics,CUST814,Member,55000.0,4,10,UPI,Chennai,5.0,198000.0,6,June,Q2,Thursday,False,True,Premium (>₹20K),True
+TXN0180,Store D,2024-06-28 00:00:00.000000,Cricket Bat,Sports,CUST945,Member,3999.0,1,15,EMI,Mumbai,4.0,3399.15,6,June,Q2,Friday,False,True,Medium (₹1K-5K),True
+TXN0181,Store E,2024-06-29 00:00:00.000000,Comics,Books,CUST624,Walk-In,299.0,1,5,Credit Card,Mumbai,4.0,284.05,6,June,Q2,Saturday,True,False,Small (<₹1K),True
+TXN0182,Store A,2024-06-30 00:00:00.000000,Kurti,Clothing,CUST408,Walk-In,999.0,5,25,Debit Card,Hyderabad,4.0,3746.25,6,June,Q2,Sunday,True,False,Medium (₹1K-5K),True
+TXN0183,Store B,2024-07-01 00:00:00.000000,Yoga Mat,Sports,CUST713,Member,1299.0,6,10,Debit Card,Chennai,5.0,7014.6,7,July,Q3,Monday,False,True,Large (₹5K-20K),True
+TXN0184,Store A,2024-07-02 00:00:00.000000,Coffee,Food & Beverages,CUST719,Walk-In,349.0,1,0,Debit Card,Mumbai,4.0,349.0,7,July,Q3,Tuesday,False,False,Small (<₹1K),False
+TXN0185,Store E,2024-07-03 00:00:00.000000,Cricket Bat,Sports,CUST249,Member,3999.0,1,0,UPI,Delhi,4.0,3999.0,7,July,Q3,Wednesday,False,True,Medium (₹1K-5K),False
+TXN0186,Store B,2024-07-04 00:00:00.000000,Fiction Novel,Books,CUST844,Walk-In,399.0,7,15,UPI,Hyderabad,4.0,2374.05,7,July,Q3,Thursday,False,False,Medium (₹1K-5K),True
+TXN0187,Store A,2026-04-03 20:55:50.950670,Saree,Clothing,CUST449,Walk-In,2499.0,7,10,UPI,Hyderabad,5.0,15743.7,4,April,Q2,Friday,False,False,Large (₹5K-20K),True
+TXN0188,Store C,2024-07-06 00:00:00.000000,Biography,Books,CUST285,Member,599.0,7,15,EMI,Delhi,4.0,3564.05,7,July,Q3,Saturday,True,True,Medium (₹1K-5K),True
+TXN0189,Store D,2024-07-07 00:00:00.000000,Kurti,Clothing,CUST706,Member,999.0,5,20,Debit Card,Bangalore,5.0,3996.0,7,July,Q3,Sunday,True,True,Medium (₹1K-5K),True
+TXN0190,Store A,2024-07-08 00:00:00.000000,Running Shoes,Sports,CUST235,Walk-In,4499.0,4,10,UPI,Mumbai,3.0,16196.4,7,July,Q3,Monday,False,False,Large (₹5K-20K),True
+TXN0191,Store D,2024-07-09 00:00:00.000000,Self-Help,Books,CUST588,Walk-In,499.0,3,10,UPI,Delhi,4.0,1347.3,7,July,Q3,Tuesday,False,False,Medium (₹1K-5K),True
+TXN0192,Store C,2024-07-10 00:00:00.000000,Tea,Food & Beverages,CUST610,Member,249.0,4,0,Credit Card,Mumbai,4.0,996.0,7,July,Q3,Wednesday,False,True,Small (<₹1K),False
+TXN0193,Store A,2024-07-11 00:00:00.000000,Tablet,Electronics,CUST737,Member,35000.0,2,10,Debit Card,Bangalore,5.0,63000.0,7,July,Q3,Thursday,False,True,Premium (>₹20K),True
+TXN0194,Store D,2024-07-12 00:00:00.000000,Tea,Food & Beverages,CUST625,Member,249.0,2,20,UPI,Delhi,4.0,398.4,7,July,Q3,Friday,False,True,Small (<₹1K),True
+TXN0195,Store C,2024-07-13 00:00:00.000000,Coffee,Food & Beverages,CUST941,Member,349.0,6,15,UPI,Chennai,5.0,1779.9,7,July,Q3,Saturday,True,True,Medium (₹1K-5K),True
+TXN0196,Store C,2024-07-14 00:00:00.000000,Tea,Food & Beverages,CUST696,Walk-In,249.0,4,0,EMI,Hyderabad,5.0,996.0,7,July,Q3,Sunday,True,False,Small (<₹1K),False
+TXN0197,Store B,2026-04-03 20:55:50.950670,Juice Pack,Food & Beverages,CUST808,Member,149.0,7,20,EMI,Bangalore,4.0,834.4,4,April,Q2,Friday,False,True,Small (<₹1K),True
+TXN0198,Store A,2024-07-16 00:00:00.000000,Saree,Clothing,CUST755,Walk-In,2499.0,5,5,UPI,Mumbai,4.0,11870.25,7,July,Q3,Tuesday,False,False,Large (₹5K-20K),True
+TXN0199,Store A,2024-07-17 00:00:00.000000,Kurti,Clothing,CUST418,Member,999.0,7,10,Debit Card,Chennai,4.0,6293.7,7,July,Q3,Wednesday,False,True,Large (₹5K-20K),True
+TXN0200,Store D,2024-07-18 00:00:00.000000,Tea,Food & Beverages,CUST400,Walk-In,249.0,1,20,UPI,Chennai,5.0,199.2,7,July,Q3,Thursday,False,False,Small (<₹1K),True
+TXN0201,Store E,2024-07-19 00:00:00.000000,Programming Book,Books,CUST817,Member,899.0,4,25,UPI,Delhi,2.0,2697.0,7,July,Q3,Friday,False,True,Medium (₹1K-5K),True
+TXN0202,Store A,2024-07-20 00:00:00.000000,Tablet,Electronics,CUST297,Walk-In,35000.0,5,15,Debit Card,Bangalore,5.0,148750.0,7,July,Q3,Saturday,True,False,Premium (>₹20K),True
+TXN0203,Store C,2024-07-21 00:00:00.000000,Cricket Bat,Sports,CUST406,Member,3999.0,4,0,Credit Card,Hyderabad,4.0,15996.0,7,July,Q3,Sunday,True,True,Large (₹5K-20K),False
+TXN0204,Store E,2024-07-22 00:00:00.000000,Smartphone,Electronics,CUST369,Member,28000.0,5,0,EMI,Delhi,4.0,140000.0,7,July,Q3,Monday,False,True,Premium (>₹20K),False
+TXN0205,Unknown Store,2024-07-23 00:00:00.000000,Jacket,Clothing,CUST100,Member,1899.0,2,5,UPI,Unknown City,4.0,3608.1,7,July,Q3,Tuesday,False,True,Medium (₹1K-5K),True
+TXN0206,Store A,2024-07-24 00:00:00.000000,Fiction Novel,Books,CUST195,Walk-In,399.0,5,5,Debit Card,Chennai,5.0,1895.25,7,July,Q3,Wednesday,False,False,Medium (₹1K-5K),True
+TXN0207,Store D,2024-07-25 00:00:00.000000,Laptop,Electronics,CUST338,Walk-In,55000.0,3,5,Credit Card,Delhi,4.0,156750.0,7,July,Q3,Thursday,False,False,Premium (>₹20K),True
+TXN0208,Store A,2024-07-26 00:00:00.000000,Programming Book,Books,CUST767,Walk-In,899.0,2,0,UPI,Chennai,4.0,1798.0,7,July,Q3,Friday,False,False,Medium (₹1K-5K),False
+TXN0209,Store B,2024-07-27 00:00:00.000000,Health Bar,Food & Beverages,CUST958,Walk-In,199.0,2,15,Credit Card,Delhi,4.0,338.3,7,July,Q3,Saturday,True,False,Small (<₹1K),True
+TXN0210,Store C,2024-07-28 00:00:00.000000,Smartwatch,Electronics,CUST170,Walk-In,15000.0,4,5,Debit Card,Delhi,4.0,57000.0,7,July,Q3,Sunday,True,False,Premium (>₹20K),True
+TXN0211,Store C,2024-07-29 00:00:00.000000,Kurti,Clothing,CUST377,Walk-In,999.0,4,10,Credit Card,Hyderabad,4.0,3596.4,7,July,Q3,Monday,False,False,Medium (₹1K-5K),True
+TXN0212,Store A,2024-07-30 00:00:00.000000,Smartwatch,Electronics,CUST148,Walk-In,15000.0,5,10,EMI,Mumbai,4.0,67500.0,7,July,Q3,Tuesday,False,False,Premium (>₹20K),True
+TXN0213,Store B,2024-07-31 00:00:00.000000,Kurti,Clothing,CUST761,Walk-In,999.0,2,10,Credit Card,Mumbai,5.0,1798.2,7,July,Q3,Wednesday,False,False,Medium (₹1K-5K),True
+TXN0214,Store C,2024-08-01 00:00:00.000000,Self-Help,Books,CUST784,Walk-In,499.0,6,0,UPI,Mumbai,4.0,2994.0,8,August,Q3,Thursday,False,False,Medium (₹1K-5K),False
+TXN0215,Store B,2024-08-02 00:00:00.000000,Running Shoes,Sports,CUST359,Member,4499.0,7,5,Debit Card,Mumbai,5.0,29918.35,8,August,Q3,Friday,False,True,Premium (>₹20K),True
+TXN0216,Store B,2024-08-03 00:00:00.000000,Snacks,Food & Beverages,CUST161,Member,299.0,4,20,UPI,Delhi,2.0,956.8,8,August,Q3,Saturday,True,True,Small (<₹1K),True
+TXN0217,Store E,2024-08-04 00:00:00.000000,Programming Book,Books,CUST773,Walk-In,899.0,7,5,UPI,Hyderabad,4.0,5978.35,8,August,Q3,Sunday,True,False,Large (₹5K-20K),True
+TXN0218,Store A,2024-08-05 00:00:00.000000,Smartphone,Electronics,CUST125,Walk-In,28000.0,5,5,UPI,Bangalore,5.0,133000.0,8,August,Q3,Monday,False,False,Premium (>₹20K),True
+TXN0219,Store A,2026-04-03 20:55:50.950670,Dumbbells,Sports,CUST703,Member,2499.0,4,0,EMI,Chennai,4.0,9996.0,4,April,Q2,Friday,False,True,Large (₹5K-20K),False
+TXN0220,Store D,2024-08-07 00:00:00.000000,Kurti,Clothing,CUST666,Walk-In,999.0,2,15,Credit Card,Hyderabad,5.0,1698.3,8,August,Q3,Wednesday,False,False,Medium (₹1K-5K),True
+TXN0221,Store A,2024-08-08 00:00:00.000000,Kurti,Clothing,CUST768,Walk-In,999.0,4,5,Credit Card,Chennai,5.0,3796.2,8,August,Q3,Thursday,False,False,Medium (₹1K-5K),True
+TXN0222,Store D,2024-08-09 00:00:00.000000,Biography,Books,CUST805,Walk-In,599.0,6,0,Credit Card,Bangalore,4.0,3594.0,8,August,Q3,Friday,False,False,Medium (₹1K-5K),False
+TXN0223,Store E,2024-08-10 00:00:00.000000,Jeans,Clothing,CUST928,Member,1299.0,5,5,Debit Card,Delhi,2.0,6170.25,8,August,Q3,Saturday,True,True,Large (₹5K-20K),True
+TXN0224,Store D,2024-08-11 00:00:00.000000,Cricket Bat,Sports,CUST405,Member,3999.0,2,5,Credit Card,Hyderabad,2.0,7598.1,8,August,Q3,Sunday,True,True,Large (₹5K-20K),True
+TXN0225,Store B,2024-08-12 00:00:00.000000,Tea,Food & Beverages,CUST734,Member,249.0,6,10,Credit Card,Mumbai,3.0,1344.6,8,August,Q3,Monday,False,True,Medium (₹1K-5K),True
+TXN0226,Store B,2024-08-13 00:00:00.000000,Cricket Bat,Sports,CUST152,Walk-In,3999.0,3,0,EMI,Delhi,5.0,11997.0,8,August,Q3,Tuesday,False,False,Large (₹5K-20K),False
+TXN0227,Store C,2024-08-14 00:00:00.000000,Dumbbells,Sports,CUST549,Member,2499.0,2,0,UPI,Bangalore,4.0,4998.0,8,August,Q3,Wednesday,False,True,Medium (₹1K-5K),False
+TXN0228,Store A,2024-08-15 00:00:00.000000,Tablet,Electronics,CUST361,Walk-In,35000.0,7,15,Credit Card,Mumbai,4.0,208250.0,8,August,Q3,Thursday,False,False,Premium (>₹20K),True
+TXN0229,Store B,2024-08-16 00:00:00.000000,T-Shirt,Clothing,CUST574,Walk-In,799.0,2,5,Credit Card,Delhi,4.0,1518.1,8,August,Q3,Friday,False,False,Medium (₹1K-5K),True
+TXN0230,Store C,2024-08-17 00:00:00.000000,Comics,Books,CUST202,Member,299.0,2,0,Debit Card,Mumbai,4.0,598.0,8,August,Q3,Saturday,True,True,Small (<₹1K),False
+TXN0231,Store D,2026-04-03 20:55:50.950670,Kurti,Clothing,CUST621,Walk-In,999.0,5,15,UPI,Hyderabad,4.0,4245.75,4,April,Q2,Friday,False,False,Medium (₹1K-5K),True
+TXN0232,Store E,2024-08-19 00:00:00.000000,Dumbbells,Sports,CUST786,Member,2499.0,1,20,Credit Card,Delhi,4.0,1999.2,8,August,Q3,Monday,False,True,Medium (₹1K-5K),True
+TXN0233,Store B,2024-08-20 00:00:00.000000,Programming Book,Books,CUST996,Walk-In,899.0,6,5,UPI,Chennai,3.0,5124.3,8,August,Q3,Tuesday,False,False,Large (₹5K-20K),True
+TXN0234,Store D,2024-08-21 00:00:00.000000,Dumbbells,Sports,CUST150,Walk-In,2499.0,4,20,UPI,Hyderabad,5.0,7996.8,8,August,Q3,Wednesday,False,False,Large (₹5K-20K),True
+TXN0235,Store C,2024-08-22 00:00:00.000000,Saree,Clothing,CUST990,Walk-In,2499.0,5,0,Credit Card,Bangalore,4.0,12495.0,8,August,Q3,Thursday,False,False,Large (₹5K-20K),False
+TXN0236,Store E,2024-08-23 00:00:00.000000,Dumbbells,Sports,CUST531,Member,2499.0,5,0,UPI,Delhi,4.0,12495.0,8,August,Q3,Friday,False,True,Large (₹5K-20K),False
+TXN0237,Store E,2024-08-24 00:00:00.000000,Jeans,Clothing,CUST899,Walk-In,1299.0,3,0,Debit Card,Mumbai,4.0,3897.0,8,August,Q3,Saturday,True,False,Medium (₹1K-5K),False
+TXN0238,Store C,2024-08-25 00:00:00.000000,Smartwatch,Electronics,CUST261,Member,15000.0,2,5,UPI,Mumbai,4.0,28500.0,8,August,Q3,Sunday,True,True,Premium (>₹20K),True
+TXN0239,Store E,2024-08-26 00:00:00.000000,Programming Book,Books,CUST307,Member,899.0,3,10,Cash,Hyderabad,4.0,2427.3,8,August,Q3,Monday,False,True,Medium (₹1K-5K),True
+TXN0240,Store B,2024-08-27 00:00:00.000000,Biography,Books,CUST519,Member,599.0,2,0,UPI,Delhi,4.0,1198.0,8,August,Q3,Tuesday,False,True,Medium (₹1K-5K),False
+TXN0241,Store C,2024-08-28 00:00:00.000000,Tea,Food & Beverages,CUST168,Member,249.0,5,10,UPI,Chennai,4.0,1120.5,8,August,Q3,Wednesday,False,True,Medium (₹1K-5K),True
+TXN0242,Store E,2024-08-29 00:00:00.000000,Fiction Novel,Books,CUST490,Member,399.0,1,0,Credit Card,Mumbai,4.0,399.0,8,August,Q3,Thursday,False,True,Small (<₹1K),False
+TXN0243,Store E,2024-08-30 00:00:00.000000,Smartwatch,Electronics,CUST998,Member,15000.0,3,0,UPI,Bangalore,4.0,45000.0,8,August,Q3,Friday,False,True,Premium (>₹20K),False
+TXN0244,Store C,2024-08-31 00:00:00.000000,Health Bar,Food & Beverages,CUST704,Walk-In,199.0,7,5,UPI,Chennai,3.0,1323.35,8,August,Q3,Saturday,True,False,Medium (₹1K-5K),True
+TXN0245,Store C,2024-09-01 00:00:00.000000,Football,Sports,CUST177,Walk-In,999.0,4,0,Credit Card,Chennai,2.0,3996.0,9,September,Q3,Sunday,True,False,Medium (₹1K-5K),False
+TXN0246,Store D,2024-09-02 00:00:00.000000,Saree,Clothing,CUST492,Member,2499.0,1,15,UPI,Bangalore,4.0,2124.15,9,September,Q3,Monday,False,True,Medium (₹1K-5K),True
+TXN0247,Store D,2024-09-03 00:00:00.000000,Yoga Mat,Sports,CUST773,Walk-In,1299.0,7,20,Cash,Delhi,3.0,7274.4,9,September,Q3,Tuesday,False,False,Large (₹5K-20K),True
+TXN0248,Store E,2024-09-04 00:00:00.000000,Saree,Clothing,CUST261,Member,2499.0,6,20,UPI,Delhi,3.0,11995.2,9,September,Q3,Wednesday,False,True,Large (₹5K-20K),True
+TXN0249,Store A,2024-09-05 00:00:00.000000,Jeans,Clothing,CUST517,Member,1299.0,7,0,Cash,Delhi,3.0,9093.0,9,September,Q3,Thursday,False,True,Large (₹5K-20K),False
+TXN0250,Store A,2024-09-06 00:00:00.000000,Smartwatch,Electronics,CUST648,Walk-In,15000.0,5,20,UPI,Chennai,5.0,60000.0,9,September,Q3,Friday,False,False,Premium (>₹20K),True
+TXN0251,Store A,2024-09-07 00:00:00.000000,Headphones,Electronics,CUST638,Member,8500.0,4,10,Debit Card,Bangalore,4.0,30600.0,9,September,Q3,Saturday,True,True,Premium (>₹20K),True
+TXN0252,Store E,2026-04-03 20:55:50.950670,Snacks,Food & Beverages,CUST386,Member,299.0,4,0,Cash,Hyderabad,4.0,1196.0,4,April,Q2,Friday,False,True,Medium (₹1K-5K),False
+TXN0253,Store A,2024-09-09 00:00:00.000000,Smartwatch,Electronics,CUST508,Member,15000.0,1,25,UPI,Mumbai,5.0,11250.0,9,September,Q3,Monday,False,True,Large (₹5K-20K),True
+TXN0254,Store C,2024-09-10 00:00:00.000000,Smartwatch,Electronics,CUST925,Walk-In,15000.0,5,10,UPI,Delhi,4.0,67500.0,9,September,Q3,Tuesday,False,False,Premium (>₹20K),True
+TXN0255,Store E,2024-09-11 00:00:00.000000,Saree,Clothing,CUST387,Member,2499.0,6,15,Cash,Bangalore,5.0,12744.9,9,September,Q3,Wednesday,False,True,Large (₹5K-20K),True
+TXN0256,Unknown Store,2024-09-12 00:00:00.000000,Smartphone,Electronics,CUST904,Member,28000.0,3,10,EMI,Unknown City,5.0,75600.0,9,September,Q3,Thursday,False,True,Premium (>₹20K),True
+TXN0257,Store B,2024-09-13 00:00:00.000000,Football,Sports,CUST949,Walk-In,999.0,2,10,UPI,Bangalore,4.0,1798.2,9,September,Q3,Friday,False,False,Medium (₹1K-5K),True
+TXN0258,Store E,2024-09-14 00:00:00.000000,Yoga Mat,Sports,CUST156,Member,1299.0,1,15,UPI,Hyderabad,4.0,1104.15,9,September,Q3,Saturday,True,True,Medium (₹1K-5K),True
+TXN0259,Store C,2024-09-15 00:00:00.000000,Running Shoes,Sports,CUST941,Walk-In,4499.0,4,0,Debit Card,Mumbai,4.0,17996.0,9,September,Q3,Sunday,True,False,Large (₹5K-20K),False
+TXN0260,Store D,2024-09-16 00:00:00.000000,Tea,Food & Beverages,CUST170,Walk-In,249.0,4,0,UPI,Bangalore,4.0,996.0,9,September,Q3,Monday,False,False,Small (<₹1K),False
+TXN0261,Store E,2024-09-17 00:00:00.000000,Kurti,Clothing,CUST633,Walk-In,999.0,5,5,Debit Card,Mumbai,4.0,4745.25,9,September,Q3,Tuesday,False,False,Medium (₹1K-5K),True
+TXN0262,Store C,2024-09-18 00:00:00.000000,Cricket Bat,Sports,CUST117,Member,3999.0,4,5,Cash,Bangalore,5.0,15196.2,9,September,Q3,Wednesday,False,True,Large (₹5K-20K),True
+TXN0263,Store B,2024-09-19 00:00:00.000000,Smartwatch,Electronics,CUST438,Member,15000.0,5,0,UPI,Mumbai,3.0,75000.0,9,September,Q3,Thursday,False,True,Premium (>₹20K),False
+TXN0264,Store B,2024-09-20 00:00:00.000000,Cricket Bat,Sports,CUST464,Member,3999.0,3,5,Credit Card,Mumbai,4.0,11397.15,9,September,Q3,Friday,False,True,Large (₹5K-20K),True
+TXN0265,Store A,2024-09-21 00:00:00.000000,Jacket,Clothing,CUST403,Walk-In,1899.0,1,5,UPI,Mumbai,5.0,1804.05,9,September,Q3,Saturday,True,False,Medium (₹1K-5K),True
+TXN0266,Store D,2024-09-22 00:00:00.000000,Smartwatch,Electronics,CUST847,Member,15000.0,2,5,Debit Card,Delhi,3.0,28500.0,9,September,Q3,Sunday,True,True,Premium (>₹20K),True
+TXN0267,Store A,2024-09-23 00:00:00.000000,Cricket Bat,Sports,CUST139,Walk-In,3999.0,3,5,UPI,Bangalore,3.0,11397.15,9,September,Q3,Monday,False,False,Large (₹5K-20K),True
+TXN0268,Store B,2024-09-24 00:00:00.000000,Kurti,Clothing,CUST386,Walk-In,999.0,1,5,UPI,Delhi,5.0,949.05,9,September,Q3,Tuesday,False,False,Small (<₹1K),True
+TXN0269,Store B,2024-09-25 00:00:00.000000,Snacks,Food & Beverages,CUST658,Walk-In,299.0,5,5,Debit Card,Delhi,5.0,1420.25,9,September,Q3,Wednesday,False,False,Medium (₹1K-5K),True
+TXN0270,Store B,2024-09-26 00:00:00.000000,Yoga Mat,Sports,CUST303,Member,1299.0,1,10,UPI,Chennai,4.0,1169.1,9,September,Q3,Thursday,False,True,Medium (₹1K-5K),True
+TXN0271,Store E,2024-09-27 00:00:00.000000,Saree,Clothing,CUST455,Walk-In,2499.0,7,0,Debit Card,Mumbai,4.0,17493.0,9,September,Q3,Friday,False,False,Large (₹5K-20K),False
+TXN0272,Store A,2024-09-28 00:00:00.000000,Yoga Mat,Sports,CUST737,Member,1299.0,5,15,Credit Card,Delhi,2.0,5520.75,9,September,Q3,Saturday,True,True,Large (₹5K-20K),True
+TXN0273,Store E,2024-09-29 00:00:00.000000,Fiction Novel,Books,CUST710,Member,399.0,2,0,UPI,Hyderabad,4.0,798.0,9,September,Q3,Sunday,True,True,Small (<₹1K),False
+TXN0274,Store E,2024-09-30 00:00:00.000000,Juice Pack,Food & Beverages,CUST778,Walk-In,149.0,2,0,UPI,Bangalore,4.0,298.0,9,September,Q3,Monday,False,False,Small (<₹1K),False
+TXN0275,Store C,2024-10-01 00:00:00.000000,Comics,Books,CUST794,Member,299.0,1,10,EMI,Hyderabad,4.0,269.1,10,October,Q4,Tuesday,False,True,Small (<₹1K),True
+TXN0276,Store A,2024-10-02 00:00:00.000000,Football,Sports,CUST807,Walk-In,999.0,5,20,Cash,Hyderabad,4.0,3996.0,10,October,Q4,Wednesday,False,False,Medium (₹1K-5K),True
+TXN0277,Store D,2024-10-03 00:00:00.000000,Tablet,Electronics,CUST636,Member,35000.0,3,25,Debit Card,Bangalore,4.0,78750.0,10,October,Q4,Thursday,False,True,Premium (>₹20K),True
+TXN0278,Store A,2024-10-04 00:00:00.000000,Yoga Mat,Sports,CUST578,Member,1299.0,6,25,UPI,Chennai,4.0,5845.5,10,October,Q4,Friday,False,True,Large (₹5K-20K),True
+TXN0279,Store B,2024-10-05 00:00:00.000000,Self-Help,Books,CUST301,Walk-In,499.0,4,10,UPI,Bangalore,4.0,1796.4,10,October,Q4,Saturday,True,False,Medium (₹1K-5K),True
+TXN0280,Store C,2024-10-06 00:00:00.000000,Fiction Novel,Books,CUST791,Member,399.0,5,15,Credit Card,Delhi,4.0,1695.75,10,October,Q4,Sunday,True,True,Medium (₹1K-5K),True
+TXN0281,Store C,2026-04-03 20:55:50.950670,Health Bar,Food & Beverages,CUST421,Walk-In,199.0,5,20,Debit Card,Mumbai,4.0,796.0,4,April,Q2,Friday,False,False,Small (<₹1K),True
+TXN0282,Store C,2026-04-03 20:55:50.950670,Coffee,Food & Beverages,CUST997,Walk-In,349.0,4,15,UPI,Mumbai,4.0,1186.6,4,April,Q2,Friday,False,False,Medium (₹1K-5K),True
+TXN0283,Store B,2024-10-09 00:00:00.000000,Running Shoes,Sports,CUST902,Member,4499.0,1,10,Credit Card,Hyderabad,5.0,4049.1,10,October,Q4,Wednesday,False,True,Medium (₹1K-5K),True
+TXN0284,Store B,2024-10-10 00:00:00.000000,Biography,Books,CUST386,Member,599.0,4,15,Credit Card,Hyderabad,4.0,2036.6,10,October,Q4,Thursday,False,True,Medium (₹1K-5K),True
+TXN0285,Store E,2024-10-11 00:00:00.000000,Comics,Books,CUST245,Member,299.0,6,10,Credit Card,Hyderabad,4.0,1614.6,10,October,Q4,Friday,False,True,Medium (₹1K-5K),True
+TXN0286,Store A,2024-10-12 00:00:00.000000,Juice Pack,Food & Beverages,CUST781,Walk-In,149.0,1,10,UPI,Hyderabad,3.0,134.1,10,October,Q4,Saturday,True,False,Small (<₹1K),True
+TXN0287,Store E,2026-04-03 20:55:50.950670,Kurti,Clothing,CUST470,Member,999.0,1,10,UPI,Mumbai,4.0,899.1,4,April,Q2,Friday,False,True,Small (<₹1K),True
+TXN0288,Store E,2024-10-14 00:00:00.000000,Kurti,Clothing,CUST313,Member,999.0,5,20,UPI,Chennai,4.0,3996.0,10,October,Q4,Monday,False,True,Medium (₹1K-5K),True
+TXN0289,Store B,2024-10-15 00:00:00.000000,Coffee,Food & Beverages,CUST240,Walk-In,349.0,7,10,UPI,Hyderabad,5.0,2198.7,10,October,Q4,Tuesday,False,False,Medium (₹1K-5K),True
+TXN0290,Store A,2024-10-16 00:00:00.000000,Jeans,Clothing,CUST112,Member,1299.0,4,5,Debit Card,Mumbai,4.0,4936.2,10,October,Q4,Wednesday,False,True,Medium (₹1K-5K),True
+TXN0291,Store E,2024-10-17 00:00:00.000000,Tablet,Electronics,CUST576,Member,35000.0,7,0,Credit Card,Mumbai,5.0,245000.0,10,October,Q4,Thursday,False,True,Premium (>₹20K),False
+TXN0292,Store A,2024-10-18 00:00:00.000000,Health Bar,Food & Beverages,CUST127,Walk-In,199.0,1,10,UPI,Mumbai,3.0,179.1,10,October,Q4,Friday,False,False,Small (<₹1K),True
+TXN0293,Store D,2024-10-19 00:00:00.000000,Saree,Clothing,CUST524,Walk-In,2499.0,3,5,Credit Card,Hyderabad,4.0,7122.15,10,October,Q4,Saturday,True,False,Large (₹5K-20K),True
+TXN0294,Store A,2024-10-20 00:00:00.000000,Kurti,Clothing,CUST237,Member,999.0,1,0,Credit Card,Chennai,3.0,999.0,10,October,Q4,Sunday,True,True,Small (<₹1K),False
+TXN0295,Store C,2024-10-21 00:00:00.000000,Laptop,Electronics,CUST109,Member,55000.0,2,25,Debit Card,Delhi,4.0,82500.0,10,October,Q4,Monday,False,True,Premium (>₹20K),True
+TXN0296,Store E,2024-10-22 00:00:00.000000,Tea,Food & Beverages,CUST669,Member,249.0,3,20,Credit Card,Bangalore,3.0,597.6,10,October,Q4,Tuesday,False,True,Small (<₹1K),True
+TXN0297,Store B,2024-10-23 00:00:00.000000,Tea,Food & Beverages,CUST904,Member,249.0,2,15,Debit Card,Chennai,4.0,423.3,10,October,Q4,Wednesday,False,True,Small (<₹1K),True
+TXN0298,Store C,2024-10-24 00:00:00.000000,Comics,Books,CUST416,Walk-In,299.0,1,10,UPI,Bangalore,3.0,269.1,10,October,Q4,Thursday,False,False,Small (<₹1K),True
+TXN0299,Unknown Store,2024-10-25 00:00:00.000000,Smartphone,Electronics,CUST431,Walk-In,28000.0,6,10,UPI,Unknown City,4.0,151200.0,10,October,Q4,Friday,False,False,Premium (>₹20K),True
+TXN0300,Store D,2024-10-26 00:00:00.000000,Headphones,Electronics,CUST311,Member,8500.0,1,5,Debit Card,Mumbai,5.0,8075.0,10,October,Q4,Saturday,True,True,Large (₹5K-20K),True

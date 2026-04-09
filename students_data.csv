@@ -1,0 +1,12 @@
+student_id,name,age,gender,city,study_hours,attendance,marks
+1,Arun,20,Male,Chennai,5,85,78
+2,Priya,21,Female,Bangalore,6,90,88
+3,Ravi,19,Male,Chennai,,80,72
+4,Sneha,20,Female,Hyderabad,4,75,65
+5,Karthik,22,Male,Bangalore,7,95,92
+6,Divya,21,Female,Chennai,3,70,60
+7,Manoj,20,Male,Hyderabad,6,85,85
+8,Aisha,19,Female,Bangalore,5,,80
+9,Vikram,21,Male,Chennai,8,98,95
+10,Neha,20,Female,Hyderabad,4,78,68
+10,Neha,20,Female,Hyderabad,4,78,68

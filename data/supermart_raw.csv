@@ -1,0 +1,313 @@
+transaction_id,store,date,product,category,customer_id,customer_type,price,quantity,discount_pct,payment_method,city,rating
+TXN0001,Store B,2024-01-01,Laptop,Electronics,CUST310,Member,55000.0,7,5,Debit Card,Chennai,5.0
+TXN0002,Store A,2024-01-02,Coffee,Food & Beverages,CUST268,Walk-in,349.0,3,0,Cash,Mumbai,5.0
+TXN0003,Store B,2024-01-03,Laptop,Electronics,CUST617,Walk-in,55000.0,4,0,Debit Card,Hyderabad,
+TXN0004,Store B,2024-01-04,Smartphone,Electronics,CUST236,Walk-in,28000.0,3,5,Cash,Delhi,4.0
+TXN0005,Store E,2024-01-05,Comics,Books,CUST823,Member,299.0,7,25,Credit Card,Hyderabad,
+TXN0006,Store C,2024-01-06,Running Shoes,Sports,CUST211,Walk-in,4499.0,4,0,Credit Card,Chennai,
+TXN0007,Store C,2024-01-07,Saree,Clothing,CUST139,Walk-in,2499.0,2,0,EMI,Delhi,
+TXN0008,Store C,2024-01-08,Saree,Clothing,CUST220,Member,2499.0,6,0,Debit Card,Hyderabad,3.0
+TXN0009,Store B,2024-01-09,Football,SPORTS,CUST624,Walk-in,999.0,6,5,UPI,Chennai,5.0
+TXN0010,Store E,2024-01-10,Fiction Novel,Books,CUST963,Member,399.0,2,5,UPI,Chennai,5.0
+TXN0011,Store D,2024-01-11,tea,Food & Beverages,CUST198,Walk-in,249.0,5,10,Cash,Hyderabad,
+TXN0012,Store D,2024-01-12,Health Bar,Food & Beverages,CUST761,Walk-in,199.0,4,5,Debit Card,Mumbai,5.0
+TXN0013,Store E,2024-01-13,Headphones,Electronics,CUST180,Walk-in,8500.0,4,15,Debit Card,Hyderabad,
+TXN0014,Store E,2024-01-14,Dumbbells,Sports,CUST441,Member,2499.0,7,10,UPI,Delhi,4.0
+TXN0015,Store E,2024-01-15,Jacket,Clothing,CUST333,Walk-in,1899.0,5,5,UPI,Hyderabad,3.0
+TXN0016,Store C,2024-01-16,tea,Food & Beverages,CUST403,Member,249.0,6,15,Debit Card,Delhi,2.0
+TXN0017,Store A,2024-01-17,Self-Help,Books,CUST161,Member,499.0,1,20,UPI,Chennai,
+TXN0018,Store A,2024-01-18,Running Shoes,Sports,CUST930,Member,4499.0,6,0,Debit Card,Delhi,
+TXN0019,Store A,19-01-2024,Self-Help,Books,CUST543,,499.0,5,5,Debit Card,Chennai,5.0
+TXN0020,,2024-01-20,Tea,Food & Beverages,CUST229,Member,249.0,6,0,UPI,,5.0
+TXN0021,Store E,2024-01-21,jacket,Clothing,CUST114,Member,1899.0,3,15,Debit Card,Delhi,
+TXN0022,Store C,2024-01-22,Tea,Food & Beverages,CUST987,Walk-in,249.0,4,5,UPI,Mumbai,4.0
+TXN0023,,2024-01-23,dumbbells,Sports,CUST328,Walk-in,2499.0,4,5,Credit Card,,5.0
+TXN0024,Store A,2024-01-24,Juice Pack,Food & Beverages,CUST229,Walk-in,149.0,7,15,Credit Card,Delhi,
+TXN0025,Store B,2024-01-25,Jacket,Clothing,CUST107,Member,1899.0,4,5,Credit Card,Hyderabad,5.0
+TXN0026,Store E,26-01-2024,Self-Help,Books,CUST323,,499.0,7,5,Credit Card,Bangalore,5.0
+TXN0027,Store A,2024-01-27,Fiction Novel,Books,CUST830,Walk-in,399.0,5,5,UPI,Chennai,4.0
+TXN0028,Store B,2024-01-28,yoga mat,Sports,CUST480,Member,1299.0,6,15,Debit Card,Mumbai,5.0
+TXN0029,Store A,2024-01-29,T-Shirt,Clothing,CUST277,Walk-in,799.0,4,10,UPI,Chennai,4.0
+TXN0030,Store B,2024-01-30,Dumbbells,Sports,CUST866,Member,2499.0,6,15,Cash,Chennai,5.0
+TXN0031,Store E,2024-01-31,Smartwatch,Electronics,CUST126,Walk-in,15000.0,7,20,Cash,Hyderabad,5.0
+TXN0032,Store B,2024-02-01,Coffee,Food & Beverages,CUST402,Member,349.0,6,0,UPI,Bangalore,3.0
+TXN0033,Store A,2024-02-02,Jeans,Clothing,CUST331,Member,1299.0,5,10,UPI,Bangalore,5.0
+TXN0034,Store D,2024-02-03,Tea,Food & Beverages,CUST660,,249.0,4,15,UPI,Hyderabad,3.0
+TXN0035,Store A,2024-02-04,coffee,Food & Beverages,CUST432,Member,349.0,6,20,UPI,Chennai,
+TXN0036,Store A,2024-02-05,Laptop,Electronics,CUST473,Walk-in,55000.0,4,15,Cash,Mumbai,3.0
+TXN0037,Store C,06-02-2024,Tablet,ELECTRONICS,CUST157,Walk-in,35000.0,3,5,UPI,Delhi,5.0
+TXN0038,Store B,2024-02-07,Headphones,Electronics,CUST363,Member,8500.0,6,10,EMI,Mumbai,5.0
+TXN0039,Store D,2024-02-08,Tablet,Electronics,CUST980,Member,35000.0,2,25,Debit Card,Delhi,5.0
+TXN0040,Store C,2024-02-09,Comics,Books,CUST340,Member,299.0,2,5,UPI,Hyderabad,2.0
+TXN0041,Store D,2024-02-10,Self-Help,BOOKS,CUST243,Member,499.0,7,0,EMI,Bangalore,2.0
+TXN0042,Store B,11-02-2024,Biography,Books,CUST248,,599.0,1,20,Credit Card,Bangalore,5.0
+TXN0043,Store A,2024-02-12,Headphones,Electronics,CUST788,Member,8500.0,7,10,UPI,Chennai,
+TXN0044,Store B,2024-02-13,Laptop,Electronics,CUST725,Walk-in,55000.0,5,20,UPI,Chennai,2.0
+TXN0045,Store D,2024-02-14,Headphones,Electronics,CUST444,Walk-in,8500.0,4,0,EMI,Hyderabad,5.0
+TXN0046,Store E,2024-02-15,Smartphone,Electronics,CUST790,Member,28000.0,3,5,Credit Card,Delhi,
+TXN0047,Store C,2024-02-16,Running Shoes,Sports,CUST971,Walk-in,4499.0,4,25,UPI,Hyderabad,3.0
+TXN0048,Store B,2024-02-17,Self-Help,Books,CUST485,,499.0,7,20,UPI,Bangalore,1.0
+TXN0049,Store C,2024-02-18,Jacket,Clothing,CUST358,Member,1899.0,3,10,UPI,Bangalore,5.0
+TXN0050,Store A,2024-02-19,Smartphone,Electronics,CUST570,Walk-in,28000.0,2,0,UPI,Hyderabad,
+TXN0051,Store D,2024-02-20,jeans,Clothing,CUST480,Walk-in,1299.0,1,0,UPI,Mumbai,5.0
+TXN0052,Store E,2024-02-21,Jeans,Clothing,CUST122,Walk-in,1299.0,2,5,UPI,Hyderabad,4.0
+TXN0053,Store C,2024-02-22,Laptop,Electronics,CUST622,,55000.0,5,25,UPI,Delhi,5.0
+TXN0054,Store D,2024-02-23,Cricket Bat,Sports,CUST708,Member,3999.0,2,0,UPI,Bangalore,3.0
+TXN0055,Store A,2024-02-24,Health Bar,Food & Beverages,CUST685,Member,199.0,6,5,UPI,Delhi,5.0
+TXN0056,Store E,2024-02-25,Biography,Books,CUST802,Walk-in,599.0,5,10,UPI,Hyderabad,5.0
+TXN0057,Store C,2024-02-26,Health Bar,FOOD & BEVERAGES,CUST815,,199.0,2,5,Cash,Bangalore,5.0
+TXN0058,Store B,2024-02-27,Self-Help,Books,CUST805,Walk-in,499.0,4,15,UPI,Chennai,3.0
+TXN0059,Store C,2024-02-28,Running Shoes,Sports,CUST776,Member,4499.0,5,20,Credit Card,Chennai,5.0
+TXN0060,Store C,2024-02-29,Health Bar,Food & Beverages,CUST446,Walk-in,199.0,1,15,UPI,Mumbai,5.0
+TXN0061,Store B,2024-03-01,Comics,Books,CUST668,Member,299.0,3,5,Cash,Bangalore,
+TXN0062,Store C,2024-03-02,Tea,Food & Beverages,CUST139,Walk-in,249.0,4,10,Credit Card,Delhi,1.0
+TXN0063,Store D,2024-03-03,Cricket Bat,Sports,CUST231,Walk-in,3999.0,1,5,Cash,Hyderabad,
+TXN0064,Store E,2024-03-04,Kurti,Clothing,CUST934,Member,-5000.0,4,15,EMI,Bangalore,4.0
+TXN0065,Store C,2024-03-05,Headphones,Electronics,CUST726,Member,8500.0,4,0,UPI,Bangalore,5.0
+TXN0066,Store B,2024-03-06,T-Shirt,Clothing,CUST388,Walk-in,799.0,6,10,Debit Card,Chennai,
+TXN0067,Store B,2024-03-07,Cricket Bat,Sports,CUST133,Walk-in,3999.0,4,0,Debit Card,Bangalore,4.0
+TXN0068,Store A,2024-03-08,Biography,Books,CUST778,Walk-in,599.0,6,25,EMI,Delhi,4.0
+TXN0069,Store C,2024-03-09,Snacks,Food & Beverages,CUST774,Member,299.0,4,0,Debit Card,Hyderabad,4.0
+TXN0070,Store B,2024-03-10,Fiction Novel,Books,CUST131,Member,399.0,1,5,UPI,Bangalore,5.0
+TXN0071,Store E,2024-03-11,Self-Help,Books,CUST430,Member,499.0,7,0,UPI,Chennai,4.0
+TXN0072,Store A,2024-03-12,Laptop,Electronics,CUST297,Walk-in,55000.0,6,5,Credit Card,Bangalore,5.0
+TXN0073,Store A,2024-03-13,Snacks,Food & Beverages,CUST980,Member,299.0,3,0,Debit Card,Chennai,4.0
+TXN0074,Store D,2024-03-14,self-help,Books,CUST137,Member,499.0,1,0,Credit Card,Hyderabad,
+TXN0075,Store B,2024-03-15,Cricket Bat,Sports,CUST496,Walk-in,3999.0,6,0,Debit Card,Chennai,4.0
+TXN0076,Store D,2024-03-16,Tea,Food & Beverages,CUST570,Walk-in,249.0,3,0,UPI,Mumbai,4.0
+TXN0077,Store C,2024-03-17,Smartwatch,Electronics,CUST500,Walk-in,15000.0,3,20,Debit Card,Delhi,3.0
+TXN0078,Store B,2024-03-18,Biography,Books,CUST873,Walk-in,599.0,6,15,UPI,Delhi,
+TXN0079,Store C,2024-03-19,Kurti,Clothing,CUST199,Walk-in,999.0,2,0,Credit Card,Mumbai,
+TXN0080,Store D,2024-03-20,T-Shirt,Clothing,CUST427,,799.0,3,5,EMI,Hyderabad,3.0
+TXN0081,Store D,2024-03-21,Yoga Mat,Sports,CUST597,Member,1299.0,5,25,Credit Card,Bangalore,4.0
+TXN0082,Store C,2024-03-22,Smartwatch,Electronics,CUST182,Member,15000.0,6,5,Credit Card,Delhi,5.0
+TXN0083,Store A,2024-03-23,Biography,Books,CUST152,Member,599.0,5,10,UPI,Bangalore,4.0
+TXN0084,Store D,2024-03-24,Comics,Books,CUST456,Member,299.0,5,5,Cash,Mumbai,
+TXN0085,,2024-03-25,Kurti,Clothing,CUST262,Member,999.0,4,5,Debit Card,,3.0
+TXN0086,Store B,2024-03-26,Running Shoes,Sports,CUST748,Member,4499.0,1,0,Debit Card,Bangalore,4.0
+TXN0087,Store C,2024-03-27,Dumbbells,Sports,CUST981,Walk-in,2499.0,7,0,Credit Card,Chennai,
+TXN0088,,2024-03-28,Health Bar,Food & Beverages,CUST929,Member,199.0,4,5,UPI,,2.0
+TXN0089,Store C,2024-03-29,Juice Pack,Food & Beverages,CUST804,,149.0,7,5,Debit Card,Chennai,4.0
+TXN0090,Store A,2024-03-30,Smartwatch,Electronics,CUST364,Member,15000.0,7,5,UPI,Delhi,4.0
+TXN0091,Store E,2024-03-31,Fiction Novel,Books,CUST137,Walk-in,399.0,2,15,EMI,Bangalore,5.0
+TXN0092,Store B,2024-04-01,Football,Sports,CUST965,Walk-in,999.0,5,5,Credit Card,Hyderabad,
+TXN0093,Store E,2024-04-02,Dumbbells,Sports,CUST465,Walk-in,2499.0,1,5,Debit Card,Hyderabad,5.0
+TXN0094,Store D,2024-04-03,Laptop,Electronics,CUST510,Walk-in,55000.0,4,20,EMI,Delhi,
+TXN0095,Store B,2024-04-04,Tablet,Electronics,CUST947,Walk-in,35000.0,4,20,UPI,Delhi,5.0
+TXN0096,Store C,05-04-2024,Biography,Books,CUST953,Member,599.0,3,10,UPI,Delhi,5.0
+TXN0097,Store C,2024-04-06,Tea,Food & Beverages,CUST887,Member,249.0,1,15,Cash,Mumbai,4.0
+TXN0098,Store D,2024-04-07,Tea,Food & Beverages,CUST466,,249.0,1,5,Debit Card,Delhi,
+TXN0099,Store C,2024-04-08,Saree,Clothing,CUST802,Member,2499.0,4,0,UPI,Chennai,5.0
+TXN0100,Store E,09-04-2024,Biography,Books,CUST174,Member,599.0,7,25,UPI,Hyderabad,3.0
+TXN0101,Store C,2024-04-10,Fiction Novel,Books,CUST279,Member,399.0,2,0,UPI,Chennai,
+TXN0102,Store A,2024-04-11,Tea,Food & Beverages,CUST194,Member,249.0,6,20,Credit Card,Mumbai,4.0
+TXN0103,Store A,2024-04-12,Smartphone,Electronics,CUST178,Member,28000.0,1,15,Debit Card,Delhi,
+TXN0104,Store D,2024-04-13,Laptop,Electronics,CUST137,Member,55000.0,7,0,Debit Card,Mumbai,
+TXN0105,Store E,14-04-2024,Biography,Books,CUST140,Member,599.0,2,25,UPI,Mumbai,3.0
+TXN0106,Store D,2024-04-15,Programming Book,Books,CUST504,Walk-in,899.0,4,0,UPI,Bangalore,2.0
+TXN0107,Store C,2024-04-16,Running Shoes,Sports,CUST906,Walk-in,4499.0,6,0,UPI,Hyderabad,5.0
+TXN0108,Store D,2024-04-17,Biography,Books,CUST670,Walk-in,599.0,4,0,Debit Card,Mumbai,5.0
+TXN0109,Store B,2024-04-18,Yoga Mat,Sports,CUST805,Member,1299.0,2,0,Debit Card,Hyderabad,2.0
+TXN0110,Store C,2024-04-19,Smartwatch,Electronics,CUST513,Member,15000.0,6,5,Debit Card,Mumbai,
+TXN0111,Store C,2024-04-20,Football,Sports,CUST564,Member,999.0,5,10,Cash,Hyderabad,
+TXN0112,Store D,2024-04-21,Football,Sports,CUST556,Walk-in,999.0,6,0,UPI,Chennai,
+TXN0113,Store C,2024-04-22,Cricket Bat,SPORTS,CUST525,Walk-in,3999.0,5,5,UPI,Mumbai,5.0
+TXN0114,Store C,2024-04-23,Juice Pack,Food & Beverages,CUST162,Walk-in,149.0,1,15,UPI,Hyderabad,2.0
+TXN0115,Store E,2024-04-24,Programming Book,Books,CUST464,Member,899.0,7,15,UPI,Delhi,3.0
+TXN0116,Store C,2024-04-25,Coffee,Food & Beverages,CUST317,Walk-in,349.0,4,5,UPI,Chennai,
+TXN0117,Store B,2024-04-26,Running Shoes,Sports,CUST256,Walk-in,4499.0,5,5,Cash,Hyderabad,2.0
+TXN0118,Store D,2024-04-27,Jeans,Clothing,CUST805,Member,1299.0,5,10,UPI,Chennai,5.0
+TXN0119,Store D,2024-04-28,Jeans,CLOTHING,CUST976,Walk-in,1299.0,6,20,EMI,Delhi,
+TXN0120,Store E,2024-04-29,Tea,Food & Beverages,CUST900,Member,249.0,3,15,UPI,Mumbai,4.0
+TXN0121,Store D,2024-04-30,Yoga Mat,Sports,CUST520,Walk-in,1299.0,3,5,EMI,Delhi,5.0
+TXN0122,Store D,2024-05-01,Jeans,Clothing,CUST554,Walk-in,1299.0,6,0,Credit Card,Delhi,
+TXN0123,Store D,2024-05-02,Kurti,Clothing,CUST436,Walk-in,999.0,5,15,UPI,Delhi,4.0
+TXN0124,Store D,2024-05-03,Dumbbells,Sports,CUST200,Member,2499.0,2,10,UPI,Mumbai,5.0
+TXN0125,Store E,2024-05-04,Biography,Books,CUST442,Walk-in,599.0,4,5,Credit Card,Mumbai,4.0
+TXN0126,Store A,2024-05-05,Headphones,Electronics,CUST612,Member,8500.0,2,20,UPI,Chennai,5.0
+TXN0127,Store E,2024-05-06,Smartphone,Electronics,CUST853,Member,28000.0,4,0,UPI,Delhi,
+TXN0128,Store B,2024-05-07,Tea,Food & Beverages,CUST719,Walk-in,249.0,3,15,Cash,Mumbai,
+TXN0129,Store B,2024-05-08,Health Bar,Food & Beverages,CUST359,Member,199.0,4,10,EMI,Delhi,
+TXN0130,Store A,2024-05-09,Self-Help,Books,CUST107,Walk-in,499.0,5,10,UPI,Mumbai,
+TXN0131,Store C,2024-05-10,Snacks,Food & Beverages,CUST934,Member,-5000.0,2,10,Cash,Bangalore,2.0
+TXN0132,Store D,11-05-2024,Health Bar,Food & Beverages,CUST432,Member,199.0,5,0,Debit Card,Delhi,5.0
+TXN0133,Store B,2024-05-12,Smartwatch,Electronics,CUST888,Walk-in,15000.0,1,0,UPI,Chennai,
+TXN0134,Store E,2024-05-13,Smartphone,Electronics,CUST598,Walk-in,28000.0,6,10,Debit Card,Bangalore,3.0
+TXN0135,Store D,2024-05-14,Laptop,Electronics,CUST466,Member,55000.0,1,0,Credit Card,Bangalore,2.0
+TXN0136,Store A,2024-05-15,Juice Pack,Food & Beverages,CUST832,Member,149.0,6,25,UPI,Hyderabad,5.0
+TXN0137,Store E,2024-05-16,Health Bar,Food & Beverages,CUST365,Member,199.0,4,10,Credit Card,Chennai,3.0
+TXN0138,Store E,2024-05-17,Jacket,Clothing,CUST458,Walk-in,1899.0,4,20,UPI,Delhi,4.0
+TXN0139,Store D,2024-05-18,Tablet,Electronics,CUST625,Member,35000.0,1,15,Debit Card,Hyderabad,
+TXN0140,Store D,19-05-2024,Jeans,Clothing,CUST570,,1299.0,6,10,EMI,Hyderabad,4.0
+TXN0141,Store D,2024-05-20,Fiction Novel,Books,CUST334,Member,399.0,1,20,UPI,Bangalore,
+TXN0142,Store A,2024-05-21,Health Bar,Food & Beverages,CUST280,Walk-in,199.0,2,5,Cash,Chennai,
+TXN0143,Store C,2024-05-22,Saree,Clothing,CUST199,Walk-in,2499.0,6,5,Credit Card,Hyderabad,4.0
+TXN0144,Store B,2024-05-23,Laptop,Electronics,CUST288,Member,55000.0,4,15,UPI,Hyderabad,3.0
+TXN0145,Store B,2024-05-24,Self-Help,Books,CUST454,Member,499.0,5,5,UPI,Bangalore,
+TXN0146,Store B,2024-05-25,Self-Help,Books,CUST445,Member,499.0,6,10,UPI,Chennai,5.0
+TXN0147,Store B,26-05-2024,Comics,Books,CUST510,Member,299.0,6,5,UPI,Delhi,2.0
+TXN0148,Store B,2024-05-27,Smartwatch,Electronics,CUST673,Member,15000.0,5,20,UPI,Bangalore,
+TXN0149,Store D,2024-05-28,saree,Clothing,CUST889,Member,2499.0,2,5,UPI,Bangalore,3.0
+TXN0150,Store D,2024-05-29,Fiction Novel,Books,CUST732,Member,399.0,7,10,Debit Card,Hyderabad,5.0
+TXN0151,Store C,2024-05-30,Snacks,Food & Beverages,CUST119,Walk-in,299.0,5,5,Debit Card,Delhi,5.0
+TXN0152,Store B,2024-05-31,Biography,Books,CUST954,Member,599.0,4,10,EMI,Delhi,5.0
+TXN0153,Store D,2024-06-01,Kurti,Clothing,CUST452,Walk-in,999.0,4,10,Debit Card,Delhi,5.0
+TXN0154,Store B,2024-06-02,Programming Book,Books,CUST437,Member,899.0,6,0,EMI,Chennai,3.0
+TXN0155,Store E,2024-06-03,Running Shoes,Sports,CUST248,Member,4499.0,1,15,UPI,Chennai,5.0
+TXN0156,Store B,2024-06-04,Self-Help,Books,CUST736,Member,499.0,4,0,Cash,Mumbai,5.0
+TXN0157,Store D,2024-06-05,Jacket,Clothing,CUST134,Member,1899.0,5,20,Credit Card,Bangalore,3.0
+TXN0158,Store A,2024-06-06,Smartwatch,Electronics,CUST818,Member,15000.0,1,5,UPI,Bangalore,
+TXN0159,Store E,2024-06-07,Jeans,Clothing,CUST856,Member,1299.0,2,10,UPI,Bangalore,5.0
+TXN0160,Store B,2024-06-08,T-Shirt,Clothing,CUST131,Member,799.0,3,15,UPI,Delhi,4.0
+TXN0161,Store A,2024-06-09,Running Shoes,SPORTS,CUST518,Member,4499.0,2,10,Credit Card,Bangalore,3.0
+TXN0162,Store A,2024-06-10,Running Shoes,Sports,CUST110,Walk-in,4499.0,1,15,Cash,Bangalore,
+TXN0163,Store D,2024-06-11,Yoga Mat,Sports,CUST930,Walk-in,1299.0,5,10,UPI,Chennai,4.0
+TXN0164,Store A,2024-06-12,Jeans,Clothing,CUST359,Member,1299.0,2,0,UPI,Mumbai,5.0
+TXN0165,Store B,2024-06-13,Tea,FOOD & BEVERAGES,CUST844,Walk-in,249.0,3,15,UPI,Mumbai,
+TXN0166,Store C,2024-06-14,Coffee,Food & Beverages,CUST350,Walk-in,349.0,1,20,Debit Card,Chennai,3.0
+TXN0167,Store D,2024-06-15,Tea,Food & Beverages,CUST298,Member,249.0,3,15,EMI,Chennai,4.0
+TXN0168,Store E,2024-06-16,Coffee,Food & Beverages,CUST281,Member,349.0,6,0,UPI,Hyderabad,5.0
+TXN0169,Store A,2024-06-17,Tablet,Electronics,CUST848,Member,35000.0,5,10,UPI,Mumbai,4.0
+TXN0170,Store C,2024-06-18,Saree,Clothing,CUST810,Member,2499.0,4,5,UPI,Hyderabad,5.0
+TXN0171,Store A,2024-06-19,Football,Sports,CUST618,Member,999.0,7,0,Cash,Chennai,4.0
+TXN0172,Store D,20-06-2024,Cricket Bat,Sports,CUST810,Member,3999.0,2,0,UPI,Chennai,4.0
+TXN0173,Store C,2024-06-21,Jeans,Clothing,CUST534,Member,1299.0,4,15,UPI,Mumbai,5.0
+TXN0174,Store D,2024-06-22,Fiction Novel,Books,CUST688,Member,399.0,2,10,Credit Card,Chennai,3.0
+TXN0175,Store C,2024-06-23,Programming Book,Books,CUST589,Walk-in,899.0,2,20,Debit Card,Hyderabad,
+TXN0176,Store A,2024-06-24,Football,Sports,CUST919,Member,999.0,2,10,Cash,Chennai,4.0
+TXN0177,Store A,2024-06-25,Saree,Clothing,CUST774,Member,2499.0,2,0,Debit Card,Chennai,5.0
+TXN0178,,2024-06-26,Smartphone,Electronics,CUST107,Member,28000.0,2,5,Debit Card,,2.0
+TXN0179,Store C,2024-06-27,Laptop,Electronics,CUST814,Member,55000.0,4,10,UPI,Chennai,5.0
+TXN0180,Store D,2024-06-28,Cricket Bat,Sports,CUST945,Member,3999.0,1,15,EMI,Mumbai,4.0
+TXN0181,Store E,2024-06-29,Comics,Books,CUST624,Walk-in,299.0,1,5,Credit Card,Mumbai,
+TXN0182,Store A,2024-06-30,Kurti,Clothing,CUST408,Walk-in,999.0,5,25,Debit Card,Hyderabad,
+TXN0183,Store B,2024-07-01,Yoga Mat,Sports,CUST713,Member,1299.0,6,10,Debit Card,Chennai,5.0
+TXN0184,Store A,2024-07-02,Coffee,Food & Beverages,CUST719,Walk-in,349.0,1,0,Debit Card,Mumbai,
+TXN0185,Store E,2024-07-03,Cricket Bat,Sports,CUST249,Member,3999.0,1,0,UPI,Delhi,
+TXN0186,Store B,2024-07-04,Fiction Novel,BOOKS,CUST844,Walk-in,-999.0,7,15,UPI,Hyderabad,
+TXN0187,Store A,05-07-2024,Saree,Clothing,CUST449,Walk-in,2499.0,7,10,UPI,Hyderabad,5.0
+TXN0188,Store C,2024-07-06,Biography,Books,CUST285,Member,599.0,7,15,EMI,Delhi,4.0
+TXN0189,Store D,2024-07-07,Kurti,Clothing,CUST706,Member,999.0,5,20,Debit Card,Bangalore,5.0
+TXN0190,Store A,2024-07-08,Running Shoes,Sports,CUST235,Walk-in,4499.0,4,10,UPI,Mumbai,3.0
+TXN0191,Store D,2024-07-09,Self-Help,Books,CUST588,Walk-in,499.0,3,10,UPI,Delhi,
+TXN0192,Store C,2024-07-10,Tea,Food & Beverages,CUST610,Member,249.0,4,0,Credit Card,Mumbai,4.0
+TXN0193,Store A,2024-07-11,Tablet,Electronics,CUST737,Member,35000.0,2,10,Debit Card,Bangalore,5.0
+TXN0194,Store D,2024-07-12,Tea,Food & Beverages,CUST625,Member,249.0,2,20,UPI,Delhi,
+TXN0195,Store C,2024-07-13,Coffee,Food & Beverages,CUST941,Member,349.0,6,15,UPI,Chennai,5.0
+TXN0196,Store C,2024-07-14,Tea,Food & Beverages,CUST696,Walk-in,249.0,4,0,EMI,Hyderabad,5.0
+TXN0197,Store B,15-07-2024,Juice Pack,Food & Beverages,CUST808,Member,149.0,7,20,EMI,Bangalore,
+TXN0198,Store A,2024-07-16,Saree,CLOTHING,CUST755,Walk-in,2499.0,5,5,UPI,Mumbai,
+TXN0199,Store A,2024-07-17,Kurti,Clothing,CUST418,Member,999.0,7,10,Debit Card,Chennai,
+TXN0200,Store D,2024-07-18,Tea,Food & Beverages,CUST400,Walk-in,249.0,1,20,UPI,Chennai,5.0
+TXN0201,Store E,2024-07-19,Programming Book,Books,CUST817,Member,899.0,4,25,UPI,Delhi,2.0
+TXN0202,Store A,2024-07-20,Tablet,Electronics,CUST297,Walk-in,35000.0,5,15,Debit Card,Bangalore,5.0
+TXN0203,Store C,2024-07-21,Cricket Bat,Sports,CUST406,Member,3999.0,4,0,Credit Card,Hyderabad,4.0
+TXN0204,Store E,2024-07-22,Smartphone,Electronics,CUST369,Member,28000.0,5,0,EMI,Delhi,4.0
+TXN0205,,2024-07-23,Jacket,Clothing,CUST100,Member,1899.0,2,5,UPI,,
+TXN0206,Store A,2024-07-24,Fiction Novel,Books,CUST195,,399.0,5,5,Debit Card,Chennai,5.0
+TXN0207,Store D,2024-07-25,Laptop,Electronics,CUST338,Walk-in,55000.0,3,5,Credit Card,Delhi,
+TXN0208,Store A,2024-07-26,Programming Book,Books,CUST767,Walk-in,899.0,2,0,UPI,Chennai,
+TXN0209,Store B,2024-07-27,Health Bar,Food & Beverages,CUST958,Walk-in,199.0,2,15,Credit Card,Delhi,
+TXN0210,Store C,2024-07-28,Smartwatch,Electronics,CUST170,Walk-in,15000.0,4,5,Debit Card,Delhi,4.0
+TXN0211,Store C,2024-07-29,Kurti,Clothing,CUST377,Walk-in,999.0,4,10,Credit Card,Hyderabad,4.0
+TXN0212,Store A,2024-07-30,Smartwatch,Electronics,CUST148,Walk-in,0.0,5,10,EMI,Mumbai,
+TXN0213,Store B,2024-07-31,Kurti,Clothing,CUST761,Walk-in,999.0,2,10,Credit Card,Mumbai,5.0
+TXN0214,Store C,2024-08-01,Self-Help,Books,CUST784,Walk-in,499.0,6,0,UPI,Mumbai,
+TXN0215,Store B,2024-08-02,Running Shoes,Sports,CUST359,Member,4499.0,7,5,Debit Card,Mumbai,5.0
+TXN0216,Store B,2024-08-03,Snacks,Food & Beverages,CUST161,Member,299.0,4,20,UPI,Delhi,2.0
+TXN0217,Store E,2024-08-04,Programming Book,Books,CUST773,Walk-in,899.0,7,5,UPI,Hyderabad,
+TXN0218,Store A,2024-08-05,Smartphone,Electronics,CUST125,Walk-in,28000.0,5,5,UPI,Bangalore,5.0
+TXN0219,Store A,06-08-2024,Dumbbells,Sports,CUST703,Member,2499.0,4,0,EMI,Chennai,4.0
+TXN0220,Store D,2024-08-07,Kurti,Clothing,CUST666,Walk-in,999.0,2,15,Credit Card,Hyderabad,5.0
+TXN0221,Store A,2024-08-08,Kurti,Clothing,CUST768,Walk-in,999.0,4,5,Credit Card,Chennai,5.0
+TXN0222,Store D,2024-08-09,Biography,Books,CUST805,Walk-in,599.0,6,0,Credit Card,Bangalore,4.0
+TXN0223,Store E,2024-08-10,Jeans,Clothing,CUST928,Member,1299.0,5,5,Debit Card,Delhi,2.0
+TXN0224,Store D,2024-08-11,Cricket Bat,Sports,CUST405,Member,3999.0,2,5,Credit Card,Hyderabad,2.0
+TXN0225,Store B,2024-08-12,Tea,Food & Beverages,CUST734,Member,249.0,6,10,Credit Card,Mumbai,3.0
+TXN0226,Store B,2024-08-13,Cricket Bat,Sports,CUST152,Walk-in,3999.0,3,0,EMI,Delhi,5.0
+TXN0227,Store C,2024-08-14,Dumbbells,Sports,CUST549,Member,2499.0,2,0,UPI,Bangalore,
+TXN0228,Store A,2024-08-15,tablet,Electronics,CUST361,Walk-in,35000.0,7,15,Credit Card,Mumbai,4.0
+TXN0229,Store B,2024-08-16,T-Shirt,Clothing,CUST574,Walk-in,799.0,2,5,Credit Card,Delhi,
+TXN0230,Store C,2024-08-17,Comics,Books,CUST202,Member,299.0,2,0,Debit Card,Mumbai,4.0
+TXN0231,Store D,18-08-2024,Kurti,Clothing,CUST621,Walk-in,999.0,5,15,UPI,Hyderabad,
+TXN0232,Store E,2024-08-19,Dumbbells,Sports,CUST786,Member,2499.0,1,20,Credit Card,Delhi,
+TXN0233,Store B,2024-08-20,Programming Book,Books,CUST996,Walk-in,899.0,6,5,UPI,Chennai,3.0
+TXN0234,Store D,2024-08-21,Dumbbells,Sports,CUST150,Walk-in,2499.0,4,20,UPI,Hyderabad,5.0
+TXN0235,Store C,2024-08-22,Saree,CLOTHING,CUST990,Walk-in,2499.0,5,0,Credit Card,Bangalore,
+TXN0236,Store E,2024-08-23,Dumbbells,Sports,CUST531,Member,2499.0,5,0,UPI,Delhi,
+TXN0237,Store E,2024-08-24,Jeans,Clothing,CUST899,Walk-in,1299.0,3,0,Debit Card,Mumbai,
+TXN0238,Store C,2024-08-25,Smartwatch,Electronics,CUST261,Member,15000.0,2,5,UPI,Mumbai,
+TXN0239,Store E,2024-08-26,Programming Book,Books,CUST307,Member,899.0,3,10,Cash,Hyderabad,
+TXN0240,Store B,2024-08-27,Biography,Books,CUST519,Member,599.0,2,0,UPI,Delhi,4.0
+TXN0241,Store C,2024-08-28,Tea,Food & Beverages,CUST168,Member,249.0,5,10,UPI,Chennai,4.0
+TXN0242,Store E,2024-08-29,Fiction Novel,Books,CUST490,Member,399.0,1,0,Credit Card,Mumbai,
+TXN0243,Store E,2024-08-30,Smartwatch,Electronics,CUST998,Member,15000.0,3,0,UPI,Bangalore,
+TXN0244,Store C,2024-08-31,Health Bar,Food & Beverages,CUST704,,199.0,7,5,UPI,Chennai,3.0
+TXN0245,Store C,2024-09-01,Football,Sports,CUST177,Walk-in,-999.0,4,0,Credit Card,Chennai,2.0
+TXN0246,Store D,2024-09-02,Saree,Clothing,CUST492,Member,2499.0,1,15,UPI,Bangalore,
+TXN0247,Store D,2024-09-03,Yoga Mat,Sports,CUST773,Walk-in,1299.0,7,20,Cash,Delhi,3.0
+TXN0248,Store E,2024-09-04,Saree,Clothing,CUST261,Member,2499.0,6,20,UPI,Delhi,3.0
+TXN0249,Store A,2024-09-05,Jeans,Clothing,CUST517,Member,1299.0,7,0,Cash,Delhi,3.0
+TXN0250,Store A,2024-09-06,Smartwatch,Electronics,CUST648,Walk-in,15000.0,5,20,UPI,Chennai,5.0
+TXN0251,Store A,2024-09-07,Headphones,Electronics,CUST638,Member,8500.0,4,10,Debit Card,Bangalore,4.0
+TXN0252,Store E,08-09-2024,Snacks,Food & Beverages,CUST386,Member,299.0,4,0,Cash,Hyderabad,4.0
+TXN0253,Store A,2024-09-09,Smartwatch,Electronics,CUST508,Member,15000.0,1,25,UPI,Mumbai,5.0
+TXN0254,Store C,2024-09-10,Smartwatch,Electronics,CUST925,Walk-in,15000.0,5,10,UPI,Delhi,4.0
+TXN0255,Store E,2024-09-11,Saree,Clothing,CUST387,Member,2499.0,6,15,Cash,Bangalore,5.0
+TXN0256,,2024-09-12,smartphone,Electronics,CUST904,Member,28000.0,3,10,EMI,,5.0
+TXN0257,Store B,2024-09-13,Football,Sports,CUST949,Walk-in,999.0,2,10,UPI,Bangalore,4.0
+TXN0258,Store E,2024-09-14,Yoga Mat,Sports,CUST156,Member,1299.0,1,15,UPI,Hyderabad,
+TXN0259,Store C,2024-09-15,Running Shoes,Sports,CUST941,Walk-in,4499.0,4,0,Debit Card,Mumbai,4.0
+TXN0260,Store D,2024-09-16,Tea,Food & Beverages,CUST170,Walk-in,249.0,4,0,UPI,Bangalore,4.0
+TXN0261,Store E,2024-09-17,Kurti,Clothing,CUST633,Walk-in,999.0,5,5,Debit Card,Mumbai,4.0
+TXN0262,Store C,2024-09-18,Cricket Bat,Sports,CUST117,Member,3999.0,4,5,Cash,Bangalore,5.0
+TXN0263,Store B,2024-09-19,Smartwatch,Electronics,CUST438,Member,15000.0,5,0,UPI,Mumbai,3.0
+TXN0264,Store B,2024-09-20,Cricket Bat,Sports,CUST464,Member,3999.0,3,5,Credit Card,Mumbai,
+TXN0265,Store A,2024-09-21,Jacket,Clothing,CUST403,Walk-in,1899.0,1,5,UPI,Mumbai,5.0
+TXN0266,Store D,2024-09-22,Smartwatch,Electronics,CUST847,Member,15000.0,2,5,Debit Card,Delhi,3.0
+TXN0267,Store A,2024-09-23,Cricket Bat,Sports,CUST139,Walk-in,3999.0,3,5,UPI,Bangalore,3.0
+TXN0268,Store B,2024-09-24,Kurti,Clothing,CUST386,Walk-in,999.0,1,5,UPI,Delhi,5.0
+TXN0269,Store B,2024-09-25,Snacks,Food & Beverages,CUST658,Walk-in,299.0,5,5,Debit Card,Delhi,5.0
+TXN0270,Store B,2024-09-26,Yoga Mat,Sports,CUST303,Member,1299.0,1,10,UPI,Chennai,4.0
+TXN0271,Store E,2024-09-27,Saree,Clothing,CUST455,Walk-in,2499.0,7,0,Debit Card,Mumbai,
+TXN0272,Store A,2024-09-28,Yoga Mat,Sports,CUST737,Member,1299.0,5,15,Credit Card,Delhi,2.0
+TXN0273,Store E,2024-09-29,Fiction Novel,Books,CUST710,Member,399.0,2,0,UPI,Hyderabad,4.0
+TXN0274,Store E,2024-09-30,Juice Pack,Food & Beverages,CUST778,Walk-in,149.0,2,0,UPI,Bangalore,
+TXN0275,Store C,2024-10-01,comics,Books,CUST794,Member,299.0,1,10,EMI,Hyderabad,4.0
+TXN0276,Store A,2024-10-02,Football,Sports,CUST807,Walk-in,999.0,5,20,Cash,Hyderabad,4.0
+TXN0277,Store D,2024-10-03,Tablet,Electronics,CUST636,Member,35000.0,3,25,Debit Card,Bangalore,4.0
+TXN0278,Store A,2024-10-04,Yoga Mat,Sports,CUST578,Member,1299.0,6,25,UPI,Chennai,4.0
+TXN0279,Store B,2024-10-05,Self-Help,Books,CUST301,Walk-in,499.0,4,10,UPI,Bangalore,4.0
+TXN0280,Store C,2024-10-06,Fiction Novel,Books,CUST791,Member,399.0,5,15,Credit Card,Delhi,
+TXN0281,Store C,07-10-2024,health bar,Food & Beverages,CUST421,Walk-in,199.0,5,20,Debit Card,Mumbai,
+TXN0282,Store C,08-10-2024,Coffee,Food & Beverages,CUST997,Walk-in,349.0,4,15,UPI,Mumbai,4.0
+TXN0283,Store B,2024-10-09,Running Shoes,Sports,CUST902,Member,4499.0,1,10,Credit Card,Hyderabad,5.0
+TXN0284,Store B,2024-10-10,Biography,Books,CUST386,Member,599.0,4,15,Credit Card,Hyderabad,4.0
+TXN0285,Store E,2024-10-11,Comics,Books,CUST245,Member,299.0,6,10,Credit Card,Hyderabad,
+TXN0286,Store A,2024-10-12,Juice Pack,Food & Beverages,CUST781,Walk-in,149.0,1,10,UPI,Hyderabad,3.0
+TXN0287,Store E,13-10-2024,Kurti,Clothing,CUST470,Member,999.0,1,10,UPI,Mumbai,
+TXN0288,Store E,2024-10-14,Kurti,Clothing,CUST313,Member,999.0,5,20,UPI,Chennai,4.0
+TXN0289,Store B,2024-10-15,Coffee,Food & Beverages,CUST240,Walk-in,349.0,7,10,UPI,Hyderabad,5.0
+TXN0290,Store A,2024-10-16,Jeans,Clothing,CUST112,Member,1299.0,4,5,Debit Card,Mumbai,
+TXN0291,Store E,2024-10-17,Tablet,Electronics,CUST576,Member,35000.0,7,0,Credit Card,Mumbai,5.0
+TXN0292,Store A,2024-10-18,Health Bar,Food & Beverages,CUST127,Walk-in,199.0,1,10,UPI,Mumbai,3.0
+TXN0293,Store D,2024-10-19,Saree,Clothing,CUST524,Walk-in,2499.0,3,5,Credit Card,Hyderabad,
+TXN0294,Store A,2024-10-20,Kurti,Clothing,CUST237,Member,999.0,1,0,Credit Card,Chennai,3.0
+TXN0295,Store C,2024-10-21,Laptop,Electronics,CUST109,Member,55000.0,2,25,Debit Card,Delhi,
+TXN0296,Store E,2024-10-22,Tea,Food & Beverages,CUST669,Member,249.0,3,20,Credit Card,Bangalore,3.0
+TXN0297,Store B,2024-10-23,Tea,Food & Beverages,CUST904,Member,249.0,2,15,Debit Card,Chennai,4.0
+TXN0298,Store C,2024-10-24,Comics,Books,CUST416,Walk-in,299.0,1,10,UPI,Bangalore,3.0
+TXN0299,,2024-10-25,Smartphone,Electronics,CUST431,Walk-in,28000.0,6,10,UPI,,
+TXN0300,Store D,2024-10-26,Headphones,Electronics,CUST311,Member,8500.0,1,5,Debit Card,Mumbai,5.0
+TXN0229,Store B,2024-08-16,T-Shirt,Clothing,CUST574,Walk-in,799.0,2,5,Credit Card,Delhi,
+TXN0022,Store C,2024-01-22,Tea,FOOD & BEVERAGES,CUST987,Walk-in,249.0,4,5,UPI,Mumbai,4.0
+TXN0250,Store A,2024-09-06,Smartwatch,Electronics,CUST648,,15000.0,5,20,UPI,Chennai,5.0
+TXN0266,Store D,2024-09-22,Smartwatch,Electronics,CUST847,Member,15000.0,2,5,Debit Card,Delhi,3.0
+TXN0149,Store D,2024-05-28,Saree,Clothing,CUST889,Member,2499.0,2,5,UPI,Bangalore,3.0
+TXN0190,Store A,2024-07-08,Running Shoes,Sports,CUST235,Walk-in,4499.0,4,10,UPI,Mumbai,3.0
+TXN0043,Store A,2024-02-12,Headphones,Electronics,CUST788,Member,8500.0,7,10,UPI,Chennai,
+TXN0015,Store E,2024-01-15,Jacket,Clothing,CUST333,Walk-in,1899.0,5,5,UPI,Hyderabad,3.0
+TXN0270,Store B,2024-09-26,Yoga Mat,Sports,CUST303,,1299.0,1,10,UPI,Chennai,4.0
+TXN0226,Store B,13-08-2024,Cricket Bat,Sports,CUST152,Walk-in,3999.0,3,0,EMI,Delhi,5.0
+TXN0196,Store C,2024-07-14,Tea,Food & Beverages,CUST696,Walk-in,249.0,4,0,EMI,Hyderabad,5.0
+TXN0047,Store C,2024-02-16,Running Shoes,Sports,CUST971,Walk-in,4499.0,4,25,UPI,Hyderabad,3.0
