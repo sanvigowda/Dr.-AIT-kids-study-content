@@ -9,6 +9,7 @@
 **Exploratory Data Analysis (EDA)** is the first thing a data analyst does after cleaning data.
 
 Think of it like a **doctor's first examination** of a patient:
+
 - Check height, weight, blood pressure (→ summary statistics)
 - Look for anything unusual (→ outliers)
 - See how different things relate (→ correlation)
@@ -17,15 +18,15 @@ Think of it like a **doctor's first examination** of a patient:
 
 ---
 
-## 📐 Measures of Central Tendency
+# 📐 Measures of Central Tendency
 
 These tell you **where the middle of your data is**.
 
-| Measure | Formula | Best For |
-|---------|---------|----------|
-| **Mean** | Sum ÷ Count | Normal data, no extreme outliers |
-| **Median** | Middle value | Data with outliers (e.g., incomes) |
-| **Mode** | Most frequent | Categorical data |
+| Measure          | Formula       | Best For                           |
+| ---------------- | ------------- | ---------------------------------- |
+| **Mean**   | Sum ÷ Count  | Normal data, no extreme outliers   |
+| **Median** | Middle value  | Data with outliers (e.g., incomes) |
+| **Mode**   | Most frequent | Categorical data                   |
 
 ### 🧮 Real Example: Student Marks
 
@@ -44,12 +45,12 @@ Marks: `[60, 65, 70, 72, 78, 80, 85, 88, 92, 95]`
 
 These tell you **how spread out your data is**.
 
-| Measure | What It Tells You |
-|---------|-------------------|
-| **Range** | Max − Min (simple but sensitive to outliers) |
-| **Variance** | Average of squared differences from mean |
-| **Standard Deviation (SD)** | Square root of variance — same unit as data |
-| **IQR** | Q3 − Q1 — middle 50% spread, outlier-resistant |
+| Measure                           | What It Tells You                                |
+| --------------------------------- | ------------------------------------------------ |
+| **Range**                   | Max − Min (simple but sensitive to outliers)    |
+| **Variance**                | Average of squared differences from mean         |
+| **Standard Deviation (SD)** | Square root of variance — same unit as data     |
+| **IQR**                     | Q3 − Q1 — middle 50% spread, outlier-resistant |
 
 ### 📦 Understanding the 5-Number Summary
 
@@ -58,14 +59,14 @@ Min ──── Q1 ──── Median ──── Q3 ──── Max
          |←── IQR (Q3−Q1) ──→|
 ```
 
-| Term | Meaning |
-|------|---------|
-| **Min** | Smallest value |
-| **Q1 (25th percentile)** | 25% of values fall below this |
-| **Median (50th percentile)** | Middle value |
-| **Q3 (75th percentile)** | 75% of values fall below this |
-| **Max** | Largest value |
-| **IQR** | Q3 − Q1 (middle 50% of data) |
+| Term                               | Meaning                       |
+| ---------------------------------- | ----------------------------- |
+| **Min**                      | Smallest value                |
+| **Q1 (25th percentile)**     | 25% of values fall below this |
+| **Median (50th percentile)** | Middle value                  |
+| **Q3 (75th percentile)**     | 75% of values fall below this |
+| **Max**                      | Largest value                 |
+| **IQR**                      | Q3 − Q1 (middle 50% of data) |
 
 ---
 
@@ -122,6 +123,7 @@ pd.cut(df["marks"], bins=[50, 60, 70, 80, 90, 100]).value_counts()
 ```
 
 **Output:**
+
 ```
 city
 Chennai      4
@@ -140,6 +142,7 @@ marks range
 ## 🌍 Real-World Example: E-Commerce
 
 > An e-commerce company wants to understand customer spending:
+>
 > - **Mean** order value: ₹2,400 → typical spend
 > - **Median** order value: ₹1,800 → better middle (a few expensive orders pull mean up)
 > - **Std Dev**: ₹3,200 → HIGH variation → customers are very different!
@@ -168,4 +171,4 @@ marks range
 
 ---
 
-*Next Topic → [Correlation Analysis](./02_Correlation_Analysis.md)*
+* *Next Topic → [Correlation Analysis](./02_Correlation_Analysis.md)*

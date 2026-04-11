@@ -1,4 +1,4 @@
-# 🎯 Outlier Detection
+* 🎯 Outlier Detection
 
 > **Learning Goal:** Learn to identify data points that are unusually different from the rest — they can either be errors to fix or rare insights to study!
 
@@ -10,12 +10,12 @@ An **outlier** is a data point that is **significantly different** from the rest
 
 ### Real-Life Examples:
 
-| Dataset | Normal Range | Outlier |
-|---------|-------------|---------|
-| Student marks (0–100) | 50–90 | **2** or **150** |
-| Monthly salary | ₹20k–₹1L | **₹1 crore** (CEO!) |
-| Product price | ₹100–₹5000 | **-₹500** (data error!) |
-| Human height | 150–190 cm | **230 cm** |
+| Dataset                | Normal Range  | Outlier                        |
+| ---------------------- | ------------- | ------------------------------ |
+| Student marks (0–100) | 50–90        | **2** or **150**   |
+| Monthly salary         | ₹20k–₹1L   | **₹1 crore** (CEO!)     |
+| Product price          | ₹100–₹5000 | **-₹500** (data error!) |
+| Human height           | 150–190 cm   | **230 cm**               |
 
 > ⚠️ Not all outliers are errors! Sometimes they're the **most interesting data points**.
 
@@ -24,6 +24,7 @@ An **outlier** is a data point that is **significantly different** from the rest
 ## 👀 Types of Outliers
 
 ### 1. Point Outlier (Most Common)
+
 A single value that is far from the others.
 
 ```
@@ -33,12 +34,16 @@ Data: [70, 72, 75, 78, 80, 82, 85, 138]
 ```
 
 ### 2. Contextual Outlier
+
 Normal in one context, unusual in another.
+
 - ₹50,000 salary is normal for a junior developer
 - ₹50,000 salary is an outlier for a senior manager
 
 ### 3. Collective Outlier
+
 A group of points that together are unusual.
+
 - All transactions from one IP address in 5 minutes (possible fraud!)
 
 ---
@@ -99,11 +104,11 @@ for name, score, z in zip(df["name"], df["marks"], z_scores):
     print(f"  {name:10s}: {score}  (z={z:.2f}){flag}")
 ```
 
-| Student | Marks | Z-score | Status |
-|---------|-------|---------|--------|
-| Divya | 60 | -1.57 | Normal |
-| Vikram | 95 | +1.43 | Normal |
-| (hypothetical) | 20 | -5.0 | **Outlier!** |
+| Student        | Marks | Z-score | Status             |
+| -------------- | ----- | ------- | ------------------ |
+| Divya          | 60    | -1.57   | Normal             |
+| Vikram         | 95    | +1.43   | Normal             |
+| (hypothetical) | 20    | -5.0    | **Outlier!** |
 
 ---
 
@@ -146,14 +151,15 @@ plt.show()
 
 ## 🛑 What To Do With Outliers?
 
-| Option | When to Use |
-|--------|------------|
-| **Keep it** | It's real, genuine data (e.g., a real genius student) |
-| **Remove it** | It's clearly a data entry error (e.g., marks = -50) |
-| **Cap it** | Replace with max/min boundary (Winsorization) |
-| **Investigate it** | Fraud detection, quality control |
+| Option                   | When to Use                                           |
+| ------------------------ | ----------------------------------------------------- |
+| **Keep it**        | It's real, genuine data (e.g., a real genius student) |
+| **Remove it**      | It's clearly a data entry error (e.g., marks = -50)   |
+| **Cap it**         | Replace with max/min boundary (Winsorization)         |
+| **Investigate it** | Fraud detection, quality control                      |
 
 ### Decision Flowchart:
+
 ```
 Is the outlier a data ERROR?
     ├── YES → Remove or correct it
@@ -166,12 +172,12 @@ Is the outlier a data ERROR?
 
 ## 🌍 Real-World Importance
 
-| Domain | Why Outliers Matter |
-|--------|-------------------|
-| **Banking** | One ₹50 lakh transaction in a student account → Fraud! |
-| **Manufacturing** | One defective batch in 10,000 → Recall before damage |
-| **Healthcare** | One patient with 400 blood pressure → Emergency! |
-| **E-commerce** | Negative quantity order → Data bug → Fix immediately |
+| Domain                  | Why Outliers Matter                                      |
+| ----------------------- | -------------------------------------------------------- |
+| **Banking**       | One ₹50 lakh transaction in a student account → Fraud! |
+| **Manufacturing** | One defective batch in 10,000 → Recall before damage    |
+| **Healthcare**    | One patient with 400 blood pressure → Emergency!        |
+| **E-commerce**    | Negative quantity order → Data bug → Fix immediately   |
 
 ---
 
