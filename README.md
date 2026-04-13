@@ -28,8 +28,23 @@ Data_analytics_complete/
     ├── Session_3_Advanced_Visualization/
     │   └── ...labs & documents
     └── Mini_Project_Student_Performance/
-        └── student_performance_analysis.py, students_data.csv
+        └── student_performance_analysis.py
+├── Day_2_Complete_EDA_and_Visualization.ipynb
+├── students_data.csv
 ```
+
+---
+
+## 🚀 Quick Start
+
+### Run the Day 2 Complete Notebook
+You can run the full EDA and Visualization pipeline in one go:
+1. Open `Day_2_Complete_EDA_and_Visualization.ipynb` in VS Code or Jupyter.
+2. The notebook will automatically generate `students_data.csv` and run all analyses.
+
+### Run the Day 1 Model Mini Project
+(unchanged instructions...)
+
 
 ---
 
@@ -76,6 +91,20 @@ python Day_1/Session_3_Python_for_Analytics/Lab_VSCode_Dataset_Manipulation.py
 
 
 | **Mini Project** | End-to-end SuperMart Sales Intelligence pipeline using all Day 1 topics |
+
+---
+
+## 📚 Day 2 Topics Covered
+
+| Session | Topics |
+|---------|--------|
+| **Session 1: EDA** | Statistical Summaries (Mean/Median/Std), Correlation Analysis, Outlier Detection (IQR Method), Descriptive vs. Inferential basics |
+| **Session 2: Visualization Fundamentals** | Chart Selection Principles, Bar/Line/Histogram/Boxplots, Visualization Ethics (Misleading scales) |
+| **Session 3: Advanced Visualization** | Multi-Variable Visualization, Heatmaps, Distribution Plots (KDE), Interactive Visual Insights |
+
+
+| **Capstone** | 6-Panel Student Performance Analytics Dashboard using `gridspec` |
+
 
 
 
