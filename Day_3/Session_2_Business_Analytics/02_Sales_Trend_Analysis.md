@@ -1,14 +1,38 @@
-# Sales Trend Analysis
+#  Sales Trend Analysis
 
-Understanding how sales move over time.
+> **Learning Goal:** Learn how to spot patterns, seasonality, and growth in time-series retail data.
 
-## 1. Time-Series Analysis
-- **Seasonality**: Patterns that repeat every year (e.g., Diwali sales).
-- **Cyclicity**: Longer-term ups and downs.
-- **Noise**: Random fluctuations.
+---
 
-## 2. Year-over-Year (YoY) Growth
-Comparing this month's performance to the same month last year.
+## 1️⃣ Seasonality and Cyclical Patterns
+
+**Seasonality** refers to fluctuations that repeat over a specific period (e.g., Diwali spikes).
+
+- **Month-over-Month (MoM)**: Tracking general business sanity.
+- **Year-over-Year (YoY)**: The gold standard. "Did we do better this December than last December?"
+
+---
+
+## 2️⃣ Moving Averages (Smoothing)
+
+Daily sales data is often "noisy". Analysts use **moving averages** to smooth out the noise.
+
+```python
+# Pandas Example
+df['rolling_sales'] = df['amount'].rolling(window=7).mean()
 ```
-YoY Growth = ((Current Year - Last Year) / Last Year) * 100
-```
+
+---
+
+##  Industry Case: The "Mid-Month Dip"
+
+Many Indian retailers see a dip in sales around the 15th–20th of the month.
+- **Observation**: Salaries are running low.
+- **Business Decision**: Launch "Budget Week" flash sales during the 15th–20th.
+
+---
+
+##  Quick Check Questions
+
+1. What is the difference between MoM and YoY growth?
+2. Why is a rolling average better than raw daily data?
