@@ -105,6 +105,17 @@ python Day_1/Session_3_Python_for_Analytics/Lab_VSCode_Dataset_Manipulation.py
 
 | **Capstone** | 6-Panel Student Performance Analytics Dashboard using `gridspec` |
 
+---
+
+##  Day 3 Topics Covered
+
+| Session | Topics |
+|---------|--------|
+| **Session 1: SQL** | SELECT, WHERE, GROUP BY, Joins, Aggregation functions. Lab: Query structured database |
+| **Session 2: Business Analytics** | KPI identification, Sales trend analysis, Customer segmentation. Lab: Retail Analytics mini project |
+| **Session 3: Presentation** | Turning insights into decisions, Visual narrative techniques, Group-based presentations |
+
+
 
 
 
