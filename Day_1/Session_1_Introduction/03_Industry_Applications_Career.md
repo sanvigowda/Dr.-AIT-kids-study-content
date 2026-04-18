@@ -12,11 +12,11 @@
 |------------|--------------|--------|
 | Demand Forecasting | Amazon predicts what you'll buy before you search for it | Reduces overstock by 30% |
 | Price Optimization | Flipkart changes prices 1000+ times/day | 5-10% revenue increase |
-| Customer Segmentation | Meesho groups users by behavior | Targeted marketing saves ₹Crores |
+| Customer Segmentation | Meesho groups users by behavior | Targeted marketing saves Crores |
 | Basket Analysis | "People who bought X also bought Y" | 35% of Amazon's revenue |
 | Supply Chain Optimization | Walmart tracks 1 billion+ daily transactions | Saves $600M/year |
 
-**Real Case:** Big Bazaar uses analytics to determine which products to place at eye level → 20% more impulse purchases.
+**Real Case:** Big Bazaar uses analytics to determine which products to place at eye level  20% more impulse purchases.
 
 ---
 
@@ -24,7 +24,7 @@
 
 | Application | Real Example | Impact |
 |------------|--------------|--------|
-| Fraud Detection | HDFC flags suspicious transactions in milliseconds | Saves ₹100s of Crores |
+| Fraud Detection | HDFC flags suspicious transactions in milliseconds | Saves 100s of Crores |
 | Credit Scoring | CIBIL score calculation | Reduces loan defaults by 40% |
 | Algorithmic Trading | Zerodha's automated trading bots | Executes 1000+ trades/second |
 | Risk Management | Insurance premium calculation | Accurate risk pricing |
@@ -44,7 +44,7 @@
 | Medical Imaging | AI reads X-rays, MRIs | 95%+ accuracy in some conditions |
 | Epidemic Modeling | COVID-19 spread prediction | Policy planning |
 
-**Real Case:** Apollo Hospitals' AI predicts patient deterioration 6 hours before it happens → 30% reduction in ICU admissions.
+**Real Case:** Apollo Hospitals' AI predicts patient deterioration 6 hours before it happens  30% reduction in ICU admissions.
 
 ---
 
@@ -62,7 +62,7 @@
 
 ---
 
-### 5. ️ Manufacturing & Supply Chain
+### 5.  Manufacturing & Supply Chain
 
 | Application | Real Example | Impact |
 |------------|--------------|--------|
@@ -84,17 +84,17 @@
 
 ---
 
-## ‍ Career Pathways in Data Analytics
+##  Career Pathways in Data Analytics
 
 ### The Data Career Landscape
 
 ```
 Entry Level (0-2 years)          Mid Level (2-5 years)        Senior Level (5+ years)
-─────────────────────────────────────────────────────────────────────────────────────
-Data Analyst                 →   Senior Data Analyst      →   Analytics Manager
-Business Analyst             →   Data Scientist           →   Principal Data Scientist
-Reporting Analyst            →   ML Engineer              →   Head of Data / CDO
-Data Quality Analyst         →   BI Developer             →   Director of Analytics
+
+Data Analyst                    Senior Data Analyst         Analytics Manager
+Business Analyst                Data Scientist              Principal Data Scientist
+Reporting Analyst               ML Engineer                 Head of Data / CDO
+Data Quality Analyst            BI Developer                Director of Analytics
 ```
 
 ---
@@ -103,44 +103,44 @@ Data Quality Analyst         →   BI Developer             →   Director of An
 
 | Role | What They Do | Average CTC (India) | Key Skills |
 |------|-------------|---------------------|------------|
-| **Data Analyst** | Collect, clean, analyze, visualize data | ₹4-12 LPA | Python, SQL, Excel, Tableau |
-| **Business Analyst** | Bridge business needs with data solutions | ₹5-15 LPA | SQL, Excel, Domain knowledge |
-| **Data Scientist** | Build ML models and advanced analytics | ₹8-25 LPA | Python, ML, Statistics, Cloud |
-| **ML Engineer** | Deploy and optimize ML models in production | ₹10-30 LPA | Python, Data Engineering, MLOps |
-| **Data Engineer** | Build data pipelines and infrastructure | ₹8-25 LPA | Python, SQL, Spark, Cloud |
-| **BI Developer** | Create dashboards and reporting systems | ₹5-18 LPA | Tableau, Power BI, SQL |
-| **Analytics Manager** | Lead teams, define analytics strategy | ₹20-50 LPA | All of above + Leadership |
-| **CDO / VP Analytics** | Drive data strategy at executive level | ₹1-5 Cr | Strategy, Leadership, Vision |
+| **Data Analyst** | Collect, clean, analyze, visualize data | 4-12 LPA | Python, SQL, Excel, Tableau |
+| **Business Analyst** | Bridge business needs with data solutions | 5-15 LPA | SQL, Excel, Domain knowledge |
+| **Data Scientist** | Build ML models and advanced analytics | 8-25 LPA | Python, ML, Statistics, Cloud |
+| **ML Engineer** | Deploy and optimize ML models in production | 10-30 LPA | Python, Data Engineering, MLOps |
+| **Data Engineer** | Build data pipelines and infrastructure | 8-25 LPA | Python, SQL, Spark, Cloud |
+| **BI Developer** | Create dashboards and reporting systems | 5-18 LPA | Tableau, Power BI, SQL |
+| **Analytics Manager** | Lead teams, define analytics strategy | 20-50 LPA | All of above + Leadership |
+| **CDO / VP Analytics** | Drive data strategy at executive level | 1-5 Cr | Strategy, Leadership, Vision |
 
 ---
 
-### ️ Skills Required by Role
+###  Skills Required by Role
 
 #### For Data Analyst (Your Starting Point!)
 
 ```
 Technical Skills:
-├── Programming: Python (Pandas, NumPy, Matplotlib)
-├── Databases: SQL (SELECT, JOIN, GROUP BY, window functions)
-├── Visualization: Tableau, Power BI, or Matplotlib/Seaborn
-├── Spreadsheets: Advanced Excel (PivotTables, VLOOKUP, Power Query)
-└── Statistics: Mean, Median, Correlation, Hypothesis Testing
+ Programming: Python (Pandas, NumPy, Matplotlib)
+ Databases: SQL (SELECT, JOIN, GROUP BY, window functions)
+ Visualization: Tableau, Power BI, or Matplotlib/Seaborn
+ Spreadsheets: Advanced Excel (PivotTables, VLOOKUP, Power Query)
+ Statistics: Mean, Median, Correlation, Hypothesis Testing
 
 Soft Skills:
-├── Problem solving
-├── Communication (presenting data stories)
-├── Business understanding
-└── Attention to detail
+ Problem solving
+ Communication (presenting data stories)
+ Business understanding
+ Attention to detail
 ```
 
 #### For Data Scientist (Next Level)
 ```
 All Data Analyst skills +
-├── Machine Learning: Scikit-learn, TensorFlow, PyTorch
-├── Statistics: Regression, Classification, Clustering, Bayesian methods
-├── Big Data: Spark, Hadoop basics
-├── Cloud: AWS/GCP/Azure
-└── Research skills
+ Machine Learning: Scikit-learn, TensorFlow, PyTorch
+ Statistics: Regression, Classification, Clustering, Bayesian methods
+ Big Data: Spark, Hadoop basics
+ Cloud: AWS/GCP/Azure
+ Research skills
 ```
 
 ---
@@ -164,7 +164,7 @@ All Data Analyst skills +
 
 ###  Future Trends to Watch
 
-1. **Generative AI + Analytics:** ChatGPT/Gemini can now write SQL and Python analysis code — analysts who *understand* data deeply will be more valuable
+1. **Generative AI + Analytics:** ChatGPT/Gemini can now write SQL and Python analysis code  analysts who *understand* data deeply will be more valuable
 2. **Real-time Analytics:** Stream processing (Kafka, Spark Streaming) growing rapidly
 3. **Data Democratization:** Tools like Looker Studio make analytics accessible to non-coders
 4. **Analytics Engineering:** dbt + SQL becoming the standard for data transformation
@@ -172,13 +172,13 @@ All Data Analyst skills +
 
 ---
 
-## ✅ Key Takeaways
+##  Key Takeaways
 
 1. Data analytics is used across **every single industry** today
 2. The **Data Analyst** role is your best entry point
 3. Python + SQL are the **non-negotiable core skills**
 4. Domain knowledge (finance, healthcare, etc.) multiplies your value
-5. The field is growing rapidly — **2026 has 11 million+ data jobs globally**
+5. The field is growing rapidly  **2026 has 11 million+ data jobs globally**
 
 ---
 

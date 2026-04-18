@@ -1,4 +1,4 @@
-#  Python Libraries Used in Day 1 — Data Analytics Complete
+#  Python Libraries Used in Day 1  Data Analytics Complete
 
 > A quick-reference guide to every library used across Day 1 sessions, their purpose, and the key functions you'll use most.
 
@@ -12,7 +12,7 @@
 
 | Function / Feature | What it Does | Day 1 Usage |
 |-------------------|-------------|-------------|
-| `np.array()` | Create an array from a list | Store sales matrix (stores × months) |
+| `np.array()` | Create an array from a list | Store sales matrix (stores  months) |
 | `np.zeros()` / `np.ones()` | Create arrays filled with 0s or 1s | Initialize blank grids |
 | `np.arange(start, stop, step)` | Create evenly-spaced range of numbers | Generate month indices |
 | `np.linspace(start, stop, n)` | Create `n` evenly-spaced points | Axes/interpolation |
@@ -20,17 +20,17 @@
 | `np.random.randint()` | Generate random integers | Quantity, age columns |
 | `np.random.choice()` | Randomly pick from a list | Sampling categories, stores |
 | `np.random.seed()` | Fix random state for reproducibility | All labs use `np.random.seed(42)` |
-| `arr.shape` | Get dimensions of array | `(4, 12)` = 4 stores × 12 months |
+| `arr.shape` | Get dimensions of array | `(4, 12)` = 4 stores  12 months |
 | `arr.dtype` | Get data type of elements | `float64`, `int64` |
 | `arr.sum(axis=1)` | Sum along rows (per store) or columns (per month) | Annual totals per store |
 | `arr.mean(axis=0)` | Average down each column (per month) | Monthly average across stores |
 | `arr.max()` / `arr.min()` | Highest / lowest value | Peak sales month |
 | `arr.argmax()` / `arr.argmin()` | Index of max / min value | Which month was best? |
 | `arr.std()` | Standard deviation | Variability in sales |
-| `arr.reshape(r, c)` | Change shape without changing data | (12,) → (4, 3) for quarters |
+| `arr.reshape(r, c)` | Change shape without changing data | (12,)  (4, 3) for quarters |
 | `arr.flatten()` | Collapse to 1D | Reverse of reshape |
-| `arr.T` | Transpose (rows ↔ columns) | Stores ↔ months |
-| `np.where(cond, a, b)` | Conditional value assignment | `is_member → True/False` flag |
+| `arr.T` | Transpose (rows  columns) | Stores  months |
+| `np.where(cond, a, b)` | Conditional value assignment | `is_member  True/False` flag |
 | `np.select(conds, labels)` | Multiple-condition assignment | Seniority levels |
 | `np.concatenate()` | Join arrays end-to-end | Combine Q1 + Q2 sales |
 | `np.vstack()` / `np.hstack()` | Stack vertically / horizontally | Add new store row |
@@ -94,7 +94,7 @@
 | `df.isnull().sum()` | Count missing values per column |
 | `df.dropna()` | Drop rows/cols with missing values |
 | `df.fillna(value)` | Fill missing values with a constant |
-| `df['col'].fillna(method='ffill')` | Forward fill — use previous value |
+| `df['col'].fillna(method='ffill')` | Forward fill  use previous value |
 | `df['col'].interpolate()` | Estimate missing values between known points |
 | `df.drop_duplicates()` | Remove duplicate rows |
 | `df.duplicated()` | Returns True for duplicate rows |
@@ -114,7 +114,7 @@
 | `df['col'].str.title()` | Convert to Title Case |
 | `df['col'].str.lower()` | Convert to lowercase |
 | `df['col'].str.replace()` | Find and replace in text |
-| `df['col'].map({...})` | Value mapping (e.g. `Yes → True`) |
+| `df['col'].map({...})` | Value mapping (e.g. `Yes  True`) |
 | `df['col'].apply(func)` | Apply a custom function element-wise |
 | `pd.cut()` | Bin continuous data into labeled categories |
 | `pd.qcut()` | Bin by quantile (equal-frequency bins) |
@@ -160,14 +160,14 @@
 | `plt.pie(values, labels=...)` | Pie / donut chart | Proportions |
 | `plt.axvline(x)` | Vertical reference line | Mark mean, median |
 | `plt.axhline(y)` | Horizontal reference line | Mark a target |
-| `plt.title('...')` | Add chart title | — |
-| `plt.xlabel('...')` | X-axis label | — |
-| `plt.ylabel('...')` | Y-axis label | — |
+| `plt.title('...')` | Add chart title |  |
+| `plt.xlabel('...')` | X-axis label |  |
+| `plt.ylabel('...')` | Y-axis label |  |
 | `plt.legend()` | Show legend | Multiple series |
 | `plt.grid(alpha=0.3)` | Show grid lines | Readability |
 | `plt.tight_layout()` | Auto-fix overlapping elements | Before saving |
 | `plt.savefig('file.png', dpi=100)` | Save chart to file | Always save in VS Code |
-| `plt.show()` | Display chart | — |
+| `plt.show()` | Display chart |  |
 | `plt.subplots(rows, cols)` | Create multi-panel figure | Dashboards |
 | `gridspec.GridSpec()` | Precise subplot layout | Complex dashboards |
 
@@ -210,9 +210,9 @@
 
 ---
 
-## 6. ️ SQLite3 (`sqlite3`)
+## 6.  SQLite3 (`sqlite3`)
 
-**What it is:** Python's built-in module for working with SQLite databases — no server needed.
+**What it is:** Python's built-in module for working with SQLite databases  no server needed.
 
 **Install:** Built-in (no install needed)
 
@@ -239,12 +239,12 @@
 | `MinMaxScaler()` | Scale values to range [0, 1] | Normalization of salary, age |
 | `StandardScaler()` | Scale to mean=0, std=1 | Standardization for ML models |
 | `KNNImputer(n_neighbors=k)` | Fill missing values using K nearest neighbors | Advanced missing value imputation |
-| `scaler.fit_transform(df)` | Fit scaler and transform in one step | — |
+| `scaler.fit_transform(df)` | Fit scaler and transform in one step |  |
 | `LinearRegression()` | Train a simple linear regression model | Predictive analytics demo |
 
 ---
 
-## 8. ️ Pathlib (`pathlib`)
+## 8.  Pathlib (`pathlib`)
 
 **What it is:** Python's built-in module for file system path handling. Cleaner than `os.path`.
 
@@ -258,7 +258,7 @@
 
 ---
 
-## ️ Which Library for Which Task?
+##  Which Library for Which Task?
 
 | Task | Use This |
 |------|----------|
@@ -287,4 +287,4 @@ Or for Jupyter / Google Colab (run inside a cell):
 
 ---
 
-*Part of the Data Analytics Complete Course — Day 1*
+*Part of the Data Analytics Complete Course  Day 1*

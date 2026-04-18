@@ -15,13 +15,13 @@ In Exploratory Data Analysis (EDA), our brains process visual information much f
 
 ---
 
-## ⚖️ Python's Visualization Tools
+##  Python's Visualization Tools
 
 In the Data Analytics ecosystem, two libraries reign supreme:
 
 ### 1. Matplotlib (`plt`)
 - The granddaddy of Python visualization
-- Highly customizable — you can tweak every single pixel
+- Highly customizable  you can tweak every single pixel
 - Can be wordy and complex to write for simple tasks
 
 ### 2. Seaborn (`sns`)
@@ -115,7 +115,7 @@ plt.show()
 
 ---
 
-## ✅ Key Takeaways
+##  Key Takeaways
 
 1. **Understand your question first.** Don't just make a chart because you can; make a chart to answer a specific question.
 2. **Histograms/Boxplots** for understanding a single column.
@@ -134,4 +134,4 @@ plt.show()
 
 ---
 
-*Next Topic → [Advanced Visualizations](./05_Advanced_Visualizations.md)*
+*Next Topic  [Advanced Visualizations](./05_Advanced_Visualizations.md)*

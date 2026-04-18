@@ -32,7 +32,7 @@ sns.heatmap(
     linewidths=0.5,    # Grid lines between cells
     square=True        # Make cells square
 )
-plt.title("Correlation Heatmap — Student Data", fontsize=13, fontweight="bold")
+plt.title("Correlation Heatmap  Student Data", fontsize=13, fontweight="bold")
 plt.tight_layout()
 plt.show()
 ```
@@ -80,7 +80,7 @@ plt.show()
 
 ### 2. KDE Plot (Kernel Density Estimate)
 
-Like a smooth histogram — shows the **shape of distribution**.
+Like a smooth histogram  shows the **shape of distribution**.
 
 ```python
 plt.figure(figsize=(8, 4))
@@ -150,7 +150,7 @@ sns.stripplot(data=df, x="city", y="marks", palette="Set1",
               ax=axes[0])
 axes[0].set_title("Strip Plot: Every Student Shown", fontweight="bold")
 
-# Swarm plot (no overlap — auto-adjusts)
+# Swarm plot (no overlap  auto-adjusts)
 sns.swarmplot(data=df, x="city", y="marks", palette="Set2",
               size=10, edgecolor="black", linewidth=1,
               ax=axes[1])
@@ -160,7 +160,7 @@ plt.tight_layout()
 plt.show()
 ```
 
->  For small datasets (< 50 rows), **always show the actual data points** — it's more honest than just showing averages!
+>  For small datasets (< 50 rows), **always show the actual data points**  it's more honest than just showing averages!
 
 ---
 
@@ -190,14 +190,14 @@ plt.show()
 
 ---
 
-## ✅ Key Takeaways
+##  Key Takeaways
 
-1. **Heatmaps** are perfect for correlation matrices — always use `vmin=-1, vmax=1`
-2. **KDE** shows a smooth distribution curve — great for comparing groups
+1. **Heatmaps** are perfect for correlation matrices  always use `vmin=-1, vmax=1`
+2. **KDE** shows a smooth distribution curve  great for comparing groups
 3. **Violin plots** = boxplot + distribution shape in one chart
 4. **Strip/Swarm** = best for small datasets where every point matters
 5. For **small datasets like ours (10 students)**, always show the raw data points!
 
 ---
 
-*Next Topic → [Interactive Visual Insights](./03_Interactive_Visual_Insights.md)*
+*Next Topic  [Interactive Visual Insights](./03_Interactive_Visual_Insights.md)*

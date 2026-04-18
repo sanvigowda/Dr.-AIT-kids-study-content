@@ -30,4 +30,4 @@ Imagine Store A has high **Revenue** but low **AOV**.
 ##  Quick Check Questions
 
 1. Why is AOV sometimes more important than Total Revenue?
-2. If total revenue is ₹1,00,000 and there were 500 orders, what is the AOV?
+2. If total revenue is 1,00,000 and there were 500 orders, what is the AOV?

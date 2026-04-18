@@ -1,6 +1,6 @@
 #  Data Analytics Lifecycle
 
-> **Learning Goal:** Understand the end-to-end process of a data analytics project — from raw data to actionable business decisions.
+> **Learning Goal:** Understand the end-to-end process of a data analytics project  from raw data to actionable business decisions.
 
 ---
 
@@ -14,13 +14,13 @@ Think of it like building a house:
 
 ---
 
-## ️ The 6 Stages of the Data Analytics Lifecycle
+##  The 6 Stages of the Data Analytics Lifecycle
 
 ```
-┌─────────────────────────────────────────────────────────────────────┐
-│  1. Problem Definition → 2. Data Collection → 3. Data Cleaning     │
-│  → 4. Exploratory Analysis → 5. Modeling/Analysis → 6. Insights    │
-└─────────────────────────────────────────────────────────────────────┘
+
+  1. Problem Definition  2. Data Collection  3. Data Cleaning     
+   4. Exploratory Analysis  5. Modeling/Analysis  6. Insights    
+
 ```
 
 ---
@@ -59,7 +59,7 @@ Think of it like building a house:
 |------------|---------|--------|
 | Internal Databases | CRM, ERP systems | SQL, CSV |
 | External APIs | Weather API, Twitter API | JSON, XML |
-| Web Scraping | Competitor prices | HTML → CSV |
+| Web Scraping | Competitor prices | HTML  CSV |
 | Surveys | Customer feedback | CSV, Excel |
 | IoT Devices | Smart shelf sensors | Real-time streams |
 
@@ -94,9 +94,9 @@ Think of it like building a house:
 
 **Real-Life Example:**
 > The analyst creates:
-> - A bar chart of sales by category → Beverages dropped 30%
-> - A heatmap of sales by region × month → South region is worst hit
-> - A histogram of transaction values → Most purchases are under ₹500
+> - A bar chart of sales by category  Beverages dropped 30%
+> - A heatmap of sales by region  month  South region is worst hit
+> - A histogram of transaction values  Most purchases are under 500
 
 **Tools Used:** Pandas, Matplotlib, Seaborn, Plotly
 
@@ -110,16 +110,16 @@ Think of it like building a house:
 
 **Real-Life Example:**
 > The analyst finds that beverage sales drop when:
-> - Temperature drops below 15°C (seasonal effect)
+> - Temperature drops below 15C (seasonal effect)
 > - The store runs out of stock on weekends (inventory problem)
 >
 > They build a **forecasting model** to predict stock requirements.
 
 **Types of Analysis:**
-- Descriptive → What happened?
-- Diagnostic → Why did it happen?
-- Predictive → What will happen?
-- Prescriptive → What should we do?
+- Descriptive  What happened?
+- Diagnostic  Why did it happen?
+- Predictive  What will happen?
+- Prescriptive  What should we do?
 
 **Output:** Statistical insights or a trained model
 
@@ -149,17 +149,17 @@ Think of it like building a house:
 
 ```
 Problem Definition
-       ↓
-Data Collection ←─────────────────────────────────┐
-       ↓                                           │
-Data Cleaning ←──────────────────────────────┐    │
-       ↓                                     │    │
-EDA → "Wait, we need more data!" ────────────┼────┘
-       ↓                                     │
-Analysis → "Data is dirty again!" ───────────┘
-       ↓
-Insights → "Stakeholders want a different question!"
-       ↓
+       
+Data Collection 
+                                                  
+Data Cleaning     
+                                                
+EDA  "Wait, we need more data!" 
+                                            
+Analysis  "Data is dirty again!" 
+       
+Insights  "Stakeholders want a different question!"
+       
 Back to Problem Definition
 ```
 
@@ -180,7 +180,7 @@ Back to Problem Definition
 
 ---
 
-## ✅ Key Takeaways
+##  Key Takeaways
 
 1. The lifecycle provides **structure** to complex data problems
 2. Always start with a **clear business question**
@@ -199,4 +199,4 @@ Back to Problem Definition
 
 ---
 
-*Next Topic → [Types of Analytics](./02_Types_of_Analytics.md)*
+*Next Topic  [Types of Analytics](./02_Types_of_Analytics.md)*

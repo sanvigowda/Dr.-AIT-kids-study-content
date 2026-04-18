@@ -1,6 +1,6 @@
 #  Introduction to NumPy
 
-> **Learning Goal:** Understand NumPy arrays and core operations — the foundation for all data science in Python.
+> **Learning Goal:** Understand NumPy arrays and core operations  the foundation for all data science in Python.
 
 ---
 
@@ -9,12 +9,12 @@
 Before NumPy, Python lists handled data. But Python lists are **slow** for large datasets.
 
 ```python
-# Python list — slow for large data
+# Python list  slow for large data
 prices = [100, 200, 150, 300, 250]
 # To add 10% tax: you need a loop
 tax_prices = [p * 1.1 for p in prices]  # Loop required
 
-# NumPy array — fast for large data
+# NumPy array  fast for large data
 import numpy as np
 prices = np.array([100, 200, 150, 300, 250])
 tax_prices = prices * 1.1  # No loop needed! Works on entire array
@@ -25,7 +25,7 @@ tax_prices = prices * 1.1  # No loop needed! Works on entire array
 
 ---
 
-## ️ Creating NumPy Arrays
+##  Creating NumPy Arrays
 
 ```python
 import numpy as np
@@ -71,7 +71,7 @@ print("Last 3 months:", monthly_sales[-3:])    # [2800, 3100, 3500]
 print("Q1 (months 1-3):", monthly_sales[0:3]) # [1200, 1500, 1100]
 print("Q2 (months 4-6):", monthly_sales[3:6]) # [1800, 2100, 1950]
 
-# 2D array indexing — e.g., store sales matrix (stores × months)
+# 2D array indexing  e.g., store sales matrix (stores  months)
 store_sales = np.array([
     [1200, 1500, 1800, 2000],  # Store A: Jan, Feb, Mar, Apr
     [800,  1100, 1300, 1600],  # Store B
@@ -83,7 +83,7 @@ print("All stores, January:", store_sales[:, 0])  # [1200, 800, 1500]
 print("Store A all months:", store_sales[0, :])   # [1200, 1500, 1800, 2000]
 print("Top-right 2x2 block:", store_sales[:2, 2:])  # [[1800, 2000], [1300, 1600]]
 
-# Boolean indexing — very powerful
+# Boolean indexing  very powerful
 high_sales = monthly_sales[monthly_sales > 2000]
 print("\nMonths with sales > 2000:", high_sales)
 
@@ -94,7 +94,7 @@ print("Month numbers with sales > 2000:", high_months)
 
 ---
 
-## ⚡ NumPy Mathematical Operations
+##  NumPy Mathematical Operations
 
 ```python
 import numpy as np
@@ -111,16 +111,16 @@ print("10% bonded return:", stock_a * 1.10)
 
 # Statistical operations
 print("\n--- Statistics for Stock A ---")
-print(f"Mean price: ₹{stock_a.mean():.2f}")
-print(f"Max price: ₹{stock_a.max():.2f}")
-print(f"Min price: ₹{stock_a.min():.2f}")
-print(f"Standard Deviation: ₹{stock_a.std():.2f}")
+print(f"Mean price: {stock_a.mean():.2f}")
+print(f"Max price: {stock_a.max():.2f}")
+print(f"Min price: {stock_a.min():.2f}")
+print(f"Standard Deviation: {stock_a.std():.2f}")
 print(f"Total return: {((stock_a[-1] - stock_a[0]) / stock_a[0]) * 100:.2f}%")
 ```
 
 ---
 
-##  Array Reshaping — Critical for Data Science
+##  Array Reshaping  Critical for Data Science
 
 ```python
 import numpy as np
@@ -129,7 +129,7 @@ import numpy as np
 sensor_data = np.arange(1, 25)  # 24 readings
 print("Original shape:", sensor_data.shape)  # (24,)
 
-# Reshape to 6 time periods × 4 sensors
+# Reshape to 6 time periods  4 sensors
 reshaped = sensor_data.reshape(6, 4)
 print("Reshaped to 6x4:")
 print(reshaped)
@@ -139,12 +139,12 @@ flat = reshaped.flatten()
 print("Flattened back:", flat[:5], "...")
 
 # Transpose (rows become columns)
-transposed = reshaped.T  # Now 4 sensors × 6 time periods
+transposed = reshaped.T  # Now 4 sensors  6 time periods
 print("Transposed shape:", transposed.shape)  # (4, 6)
 
 # Add a dimension (needed for ML models)
 arr_2d = np.array([[1, 2, 3], [4, 5, 6]])
-arr_3d = arr_2d[:, :, np.newaxis]  # (2, 3) → (2, 3, 1)
+arr_3d = arr_2d[:, :, np.newaxis]  # (2, 3)  (2, 3, 1)
 print("Extended shape:", arr_3d.shape)
 ```
 
@@ -178,13 +178,13 @@ monthly_cost = np.array([[80, 150, 250],    # Store A costs
                           [100, 130, 180],  # Store B costs
                           [90, 120, 170]])  # Store C costs
 
-combined = np.hstack([all_stores, monthly_cost])  # 3×6
+combined = np.hstack([all_stores, monthly_cost])  # 36
 print("Sales + Cost combined shape:", combined.shape)
 ```
 
 ---
 
-## ⚡ Real-World Example: Student Grade Analysis
+##  Real-World Example: Student Grade Analysis
 
 ```python
 import numpy as np
@@ -225,10 +225,10 @@ print([students[i] for i in np.where(failed_mask)[0]])
 
 ---
 
-## ✅ Key Takeaways
+##  Key Takeaways
 
 1. NumPy arrays are **faster** and more memory-efficient than Python lists
-2. Arrays support **vectorized operations** — no loops needed
+2. Arrays support **vectorized operations**  no loops needed
 3. **shape** tells you the dimensions of your array
 4. **axis=0** operates down rows (per column), **axis=1** operates across columns (per row)
 5. Boolean indexing is **powerful for filtering**

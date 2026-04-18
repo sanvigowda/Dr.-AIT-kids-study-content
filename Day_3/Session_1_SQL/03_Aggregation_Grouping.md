@@ -4,7 +4,7 @@
 
 ---
 
-## 1️⃣ Aggregate Functions
+## 1 Aggregate Functions
 
 | Function | Description | Example |
 |----------|-------------|---------|
@@ -16,7 +16,7 @@
 
 ---
 
-## 2️⃣ GROUP BY: The SQL Powerhouse
+## 2 GROUP BY: The SQL Powerhouse
 
 `GROUP BY` allows you to group rows that have the same values in specified columns.
 
@@ -30,7 +30,7 @@ ORDER BY store_revenue DESC;
 
 ---
 
-## 3️⃣ HAVING: Filtering Groups
+## 3 HAVING: Filtering Groups
 
 `WHERE` filters rows *before* grouping. `HAVING` filters groups *after* aggregation.
 

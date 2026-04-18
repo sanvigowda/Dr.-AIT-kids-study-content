@@ -10,7 +10,7 @@ Install dependencies:
 Dataset: Country-level Happiness & Economic Data (World Happiness Report inspired)
 """
 
-# ── Imports ──────────────────────────────────────────────────────────────────
+#  Imports 
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -19,7 +19,7 @@ import seaborn as sns
 pd.set_option('display.max_columns', None)
 pd.set_option('display.float_format', '{:.2f}'.format)
 
-# ── 1. CREATE DATASET ─────────────────────────────────────────────────────────
+#  1. CREATE DATASET 
 print("=" * 60)
 print("DAY 1 | SESSION 1 LAB: Dataset Exploration")
 print("=" * 60)
@@ -58,33 +58,33 @@ data = {
 }
 
 df = pd.DataFrame(data)
-print(f"\n✅ Dataset loaded: {df.shape[0]} countries × {df.shape[1]} variables")
+print(f"\n Dataset loaded: {df.shape[0]} countries  {df.shape[1]} variables")
 
-# ── 2. EXPLORE THE DATA ──────────────────────────────────────────────────────
-print("\n" + "─" * 40)
+#  2. EXPLORE THE DATA 
+print("\n" + "" * 40)
 print("FIRST 5 ROWS:")
-print("─" * 40)
+print("" * 40)
 print(df.head().to_string())
 
-print("\n" + "─" * 40)
+print("\n" + "" * 40)
 print("DATA TYPES:")
-print("─" * 40)
+print("" * 40)
 print(df.dtypes)
 
-print("\n" + "─" * 40)
+print("\n" + "" * 40)
 print("DESCRIPTIVE STATISTICS:")
-print("─" * 40)
+print("" * 40)
 print(df.describe().round(2).to_string())
 
-print("\n" + "─" * 40)
+print("\n" + "" * 40)
 print("REGION DISTRIBUTION:")
-print("─" * 40)
+print("" * 40)
 print(df['region'].value_counts())
 
-# ── 3. DESCRIPTIVE ANALYTICS ─────────────────────────────────────────────────
-print("\n" + "─" * 40)
+#  3. DESCRIPTIVE ANALYTICS 
+print("\n" + "" * 40)
 print("HAPPINESS BY REGION:")
-print("─" * 40)
+print("" * 40)
 regional_stats = df.groupby('region').agg(
     avg_happiness=('happiness_score', 'mean'),
     avg_gdp=('gdp_per_capita', 'mean'),
@@ -92,17 +92,17 @@ regional_stats = df.groupby('region').agg(
 ).round(2).sort_values('avg_happiness', ascending=False)
 print(regional_stats.to_string())
 
-# ── 4. DIAGNOSTIC ANALYTICS: Correlation ─────────────────────────────────────
-print("\n" + "─" * 40)
+#  4. DIAGNOSTIC ANALYTICS: Correlation 
+print("\n" + "" * 40)
 print("CORRELATION WITH HAPPINESS SCORE:")
-print("─" * 40)
+print("" * 40)
 numeric_cols = ['gdp_per_capita', 'social_support', 'life_expectancy']
 correlations = df[numeric_cols + ['happiness_score']].corr()['happiness_score'].drop('happiness_score')
 for factor, corr in correlations.items():
     direction = " Positive" if corr > 0 else " Negative"
     print(f"  {factor:30s}: {corr:+.3f}  {direction}")
 
-# ── 5. VISUALIZATION ─────────────────────────────────────────────────────────
+#  5. VISUALIZATION 
 fig, axes = plt.subplots(1, 2, figsize=(14, 6))
 
 # Plot 1: Happiness by Region (bar chart)
@@ -135,7 +135,7 @@ plt.savefig('session1_lab_output.png', dpi=100, bbox_inches='tight')
 plt.show()
 print("\n Chart saved as 'session1_lab_output.png'")
 
-# ── 6. KEY FINDINGS ──────────────────────────────────────────────────────────
+#  6. KEY FINDINGS 
 print("\n" + "=" * 60)
 print("KEY FINDINGS:")
 print("=" * 60)
@@ -145,4 +145,4 @@ print(f"   Happiest: {happiest['country']} (Score: {happiest['happiness_score']}
 print(f"   Unhappiest: {unhappiest['country']} (Score: {unhappiest['happiness_score']})")
 print(f"   Global average: {df['happiness_score'].mean():.2f}")
 print(f"   GDP correlation: {correlations['gdp_per_capita']:+.3f}")
-print("\n✅ Lab complete! Explore the exercises in the Colab notebook.")
+print("\n Lab complete! Explore the exercises in the Colab notebook.")

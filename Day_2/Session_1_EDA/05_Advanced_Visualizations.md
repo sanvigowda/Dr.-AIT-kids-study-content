@@ -113,7 +113,7 @@ plt.savefig("my_amazing_dashboard.png", dpi=300, bbox_inches="tight")
 
 ---
 
-## ✅ Key Takeaways
+##  Key Takeaways
 
 1. Use a **Heatmap** to visualize a correlation matrix instantly.
 2. Use a **Pairplot** to generate scatterplots for every combination of numerical columns.

@@ -4,7 +4,7 @@
 
 ---
 
-## 1️⃣ Behavioral Segmentation
+## 1 Behavioral Segmentation
 
 Dividing customers based on their actions.
 - **Member vs. Non-Member**: Premium members usually have higher AOV.
@@ -12,7 +12,7 @@ Dividing customers based on their actions.
 
 ---
 
-## 2️⃣ RFM Analysis
+## 2 RFM Analysis
 
 - **Recency**: How recently did they buy?
 - **Frequency**: How often do they buy?

@@ -1,6 +1,6 @@
-#  Data Sources — CSV, APIs, and Databases
+#  Data Sources  CSV, APIs, and Databases
 
-> **Learning Goal:** Learn how to collect data from the three most common sources: CSV files, APIs, and databases — with hands-on Python examples.
+> **Learning Goal:** Learn how to collect data from the three most common sources: CSV files, APIs, and databases  with hands-on Python examples.
 
 ---
 
@@ -10,16 +10,16 @@ In the real world, data lives in many places. As a data analyst, you need to kno
 
 ```
 Data Sources
-├── Files → CSV, Excel, JSON, XML, Parquet
-├── APIs → REST APIs (weather, finance, social media)
-├── Databases → SQL (MySQL, PostgreSQL), NoSQL (MongoDB)
-├── Web Scraping → HTML, tables from websites
-└── Streaming → IoT sensors, real-time feeds
+ Files  CSV, Excel, JSON, XML, Parquet
+ APIs  REST APIs (weather, finance, social media)
+ Databases  SQL (MySQL, PostgreSQL), NoSQL (MongoDB)
+ Web Scraping  HTML, tables from websites
+ Streaming  IoT sensors, real-time feeds
 ```
 
 ---
 
-## 1️⃣ CSV Files — The Most Common Starting Point
+## 1 CSV Files  The Most Common Starting Point
 
 ### What is CSV?
 **CSV (Comma-Separated Values)** is a plain text format where each row is a record and fields are separated by commas.
@@ -32,7 +32,7 @@ student_id,name,score,grade
 ```
 
 ### Real-Life Example
-> Government portals in India (data.gov.in) publish datasets as CSV files — population census, crop production statistics, highway traffic data.
+> Government portals in India (data.gov.in) publish datasets as CSV files  population census, crop production statistics, highway traffic data.
 
 ### Reading CSV with Pandas
 
@@ -90,16 +90,16 @@ df.to_parquet('output.parquet')
 
 ---
 
-## 2️⃣ APIs — Getting Live Data
+## 2 APIs  Getting Live Data
 
 ### What is an API?
 An **API (Application Programming Interface)** is a way for programs to talk to each other. A **REST API** lets you request data over the internet using HTTP.
 
 Think of it like ordering at a restaurant:
-- You (the analyst) → are the customer
-- The menu (API docs) → tells you what you can order
-- The API endpoint → is the kitchen that prepares your request
-- The response (JSON) → is the food delivered to you
+- You (the analyst)  are the customer
+- The menu (API docs)  tells you what you can order
+- The API endpoint  is the kitchen that prepares your request
+- The response (JSON)  is the food delivered to you
 
 ### Real-Life Example
 > **OpenWeatherMap API** lets you get real-time weather for any city. A delivery company uses this to predict whether bad weather will delay deliveries.
@@ -123,7 +123,7 @@ response = requests.get(url)
 if response.status_code == 200:
     data = response.json()
     print(f"City: {data['name']}")
-    print(f"Temperature: {data['main']['temp']}°C")
+    print(f"Temperature: {data['main']['temp']}C")
     print(f"Weather: {data['weather'][0]['description']}")
     print(f"Humidity: {data['main']['humidity']}%")
 else:
@@ -161,7 +161,7 @@ print(rates_df)
 | REST Countries | Country information | restcountries.com |
 | NASA | Space data and images | api.nasa.gov |
 
-### Pagination — When Data Is in Pages
+### Pagination  When Data Is in Pages
 
 ```python
 import requests
@@ -187,7 +187,7 @@ print(f"Total posts collected: {len(df)}")
 
 ---
 
-## 3️⃣ Databases — Structured Data at Scale
+## 3 Databases  Structured Data at Scale
 
 ### What is a Database?
 A **database** stores structured data in organized tables that can be queried efficiently. Unlike CSV files, databases handle millions of records efficiently.
@@ -290,11 +290,11 @@ print(f"Combined dataset shape: {full_df.shape}")
 
 ---
 
-## ✅ Key Takeaways
+##  Key Takeaways
 
-1. **CSV files** are the easiest starting point — use `pd.read_csv()`
-2. **APIs** give you live, real-time data — always check `response.status_code == 200`
-3. **Databases** handle large, structured data — use `pd.read_sql_query()` to bring data into Pandas
+1. **CSV files** are the easiest starting point  use `pd.read_csv()`
+2. **APIs** give you live, real-time data  always check `response.status_code == 200`
+3. **Databases** handle large, structured data  use `pd.read_sql_query()` to bring data into Pandas
 4. Real projects often combine **multiple sources**
 5. Always check **data types** and **shape** after loading
 

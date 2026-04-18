@@ -1,5 +1,5 @@
 """
-SuperMart Sales Intelligence — Data Generator
+SuperMart Sales Intelligence  Data Generator
 =============================================
 Run this script FIRST to generate the synthetic dataset.
 Usage: python 00_generate_data.py
@@ -62,7 +62,7 @@ data = {
 
 df = pd.DataFrame(data)
 
-# ── Introduce intentional data quality issues ────────────────────────────────
+#  Introduce intentional data quality issues 
 # Issue 1: Duplicate some rows
 dup_indices = np.random.choice(n, 12, replace=False)
 df_with_dups = pd.concat([df, df.iloc[dup_indices]], ignore_index=True)
@@ -94,7 +94,7 @@ df_with_dups.loc[inconsistent_idx[12:], 'product'] = df_with_dups.loc[inconsiste
 Path('data').mkdir(exist_ok=True)
 df_with_dups.to_csv('data/supermart_raw.csv', index=False)
 
-print(f"✅ Dataset generated: {len(df_with_dups)} rows × {len(df_with_dups.columns)} columns")
+print(f" Dataset generated: {len(df_with_dups)} rows  {len(df_with_dups.columns)} columns")
 print(f"   Saved to: data/supermart_raw.csv")
 print(f"\n   Data quality issues introduced:")
 print(f"   - {12} duplicate rows")

@@ -1,6 +1,6 @@
 #  Pandas & DataFrame Operations
 
-> **Learning Goal:** Master the Pandas library — the most important tool for data analysis in Python.
+> **Learning Goal:** Master the Pandas library  the most important tool for data analysis in Python.
 
 ---
 
@@ -19,21 +19,21 @@ This will help you master the fundamentals and prepare you for real-world data c
 ##  What is Pandas?
 
 **Pandas** is a Python library that provides two primary data structures:
-- **Series** → 1D labeled array (like a single column)
-- **DataFrame** → 2D labeled table (like an Excel spreadsheet or SQL table)
+- **Series**  1D labeled array (like a single column)
+- **DataFrame**  2D labeled table (like an Excel spreadsheet or SQL table)
 
 **Real-World Analogy:**
 > Think of a DataFrame as an Excel spreadsheet that you can program with Python to automatically process millions of rows in seconds.
 
 ---
 
-## ️ Creating DataFrames
+##  Creating DataFrames
 
 ```python
 import pandas as pd
 import numpy as np
 
-# ─── Method 1: From a dictionary ─────────────────────────────────────────
+#  Method 1: From a dictionary 
 employee_data = {
     'emp_id':     [101, 102, 103, 104, 105],
     'name':       ['Priya', 'Rahul', 'Aisha', 'Karan', 'Meera'],
@@ -47,10 +47,10 @@ df = pd.DataFrame(employee_data)
 print(df)
 print("\nShape:", df.shape)  # (5, 6)
 
-# ─── Method 2: From CSV ────────────────────────────────────────────────
+#  Method 2: From CSV 
 # df = pd.read_csv('employees.csv')
 
-# ─── Method 3: From URL ────────────────────────────────────────────────
+#  Method 3: From URL 
 # df = pd.read_csv('https://example.com/data.csv')
 ```
 
@@ -82,30 +82,30 @@ print(df['department'].value_counts())  # Frequency of each category
 ##  Selecting Data: Columns and Rows
 
 ```python
-# ─── Select Columns ────────────────────────────────────────────────────
-# Single column → returns a Series
+#  Select Columns 
+# Single column  returns a Series
 names = df['name']
 print(type(names))  # pandas.core.series.Series
 
-# Multiple columns → returns a DataFrame
+# Multiple columns  returns a DataFrame
 subset = df[['name', 'salary', 'department']]
 print(type(subset))  # pandas.core.frame.DataFrame
 
-# ─── Select Rows by Position (iloc) ───────────────────────────────────
+#  Select Rows by Position (iloc) 
 # iloc = integer location
 first_row = df.iloc[0]        # First row
 last_two = df.iloc[-2:]       # Last 2 rows
 block = df.iloc[1:4, 0:3]     # Rows 1-3, Columns 0-2
 scalar = df.iloc[2, 3]        # Row 2, Column 3 (value: 92000)
 
-# ─── Select Rows by Label (loc) ───────────────────────────────────────
+#  Select Rows by Label (loc) 
 # loc = label-based location (uses index values and column names)
 df.set_index('emp_id', inplace=True)  # Set emp_id as index
 emp_102 = df.loc[102]                  # Get employee 102
 emp_subset = df.loc[[101, 103], ['name', 'salary']]  # Specific rows and columns
 df.reset_index(inplace=True)          # Reset to default integer index
 
-# ─── Select Rows by Condition (Boolean Indexing) ──────────────────────
+#  Select Rows by Condition (Boolean Indexing) 
 engineers = df[df['department'] == 'Engineering']
 senior = df[df['experience'] >= 5]
 high_earners = df[df['salary'] > 75000]
@@ -116,7 +116,7 @@ high_earners = df[df['salary'] > 75000]
 ##  Adding, Updating, Deleting Columns
 
 ```python
-# ─── Add new columns ──────────────────────────────────────────────────
+#  Add new columns 
 # Computed column
 df['annual_bonus'] = df['salary'] * 0.10  # 10% of salary
 
@@ -143,10 +143,10 @@ def categorize_salary(salary):
 
 df['salary_category'] = df['salary'].apply(categorize_salary)
 
-# ─── Update existing values ───────────────────────────────────────────
+#  Update existing values 
 df.loc[df['emp_id'] == 104, 'salary'] = 58000  # Update specific row
 
-# ─── Delete columns ───────────────────────────────────────────────────
+#  Delete columns 
 df_clean = df.drop(columns=['annual_bonus'])  # Drop one column
 df_clean = df.drop(columns=['level', 'salary_category'])  # Drop multiple
 
@@ -197,11 +197,11 @@ ratings = pd.DataFrame({
     'rating': ['A', 'B', 'A+']
 })
 
-# INNER JOIN — only matching records
+# INNER JOIN  only matching records
 inner = pd.merge(employees, departments, on='dept_id', how='inner')
 print("Inner join:\n", inner)
 
-# LEFT JOIN — all employees, even without department info
+# LEFT JOIN  all employees, even without department info
 left = pd.merge(employees, departments, on='dept_id', how='left')
 
 # With ratings (some employees missing)
@@ -212,9 +212,9 @@ print("\nWith Ratings:\n", with_ratings[['name', 'dept_name', 'rating']])
 
 ---
 
-## ✅ Key Takeaways
+##  Key Takeaways
 
-1. **DataFrame = Excel table** in Python — rows and columns with labels
+1. **DataFrame = Excel table** in Python  rows and columns with labels
 2. Use `.head()`, `.info()`, `.describe()` to explore data first
 3. **`iloc`** selects by position (integers), **`loc`** selects by label
 4. **Boolean indexing** is the most powerful way to filter rows

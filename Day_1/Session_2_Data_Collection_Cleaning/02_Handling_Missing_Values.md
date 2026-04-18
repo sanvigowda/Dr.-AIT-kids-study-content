@@ -1,6 +1,6 @@
 #  Handling Missing Values
 
-> **Learning Goal:** Understand why missing values occur, how to detect them, and the right strategies to handle them — without distorting your analysis.
+> **Learning Goal:** Understand why missing values occur, how to detect them, and the right strategies to handle them  without distorting your analysis.
 
 ---
 
@@ -16,9 +16,9 @@ Missing values are one of the most common data quality problems. They arise from
 | **Intentional** | Patients who recovered don't have "death date" | MNAR |
 
 ### Three Types of Missing Data
-- **MCAR** (Missing Completely at Random) — Randomness, no pattern
-- **MAR** (Missing at Random) — Missingness depends on other columns
-- **MNAR** (Missing Not at Random) — Data is missing *because of* its actual value
+- **MCAR** (Missing Completely at Random)  Randomness, no pattern
+- **MAR** (Missing at Random)  Missingness depends on other columns
+- **MNAR** (Missing Not at Random)  Data is missing *because of* its actual value
 
 ---
 
@@ -42,18 +42,18 @@ df = pd.DataFrame(data)
 print("Original DataFrame:")
 print(df)
 
-# ─── Method 1: Check for any missing values ────────────────────────────────
+#  Method 1: Check for any missing values 
 print("\nAny missing values?", df.isnull().values.any())  # True
 
-# ─── Method 2: Count missing per column ──────────────────────────────────
+#  Method 2: Count missing per column 
 print("\nMissing values per column:")
 print(df.isnull().sum())
 
-# ─── Method 3: Percentage missing per column ─────────────────────────────
+#  Method 3: Percentage missing per column 
 print("\nMissing percentage per column:")
 print((df.isnull().sum() / len(df) * 100).round(2))
 
-# ─── Method 4: Visualize missing pattern ─────────────────────────────────
+#  Method 4: Visualize missing pattern 
 # (Run in Jupyter for the visual)
 # import missingno as msno
 # msno.matrix(df)
@@ -61,12 +61,12 @@ print((df.isnull().sum() / len(df) * 100).round(2))
 
 ### Output Interpretation
 ```
-customer_id       0  → 0.0%
-name              1  → 12.5%
-age               3  → 37.5%   ← High missing rate — needs attention
-salary            2  → 25.0%
-city              2  → 25.0%
-purchase_amount   2  → 25.0%
+customer_id       0   0.0%
+name              1   12.5%
+age               3   37.5%    High missing rate  needs attention
+salary            2   25.0%
+city              2   25.0%
+purchase_amount   2   25.0%
 ```
 
 ---
@@ -74,14 +74,14 @@ purchase_amount   2  → 25.0%
 ##  Option 1: Drop Missing Values
 
 ### When to Drop?
-✅ When very few rows have missing data (< 5% of total)  
-✅ When the missing column is not important for the analysis  
-❌ Don't drop when missing data is informative or you'll lose too many rows
+ When very few rows have missing data (< 5% of total)  
+ When the missing column is not important for the analysis  
+ Don't drop when missing data is informative or you'll lose too many rows
 
 ```python
 # Drop rows where ANY column has a missing value
 df_dropped = df.dropna()
-print(f"Original: {len(df)} rows → After drop: {len(df_dropped)} rows")
+print(f"Original: {len(df)} rows  After drop: {len(df_dropped)} rows")
 
 # Drop rows where SPECIFIC columns have missing values
 df_dropped_specific = df.dropna(subset=['salary', 'purchase_amount'])
@@ -98,7 +98,7 @@ df_all_missing = df.dropna(how='all')
 
 ---
 
-## ✏️ Option 2: Imputation (Filling Missing Values)
+##  Option 2: Imputation (Filling Missing Values)
 
 ### 2a. Fill with a Constant
 
@@ -112,7 +112,7 @@ df['name'] = df['name'].fillna('Not Provided')
 print(df[['name', 'city']])
 ```
 
-### 2b. Statistical Imputation — Mean, Median, Mode
+### 2b. Statistical Imputation  Mean, Median, Mode
 
 ```python
 # Fill numerical columns with mean (good for normally distributed data)
@@ -165,13 +165,13 @@ stock_data = pd.DataFrame({
     'price': [450.0, 455.0, np.nan, np.nan, 460.0, np.nan, 475.0]
 })
 
-# Forward fill — carry last known value forward
+# Forward fill  carry last known value forward
 stock_data['price_ffill'] = stock_data['price'].fillna(method='ffill')
 
-# Backward fill — use next known value to fill backward  
+# Backward fill  use next known value to fill backward  
 stock_data['price_bfill'] = stock_data['price'].fillna(method='bfill')
 
-# Interpolate — estimate values between known points (best for continuous data)
+# Interpolate  estimate values between known points (best for continuous data)
 stock_data['price_interpolated'] = stock_data['price'].interpolate(method='linear')
 
 print(stock_data)
@@ -209,17 +209,17 @@ print(df_imputed.round(2))
 
 ```
 Is the column important for analysis?
-├── No → DROP the column entirely
-└── Yes → How much data is missing?
-    ├── < 5% → DROP those rows safely
-    ├── 5-30% → IMPUTE with mean/median/mode
-    │   ├── Numerical + no outliers → Mean
-    │   ├── Numerical + outliers exist → Median
-    │   ├── Categorical → Mode or 'Unknown'
-    │   └── Time series → Forward/Backward fill or Interpolation
-    └── > 30% → Consider the business context
-        ├── Is missing value itself meaningful? → Create a "is_missing" flag column
-        └── Else → Use advanced ML imputation or collect more data
+ No  DROP the column entirely
+ Yes  How much data is missing?
+     < 5%  DROP those rows safely
+     5-30%  IMPUTE with mean/median/mode
+        Numerical + no outliers  Mean
+        Numerical + outliers exist  Median
+        Categorical  Mode or 'Unknown'
+        Time series  Forward/Backward fill or Interpolation
+     > 30%  Consider the business context
+         Is missing value itself meaningful?  Create a "is_missing" flag column
+         Else  Use advanced ML imputation or collect more data
 ```
 
 ---
@@ -248,18 +248,18 @@ df['purchase_missing'] = df['purchase'].isna().astype(int)
 df['purchase'] = df['purchase'].fillna(df['purchase'].median())
 
 print(df)
-# Insight: Customers without phone numbers → different purchase behavior?
+# Insight: Customers without phone numbers  different purchase behavior?
 ```
 
 ---
 
-## ✅ Key Takeaways
+##  Key Takeaways
 
 1. Always **detect and quantify** missing values before any analysis
-2. **Never drop** blindly — understand *why* data is missing first
+2. **Never drop** blindly  understand *why* data is missing first
 3. Use **median** for skewed numerical data, **mean** for normally distributed
 4. For time series, **forward fill** or **interpolation** works best
-5. Sometimes missing data IS the signal — create **indicator columns**
+5. Sometimes missing data IS the signal  create **indicator columns**
 6. Document every imputation decision for reproducibility
 
 ---

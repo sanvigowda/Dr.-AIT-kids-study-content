@@ -1,25 +1,25 @@
 #  Multi-Variable Visualization
 
-> **Learning Goal:** Learn how to visualize relationships between MORE than two variables at once — the most powerful skill in exploratory data analysis.
+> **Learning Goal:** Learn how to visualize relationships between MORE than two variables at once  the most powerful skill in exploratory data analysis.
 
 ---
 
 ##  Why Multi-Variable Visualization?
 
 With just two variables:
-- Study hours vs Marks → Scatter plot ✅
+- Study hours vs Marks  Scatter plot 
 
 But real questions need more context:
-- Study hours vs Marks, **separated by City** → 3 variables!
-- Study hours vs Marks vs Attendance → 3+ variables!
+- Study hours vs Marks, **separated by City**  3 variables!
+- Study hours vs Marks vs Attendance  3+ variables!
 
-> "The goal is to turn data into information, information into insight." — Carly Fiorina
+> "The goal is to turn data into information, information into insight."  Carly Fiorina
 
 ---
 
 ##  Key Techniques
 
-### 1. Color (Hue) — Add a 3rd Variable
+### 1. Color (Hue)  Add a 3rd Variable
 
 Use **color** to show a third categorical variable on a 2D scatter plot.
 
@@ -36,7 +36,7 @@ df = df.drop_duplicates()
 # 3 variables: study_hours, marks, CITY (color)
 plt.figure(figsize=(8, 5))
 sns.scatterplot(data=df, x="study_hours", y="marks",
-                hue="city",       # ← Adds CITY as color
+                hue="city",       #  Adds CITY as color
                 palette="Set1",
                 s=150, edgecolor="black")
 
@@ -50,7 +50,7 @@ plt.show()
 
 ---
 
-### 2. Size — Add a 4th Variable
+### 2. Size  Add a 4th Variable
 
 Use **bubble size** to add a fourth numeric variable.
 
@@ -82,7 +82,7 @@ plt.show()
 
 ---
 
-### 3. Facet Grid — Subplots by Category
+### 3. Facet Grid  Subplots by Category
 
 Split your chart into **multiple panels**, one per category.
 
@@ -98,7 +98,7 @@ plt.show()
 
 ---
 
-### 4. Pair Plot — All Variables at Once
+### 4. Pair Plot  All Variables at Once
 
 The **pair plot** shows scatter plots for every pair of numerical variables.
 
@@ -128,7 +128,7 @@ fig, axes = plt.subplots(1, 2, figsize=(12, 4))
 gender_city = df.groupby(["city", "gender"])["marks"].mean().unstack()
 gender_city.plot(kind="bar", ax=axes[0], color=["#3498db", "#e91e63"],
                  edgecolor="black", rot=0)
-axes[0].set_title("Avg Marks by City × Gender")
+axes[0].set_title("Avg Marks by City  Gender")
 axes[0].set_ylabel("Average Marks")
 axes[0].set_ylim(0, 100)
 axes[0].legend(title="Gender")
@@ -137,7 +137,7 @@ axes[0].legend(title="Gender")
 sns.barplot(data=df, x="city", y="marks", hue="gender",
             palette=["#3498db", "#e91e63"], ax=axes[1],
             edgecolor="black", errorbar=None)
-axes[1].set_title("Avg Marks by City × Gender (Seaborn)")
+axes[1].set_title("Avg Marks by City  Gender (Seaborn)")
 axes[1].set_ylim(0, 100)
 
 plt.tight_layout()
@@ -158,14 +158,14 @@ plt.show()
 
 ---
 
-## ✅ Key Takeaways
+##  Key Takeaways
 
 1. **Hue (color)** is the easiest way to add a 3rd variable
 2. **Bubble charts** encode a 4th dimension using size
 3. **FacetGrid** creates one sub-chart per category value
 4. **Pair plots** are excellent for understanding all relationships at once
-5. Don't add too many dimensions — 4 is usually the max before it gets confusing
+5. Don't add too many dimensions  4 is usually the max before it gets confusing
 
 ---
 
-*Next Topic → [Heatmaps & Distribution Plots](./02_Heatmaps_Distribution_Plots.md)*
+*Next Topic  [Heatmaps & Distribution Plots](./02_Heatmaps_Distribution_Plots.md)*

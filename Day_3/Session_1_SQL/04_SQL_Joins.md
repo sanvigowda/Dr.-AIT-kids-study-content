@@ -4,7 +4,7 @@
 
 ---
 
-## 1️⃣ The Common Join Types
+## 1 The Common Join Types
 
 | Join Type | Description |
 |-----------|-------------|
@@ -13,7 +13,7 @@
 
 ---
 
-## 2️⃣ How to Write a JOIN
+## 2 How to Write a JOIN
 
 ```sql
 SELECT 
@@ -28,13 +28,13 @@ ON t.store = s.store;      -- The common link
 
 ---
 
-## 3️⃣ Left Join vs Inner Join
+## 3 Left Join vs Inner Join
 
 Analysts usually prefer **LEFT JOIN** to ensure they don't accidentally lose data from the primary table.
 
 ---
 
-## ️ Real-World Example: Manager Performance
+##  Real-World Example: Manager Performance
 
 ```sql
 SELECT 

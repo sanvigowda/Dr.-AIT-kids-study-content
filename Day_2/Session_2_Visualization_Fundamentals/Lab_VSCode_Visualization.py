@@ -19,7 +19,7 @@ print("=" * 60)
 print("  DAY 2 | SESSION 2 LAB: Visualization Fundamentals")
 print("=" * 60)
 
-# ── Setup ──────────────────────────────────────────────────
+#  Setup 
 df = pd.read_csv("students_data.csv")
 df["study_hours"] = df["study_hours"].fillna(df["study_hours"].mean())
 df["attendance"]  = df["attendance"].fillna(df["attendance"].mean())
@@ -32,12 +32,12 @@ avg_marks_monthly = [70, 68, 72, 74, 76, 78, 75, 80, 82, 79, 83, 85]
 study_monthly     = [4.0, 3.8, 4.5, 5.0, 5.2, 5.5,
                      5.0, 6.0, 6.3, 6.0, 6.5, 7.0]
 
-print("\n✅ Data loaded successfully.")
+print("\n Data loaded successfully.")
 
 
-# ─────────────────────────────────────────────────────────────
-# CHART 1: BAR CHART — Average Marks by City
-# ─────────────────────────────────────────────────────────────
+# 
+# CHART 1: BAR CHART  Average Marks by City
+# 
 print("\n[1] Creating Bar Chart: Avg Marks by City...")
 
 avg_city = df.groupby("city")["marks"].mean().sort_values(ascending=False)
@@ -54,17 +54,17 @@ for bar in bars:
 plt.title("Average Marks by City", fontsize=13, fontweight="bold")
 plt.xlabel("City", fontsize=11)
 plt.ylabel("Average Marks", fontsize=11)
-plt.ylim(0, 100)  # ← ETHICAL: always start at 0!
+plt.ylim(0, 100)  #  ETHICAL: always start at 0!
 plt.grid(axis="y", alpha=0.3)
 plt.tight_layout()
 plt.savefig("Day_2/chart1_bar_city.png", dpi=120, bbox_inches="tight")
 plt.show()
-print("    ✅ Saved: chart1_bar_city.png")
+print("     Saved: chart1_bar_city.png")
 
 
-# ─────────────────────────────────────────────────────────────
-# CHART 2: GROUPED BAR CHART — Marks AND Study Hours by City
-# ─────────────────────────────────────────────────────────────
+# 
+# CHART 2: GROUPED BAR CHART  Marks AND Study Hours by City
+# 
 print("[2] Creating Grouped Bar Chart...")
 
 city_stats = df.groupby("city")[["marks", "study_hours"]].mean()
@@ -73,7 +73,7 @@ width = 0.35
 
 fig, ax = plt.subplots(figsize=(8, 4))
 bars1 = ax.bar(x - width/2, city_stats["marks"],        width, label="Marks",       color="#3498db", edgecolor="black")
-bars2 = ax.bar(x + width/2, city_stats["study_hours"]*10, width, label="Study Hrs×10", color="#e67e22", edgecolor="black")
+bars2 = ax.bar(x + width/2, city_stats["study_hours"]*10, width, label="Study Hrs10", color="#e67e22", edgecolor="black")
 
 ax.set_title("Marks vs Study Hours by City (Grouped Bar)", fontweight="bold")
 ax.set_xticks(x)
@@ -85,12 +85,12 @@ ax.grid(axis="y", alpha=0.3)
 plt.tight_layout()
 plt.savefig("Day_2/chart2_grouped_bar.png", dpi=120, bbox_inches="tight")
 plt.show()
-print("    ✅ Saved: chart2_grouped_bar.png")
+print("     Saved: chart2_grouped_bar.png")
 
 
-# ─────────────────────────────────────────────────────────────
-# CHART 3: LINE CHART — Monthly Marks Trend
-# ─────────────────────────────────────────────────────────────
+# 
+# CHART 3: LINE CHART  Monthly Marks Trend
+# 
 print("[3] Creating Line Chart: Monthly Trend...")
 
 fig, ax1 = plt.subplots(figsize=(10, 4))
@@ -114,12 +114,12 @@ ax1.legend(lines1 + lines2, labels1 + labels2, loc="upper left")
 plt.tight_layout()
 plt.savefig("Day_2/chart3_line_trend.png", dpi=120, bbox_inches="tight")
 plt.show()
-print("    ✅ Saved: chart3_line_trend.png")
+print("     Saved: chart3_line_trend.png")
 
 
-# ─────────────────────────────────────────────────────────────
-# CHART 4: PIE + DONUT — City and Gender Distribution
-# ─────────────────────────────────────────────────────────────
+# 
+# CHART 4: PIE + DONUT  City and Gender Distribution
+# 
 print("[4] Creating Pie and Donut Charts...")
 
 fig, axes = plt.subplots(1, 2, figsize=(12, 5))
@@ -142,12 +142,12 @@ axes[1].set_title("Students by Gender (Donut)", fontweight="bold")
 plt.tight_layout()
 plt.savefig("Day_2/chart4_pie_donut.png", dpi=120, bbox_inches="tight")
 plt.show()
-print("    ✅ Saved: chart4_pie_donut.png")
+print("     Saved: chart4_pie_donut.png")
 
 
-# ─────────────────────────────────────────────────────────────
-# CHART 5: HISTOGRAM — Distribution of Marks
-# ─────────────────────────────────────────────────────────────
+# 
+# CHART 5: HISTOGRAM  Distribution of Marks
+# 
 print("[5] Creating Histogram...")
 
 fig, axes = plt.subplots(1, 2, figsize=(12, 4))
@@ -171,12 +171,12 @@ axes[1].set_xlabel("Marks")
 plt.tight_layout()
 plt.savefig("Day_2/chart5_histogram.png", dpi=120, bbox_inches="tight")
 plt.show()
-print("    ✅ Saved: chart5_histogram.png")
+print("     Saved: chart5_histogram.png")
 
 
-# ─────────────────────────────────────────────────────────────
-# CHART 6: BOXPLOT — Marks by City and Gender
-# ─────────────────────────────────────────────────────────────
+# 
+# CHART 6: BOXPLOT  Marks by City and Gender
+# 
 print("[6] Creating Boxplots...")
 
 fig, axes = plt.subplots(1, 2, figsize=(12, 5))
@@ -197,12 +197,12 @@ axes[1].set_ylabel("Marks")
 plt.tight_layout()
 plt.savefig("Day_2/chart6_boxplot.png", dpi=120, bbox_inches="tight")
 plt.show()
-print("    ✅ Saved: chart6_boxplot.png")
+print("     Saved: chart6_boxplot.png")
 
 
-# ─────────────────────────────────────────────────────────────
+# 
 # ETHICS DEMO: Misleading vs Honest Chart
-# ─────────────────────────────────────────────────────────────
+# 
 print("[7] Visualization Ethics Demo...")
 
 avg_city_vals = avg_city.values
@@ -212,31 +212,31 @@ fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 4))
 
 ax1.bar(avg_city_names, avg_city_vals, color="#e74c3c", edgecolor="black")
 ax1.set_ylim(70, 90)
-ax1.set_title("❌ MISLEADING\n(Y starts at 70 — looks like huge gap!)", fontweight="bold")
+ax1.set_title(" MISLEADING\n(Y starts at 70  looks like huge gap!)", fontweight="bold")
 ax1.set_ylabel("Avg Marks")
 
 ax2.bar(avg_city_names, avg_city_vals, color="#2ecc71", edgecolor="black")
 for i, v in enumerate(avg_city_vals):
     ax2.text(i, v + 0.5, f"{v:.1f}", ha="center", fontweight="bold")
 ax2.set_ylim(0, 100)
-ax2.set_title("✅ HONEST\n(Y starts at 0 — actual difference is small)", fontweight="bold")
+ax2.set_title(" HONEST\n(Y starts at 0  actual difference is small)", fontweight="bold")
 ax2.set_ylabel("Avg Marks")
 
 plt.suptitle("Visualization Ethics: Why Y-Axis Matters!", fontsize=13, fontweight="bold")
 plt.tight_layout()
 plt.savefig("Day_2/chart7_ethics_demo.png", dpi=120, bbox_inches="tight")
 plt.show()
-print("    ✅ Saved: chart7_ethics_demo.png")
+print("     Saved: chart7_ethics_demo.png")
 
 
 print("\n" + "=" * 60)
-print("  ✅  Session 2 Lab Complete! All 7 charts created.")
+print("    Session 2 Lab Complete! All 7 charts created.")
 print("=" * 60)
 print("""
 KEY LESSONS:
   1. Use bar charts for category comparison
   2. Use line charts for time-series trends
-  3. Pie/donut charts only for ≤6 slices (must add to 100%)
+  3. Pie/donut charts only for 6 slices (must add to 100%)
   4. Histograms reveal how data is spread
   5. Boxplots expose outliers instantly
   6. ALWAYS start Y-axis at 0 for bar charts!

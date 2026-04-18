@@ -4,7 +4,7 @@
 
 ---
 
-## 1️⃣ Seasonality and Cyclical Patterns
+## 1 Seasonality and Cyclical Patterns
 
 **Seasonality** refers to fluctuations that repeat over a specific period (e.g., Diwali spikes).
 
@@ -13,7 +13,7 @@
 
 ---
 
-## 2️⃣ Moving Averages (Smoothing)
+## 2 Moving Averages (Smoothing)
 
 Daily sales data is often "noisy". Analysts use **moving averages** to smooth out the noise.
 
@@ -26,9 +26,9 @@ df['rolling_sales'] = df['amount'].rolling(window=7).mean()
 
 ##  Industry Case: The "Mid-Month Dip"
 
-Many Indian retailers see a dip in sales around the 15th–20th of the month.
+Many Indian retailers see a dip in sales around the 15th20th of the month.
 - **Observation**: Salaries are running low.
-- **Business Decision**: Launch "Budget Week" flash sales during the 15th–20th.
+- **Business Decision**: Launch "Budget Week" flash sales during the 15th20th.
 
 ---
 

@@ -9,10 +9,10 @@
 Analytics exists on a spectrum from **describing what happened** to **recommending what to do**:
 
 ```
-PAST ◄──────────────────────────────────────────────────────► FUTURE
-  │                                                               │
-Descriptive → Diagnostic → Predictive → Prescriptive
-  │               │              │              │
+PAST  FUTURE
+                                                                 
+Descriptive  Diagnostic  Predictive  Prescriptive
+                                             
 "What           "Why          "What          "What
 happened?"    happened?"     will           should
                             happen?"       we do?"
@@ -22,7 +22,7 @@ happened?"    happened?"     will           should
 
 ---
 
-## 1️⃣ Descriptive Analytics — *"What happened?"*
+## 1 Descriptive Analytics  *"What happened?"*
 
 ### Definition
 Summarizes **historical data** to understand what has occurred. It is the most basic and commonly used type.
@@ -31,7 +31,7 @@ Summarizes **historical data** to understand what has occurred. It is the most b
 > **Company:** Amazon
 > **Question:** "What were our total sales in Q4 2024?"
 > **Answer:** A dashboard showing:
-> - Total revenue: ₹50 Crore
+> - Total revenue: 50 Crore
 > - Best-selling category: Electronics
 > - Peak sales day: November 25 (Black Friday)
 
@@ -57,12 +57,12 @@ print("Average Monthly Revenue:", sales['revenue'].mean())  # 143750
 print("Best Month:", sales.loc[sales['revenue'].idxmax(), 'month'])  # Apr
 ```
 
-### Business Value: ⭐⭐ (Medium)
+### Business Value:  (Medium)
 Good for monitoring and reporting, but doesn't explain causes.
 
 ---
 
-## 2️⃣ Diagnostic Analytics — *"Why did it happen?"*
+## 2 Diagnostic Analytics  *"Why did it happen?"*
 
 ### Definition
 Digs deeper into data to **understand the causes** behind trends identified in descriptive analytics. Involves correlation and pattern analysis.
@@ -72,9 +72,9 @@ Digs deeper into data to **understand the causes** behind trends identified in d
 > **Observation (Descriptive):** Website traffic dropped 40% in February
 > **Diagnostic Question:** *Why did traffic drop?*
 > **Investigation:**
-> - Checked server logs → page load time increased to 8 seconds
-> - Checked marketing spend → no change
-> - Checked competitor activity → competitor launched a big sale
+> - Checked server logs  page load time increased to 8 seconds
+> - Checked marketing spend  no change
+> - Checked competitor activity  competitor launched a big sale
 > **Root Cause:** Slow website + competitor sale drove users away
 
 ### Techniques Used
@@ -100,15 +100,15 @@ data = pd.DataFrame({
 correlation = data[['sales', 'marketing_spend', 'avg_temperature']].corr()
 print("Correlation with Sales:")
 print(correlation['sales'])
-# marketing_spend has high correlation → that's why sales changed!
+# marketing_spend has high correlation  that's why sales changed!
 ```
 
-### Business Value: ⭐⭐⭐ (High)
+### Business Value:  (High)
 Helps prevent future problems by understanding root causes.
 
 ---
 
-## 3️⃣ Predictive Analytics — *"What will happen?"*
+## 3 Predictive Analytics  *"What will happen?"*
 
 ### Definition
 Uses **statistical models and machine learning** to forecast future outcomes based on historical patterns.
@@ -152,12 +152,12 @@ for i, pred in enumerate(predictions, 13):
 # Month 15: 229 units
 ```
 
-### Business Value: ⭐⭐⭐⭐ (Very High)
+### Business Value:  (Very High)
 Enables proactive decision-making before problems occur.
 
 ---
 
-## 4️⃣ Prescriptive Analytics — *"What should we do?"*
+## 4 Prescriptive Analytics  *"What should we do?"*
 
 ### Definition
 The **most advanced** type of analytics. Not only predicts what will happen but also **recommends the best action** to take, often using optimization algorithms.
@@ -183,7 +183,7 @@ from scipy.optimize import linprog
 import numpy as np
 
 # Business Problem: Maximize profit from 2 products
-# Product A gives ₹5 profit, Product B gives ₹4 profit
+# Product A gives 5 profit, Product B gives 4 profit
 # Constraints: Machine hours (A needs 2hr, B needs 1hr, max 100hr)
 #              Raw material (A needs 1kg, B needs 3kg, max 150kg)
 
@@ -201,10 +201,10 @@ x_bounds = [(0, None), (0, None)]
 
 result = linprog(c, A_ub=A, b_ub=b, bounds=x_bounds, method='highs')
 print(f"Optimal: Produce {result.x[0]:.0f} units of A, {result.x[1]:.0f} units of B")
-print(f"Maximum Profit: ₹{-result.fun:.0f}")
+print(f"Maximum Profit: {-result.fun:.0f}")
 ```
 
-### Business Value: ⭐⭐⭐⭐⭐ (Maximum)
+### Business Value:  (Maximum)
 Directly drives optimized business decisions.
 
 ---
@@ -214,7 +214,7 @@ Directly drives optimized business decisions.
 | Feature | Descriptive | Diagnostic | Predictive | Prescriptive |
 |---------|-------------|------------|------------|--------------|
 | **Question** | What happened? | Why did it happen? | What will happen? | What should we do? |
-| **Data Focus** | Historical | Historical + Context | Historical → Future | Future + Optimization |
+| **Data Focus** | Historical | Historical + Context | Historical  Future | Future + Optimization |
 | **Difficulty** | Low | Medium | High | Very High |
 | **Tools** | Excel, SQL, Tableau | Python, SQL | ML, Statistics | AI, Optimization |
 | **Example** | Monthly sales report | Sales drop analysis | Demand forecast | Inventory optimization |
@@ -238,9 +238,9 @@ Directly drives optimized business decisions.
 
 ---
 
-## ✅ Key Takeaways
+##  Key Takeaways
 
-1. All 4 types are **valuable** — most organizations use all of them at different times
+1. All 4 types are **valuable**  most organizations use all of them at different times
 2. Start with **Descriptive** analytics before moving to advanced types
 3. **Predictive** requires clean historical data as input
 4. **Prescriptive** analytics is where AI/ML creates the most business value

@@ -15,7 +15,7 @@
 | API polling | Same record fetched multiple times |
 | Manual data | Staff entered same customer twice |
 
-**Real-Life Damage:** A hospital billed a patient twice for the same procedure because of duplicate records — ₹1.2 lakh extra charge that caused a lawsuit.
+**Real-Life Damage:** A hospital billed a patient twice for the same procedure because of duplicate records  1.2 lakh extra charge that caused a lawsuit.
 
 ---
 
@@ -51,7 +51,7 @@ print(orders[orders.duplicated(subset=['order_id'], keep='first')])
 
 ---
 
-### ️ Removing Duplicates
+###  Removing Duplicates
 
 ```python
 # Remove fully duplicate rows (keep first occurrence)
@@ -113,15 +113,15 @@ import pandas as pd
 import numpy as np
 
 df = pd.DataFrame({
-    'price': ['₹45,000', '₹25,000', '₹1,20,000'],  # String with special chars
+    'price': ['45,000', '25,000', '1,20,000'],  # String with special chars
     'quantity': ['10', '25', '5'],                    # Numbers stored as strings
     'date': ['15-01-2024', '16-01-2024', '17-01-2024'],  # Date as string
     'in_stock': ['Yes', 'No', 'Yes'],                 # Boolean as text
     'rating': [4.5, np.nan, 3.8]
 })
 
-# Remove ₹ and commas, convert to float
-df['price'] = df['price'].str.replace('₹', '').str.replace(',', '').astype(float)
+# Remove  and commas, convert to float
+df['price'] = df['price'].str.replace('', '').str.replace(',', '').astype(float)
 
 # Convert string to integer
 df['quantity'] = df['quantity'].astype(int)
@@ -194,7 +194,7 @@ print(df.head())
 
 ---
 
-### ️ 4. Binning / Discretization (Grouping continuous into categories)
+###  4. Binning / Discretization (Grouping continuous into categories)
 
 ```python
 import pandas as pd
@@ -222,7 +222,7 @@ print(employees)
 ```
 
 **Real-Life Example:**
-> Banks categorize customers into credit score brackets (Poor: 300-579, Fair: 580-669, Good: 670-739, Excellent: 740-850) to determine loan eligibility — this is binning!
+> Banks categorize customers into credit score brackets (Poor: 300-579, Fair: 580-669, Good: 670-739, Excellent: 740-850) to determine loan eligibility  this is binning!
 
 ---
 
@@ -274,16 +274,16 @@ print(df.round(3))
 ```
 
 **When to use which?**
-- **Normalization [0,1]** → When algorithm needs values in bounded range (Neural Networks)
-- **Standardization (Z-score)** → When algorithm assumes normal distribution (Linear Regression, SVM)
+- **Normalization [0,1]**  When algorithm needs values in bounded range (Neural Networks)
+- **Standardization (Z-score)**  When algorithm assumes normal distribution (Linear Regression, SVM)
 
 ---
 
-## ✅ Key Takeaways
+##  Key Takeaways
 
-1. **Duplicates** corrupt analysis — always check both full and partial key duplicates
+1. **Duplicates** corrupt analysis  always check both full and partial key duplicates
 2. **Data types** must be correct before any computation
-3. **Strings** are messy — standardize case, strip whitespace, clean special characters
+3. **Strings** are messy  standardize case, strip whitespace, clean special characters
 4. **Dates** should be datetime type, not strings
 5. **Binning** converts continuous data into meaningful categories
 6. **Encoding** converts categories into numbers for ML models

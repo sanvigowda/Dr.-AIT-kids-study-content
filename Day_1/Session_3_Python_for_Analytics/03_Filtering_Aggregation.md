@@ -1,6 +1,6 @@
 #  Filtering & Aggregation in Pandas
 
-> **Learning Goal:** Master filtering rows with conditions and summarizing data with groupby and aggregation — the most used operations in real analytics work.
+> **Learning Goal:** Master filtering rows with conditions and summarizing data with groupby and aggregation  the most used operations in real analytics work.
 
 ---
 
@@ -31,25 +31,25 @@ sales = pd.DataFrame({
                   False, True, False, False, False, True, False, False]
 })
 
-# ─── Single condition ─────────────────────────────────────────────────
+#  Single condition 
 electronics = sales[sales['category'] == 'Electronics']
 print(f"Electronics orders: {len(electronics)}")
 
 high_value = sales[sales['amount'] > 5000]
 print(f"High value orders (>5000): {len(high_value)}")
 
-# ─── Multiple conditions (AND) ────────────────────────────────────────
+#  Multiple conditions (AND) 
 # Must use & and put each condition in parentheses
 electronics_mumbai = sales[(sales['category'] == 'Electronics') & 
                             (sales['city'] == 'Mumbai')]
 print(f"\nElectronics in Mumbai: {len(electronics_mumbai)}")
 
-# ─── Multiple conditions (OR) ─────────────────────────────────────────
+#  Multiple conditions (OR) 
 electronics_or_food = sales[(sales['category'] == 'Electronics') | 
                              (sales['category'] == 'Food')]
 print(f"Electronics OR Food: {len(electronics_or_food)}")
 
-# ─── NOT condition ────────────────────────────────────────────────────
+#  NOT condition 
 not_returned = sales[~sales['returned']]
 print(f"Orders not returned: {len(not_returned)}")
 ```
@@ -59,25 +59,25 @@ print(f"Orders not returned: {len(not_returned)}")
 ###  Advanced Filtering Methods
 
 ```python
-# ─── isin() — filter multiple values ──────────────────────────────────
+#  isin()  filter multiple values 
 metro_cities = ['Mumbai', 'Delhi', 'Bangalore', 'Chennai']
 metro_sales = sales[sales['city'].isin(metro_cities)]
 
 # Opposite: NOT in list
 non_metro = sales[~sales['city'].isin(['Mumbai', 'Delhi'])]
 
-# ─── between() — range filter ─────────────────────────────────────────
+#  between()  range filter 
 mid_range = sales[sales['amount'].between(1000, 8000)]
-print(f"\nOrders between ₹1000-₹8000: {len(mid_range)}")
+print(f"\nOrders between 1000-8000: {len(mid_range)}")
 
-# ─── str.contains() — text search ────────────────────────────────────
+#  str.contains()  text search 
 # Find customers whose names start with letters A-G
 early_alphabet = sales[sales['customer'].str.contains('^[A-G]', regex=True)]
 
 # Find categories containing 'onic' (case insensitive)
 matching = sales[sales['category'].str.contains('onic', case=False)]
 
-# ─── query() — SQL-like syntax (readable for complex filters) ─────────
+#  query()  SQL-like syntax (readable for complex filters) 
 result = sales.query("amount > 5000 and category == 'Electronics'")
 print(f"\nquery() result: {len(result)} rows")
 
@@ -88,7 +88,7 @@ top_orders = sales.query("amount > @min_amount and returned == False")
 
 ---
 
-###  Multiple Condition Filtering — Real Scenario
+###  Multiple Condition Filtering  Real Scenario
 
 ```python
 # Business Question: Find high-value orders in electronics that were NOT returned
@@ -110,7 +110,7 @@ print(top_electronics[['customer', 'city', 'amount']].to_string(index=False))
 
 ###  Basic GroupBy
 
-Think of GroupBy like Excel's PivotTable — split the data into groups, apply a function, and combine the results.
+Think of GroupBy like Excel's PivotTable  split the data into groups, apply a function, and combine the results.
 
 ```python
 # Total sales by category
@@ -157,7 +157,7 @@ print(category_stats)
 ###  Multi-Level GroupBy
 
 ```python
-# Group by TWO columns: category × city
+# Group by TWO columns: category  city
 city_category = sales.groupby(['city', 'category']).agg(
     revenue = ('amount', 'sum'),
     orders  = ('order_id', 'count')
@@ -174,7 +174,7 @@ print(pivot)
 
 ---
 
-###  transform() — Add Aggregated Values Back to Original
+###  transform()  Add Aggregated Values Back to Original
 
 ```python
 # Add a column with category total revenue WHILE keeping all rows
@@ -262,11 +262,11 @@ print(daily_sales.head(15).to_string(index=False))
 
 ---
 
-## ✅ Key Takeaways
+##  Key Takeaways
 
 1. **Boolean filtering** with `&`, `|`, `~` is how we select rows by condition
 2. Use `isin()` for multiple values, `between()` for ranges, `str.contains()` for text
-3. **`groupby()`** is the most powerful aggregation tool — works like SQL's GROUP BY
+3. **`groupby()`** is the most powerful aggregation tool  works like SQL's GROUP BY
 4. Use **`agg()`** with named aggregations for clean, readable multi-stat summaries
 5. **`transform()`** adds group-level stats back to the original DataFrame
 6. **Rolling windows** smooth time-series data and show trends

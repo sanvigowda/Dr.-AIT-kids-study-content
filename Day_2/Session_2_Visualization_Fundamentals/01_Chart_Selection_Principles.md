@@ -1,22 +1,22 @@
 #  Chart Selection Principles
 
-> **Learning Goal:** Learn HOW to pick the right chart for the right data — the most common mistake beginners make is using the wrong chart type!
+> **Learning Goal:** Learn HOW to pick the right chart for the right data  the most common mistake beginners make is using the wrong chart type!
 
 ---
 
 ##  Why Chart Selection Matters
 
-> "A good chart makes data obvious. A bad chart makes people confused — or worse, misleads them."
+> "A good chart makes data obvious. A bad chart makes people confused  or worse, misleads them."
 
 Imagine explaining student performance:
-- Using a **line chart** for city-wise marks comparison → confusing (implies a trend over time)
-- Using a **bar chart** for city-wise marks comparison → perfect (comparison across categories)
+- Using a **line chart** for city-wise marks comparison  confusing (implies a trend over time)
+- Using a **bar chart** for city-wise marks comparison  perfect (comparison across categories)
 
-**Right chart = Right insight → Right decision.**
+**Right chart = Right insight  Right decision.**
 
 ---
 
-## ️ The Chart Selection Guide
+##  The Chart Selection Guide
 
 | What You Want to Show | Best Chart Type |
 |----------------------|-----------------|
@@ -71,7 +71,7 @@ plt.plot(months, sales, marker="o", linewidth=2,
 plt.fill_between(months, sales, alpha=0.1, color="steelblue")  # Area under line
 plt.title("Monthly Sales Trend")
 plt.xlabel("Month")
-plt.ylabel("Sales (₹)")
+plt.ylabel("Sales ()")
 plt.grid(alpha=0.3)
 plt.tight_layout()
 plt.show()
@@ -98,7 +98,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-> ⚠️ **Pie Chart Warning:** Avoid when you have more than 5-6 slices — it becomes unreadable!
+>  **Pie Chart Warning:** Avoid when you have more than 5-6 slices  it becomes unreadable!
 
 ---
 
@@ -121,9 +121,9 @@ plt.show()
 ```
 
 **Reading a histogram:**
-- **Skewed right** (tail on right) → Most values are low, few are very high
-- **Skewed left** (tail on left) → Most values are high, few are very low
-- **Bell-shaped** (symmetric) → Normal distribution
+- **Skewed right** (tail on right)  Most values are low, few are very high
+- **Skewed left** (tail on left)  Most values are high, few are very low
+- **Bell-shaped** (symmetric)  Normal distribution
 
 ---
 
@@ -149,7 +149,7 @@ plt.show()
 **Reading a boxplot:**
 - The **box** = IQR (middle 50% of data)
 - The **line inside box** = Median
-- The **whiskers** = 1.5 × IQR boundary
+- The **whiskers** = 1.5  IQR boundary
 - **Dots beyond whiskers** = Outliers
 
 ---
@@ -157,32 +157,32 @@ plt.show()
 ##  Quick Decision Chart
 
 ```
-My data has TIME? ──── YES → Line Chart
-        │
+My data has TIME?  YES  Line Chart
+        
         NO
-        │
-Is it PARTS of a WHOLE? ─── YES → Pie Chart (< 6 slices)
-        │
+        
+Is it PARTS of a WHOLE?  YES  Pie Chart (< 6 slices)
+        
         NO
-        │
-Am I COMPARING CATEGORIES? ─── YES → Bar Chart
-        │
+        
+Am I COMPARING CATEGORIES?  YES  Bar Chart
+        
         NO
-        │
-Am I showing a DISTRIBUTION? ─── YES → Histogram
-        │
+        
+Am I showing a DISTRIBUTION?  YES  Histogram
+        
         NO
-        │
-Am I checking OUTLIERS? ──── YES → Boxplot
-        │
+        
+Am I checking OUTLIERS?  YES  Boxplot
+        
         NO
-        │
-Am I showing RELATIONSHIPS? → Scatter Plot / Heatmap
+        
+Am I showing RELATIONSHIPS?  Scatter Plot / Heatmap
 ```
 
 ---
 
-## ✅ Key Takeaways
+##  Key Takeaways
 
 1. **Bar chart** = Compare categories
 2. **Line chart** = Show trends over time
@@ -198,8 +198,8 @@ Am I showing RELATIONSHIPS? → Scatter Plot / Heatmap
 1. You want to show monthly website visitors for 2024. Which chart?
 2. You want to show how 5 departments split the company budget. Which chart?
 3. You want to compare average salary across 4 job roles. Which chart?
-4. Your histogram has a long tail on the right — what does this mean?
+4. Your histogram has a long tail on the right  what does this mean?
 
 ---
 
-*Next Topic → [Bar, Line, Pie, Histogram, Boxplot (deep dive)](./02_Bar_Line_Pie_Histogram.md)*
+*Next Topic  [Bar, Line, Pie, Histogram, Boxplot (deep dive)](./02_Bar_Line_Pie_Histogram.md)*

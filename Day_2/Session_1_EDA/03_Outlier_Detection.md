@@ -1,6 +1,6 @@
 *  Outlier Detection
 
-> **Learning Goal:** Learn to identify data points that are unusually different from the rest — they can either be errors to fix or rare insights to study!
+> **Learning Goal:** Learn to identify data points that are unusually different from the rest  they can either be errors to fix or rare insights to study!
 
 ---
 
@@ -12,12 +12,12 @@ An **outlier** is a data point that is **significantly different** from the rest
 
 | Dataset                | Normal Range  | Outlier                        |
 | ---------------------- | ------------- | ------------------------------ |
-| Student marks (0–100) | 50–90        | **2** or **150**   |
-| Monthly salary         | ₹20k–₹1L   | **₹1 crore** (CEO!)     |
-| Product price          | ₹100–₹5000 | **-₹500** (data error!) |
-| Human height           | 150–190 cm   | **230 cm**               |
+| Student marks (0100) | 5090        | **2** or **150**   |
+| Monthly salary         | 20k1L   | **1 crore** (CEO!)     |
+| Product price          | 1005000 | **-500** (data error!) |
+| Human height           | 150190 cm   | **230 cm**               |
 
-> ⚠️ Not all outliers are errors! Sometimes they're the **most interesting data points**.
+>  Not all outliers are errors! Sometimes they're the **most interesting data points**.
 
 ---
 
@@ -37,8 +37,8 @@ Data: [70, 72, 75, 78, 80, 82, 85, 138]
 
 Normal in one context, unusual in another.
 
-- ₹50,000 salary is normal for a junior developer
-- ₹50,000 salary is an outlier for a senior manager
+- 50,000 salary is normal for a junior developer
+- 50,000 salary is an outlier for a senior manager
 
 ### 3. Collective Outlier
 
@@ -53,8 +53,8 @@ A group of points that together are unusual.
 The **Interquartile Range (IQR)** method finds outliers using Q1 and Q3.
 
 ```
-Lower Fence = Q1 - (1.5 × IQR)
-Upper Fence = Q3 + (1.5 × IQR)
+Lower Fence = Q1 - (1.5  IQR)
+Upper Fence = Q3 + (1.5  IQR)
 
 Anything outside the fences = OUTLIER
 ```
@@ -90,7 +90,7 @@ The **Z-score** tells you how many standard deviations a value is from the mean.
 ```
 Z-score = (value - mean) / std_deviation
 
-Rule: |Z| > 3 → Outlier
+Rule: |Z| > 3  Outlier
 ```
 
 ```python
@@ -100,7 +100,7 @@ import numpy as np
 z_scores = stats.zscore(df["marks"])
 print("\nZ-scores for marks:")
 for name, score, z in zip(df["name"], df["marks"], z_scores):
-    flag = " ← OUTLIER!" if abs(z) > 2 else ""
+    flag = "  OUTLIER!" if abs(z) > 2 else ""
     print(f"  {name:10s}: {score}  (z={z:.2f}){flag}")
 ```
 
@@ -128,7 +128,7 @@ for ax, col in zip(axes, ["marks", "study_hours", "attendance"]):
     ax.set_title(f"{col}")
     ax.set_ylabel("Value")
 
-plt.suptitle("Boxplots — Outliers appear as dots above/below whiskers")
+plt.suptitle("Boxplots  Outliers appear as dots above/below whiskers")
 plt.tight_layout()
 plt.show()
 ```
@@ -136,15 +136,15 @@ plt.show()
 ### Reading a Boxplot:
 
 ```
-         ┌────────────────────┐
-    ●    │    ████████████    │         ●   ● ← Individual outlier dots
-         │       ████         │
-─────────┼────────────────────┼──────────────
+         
+                              Individual outlier dots
+                         
+
         Q1     Median        Q3
-         │←────── IQR ───────→│
-         │                    │
+          IQR 
+                             
      Min whisker          Max whisker
-     (Q1 - 1.5×IQR)      (Q3 + 1.5×IQR)
+     (Q1 - 1.5IQR)      (Q3 + 1.5IQR)
 ```
 
 ---
@@ -162,10 +162,10 @@ plt.show()
 
 ```
 Is the outlier a data ERROR?
-    ├── YES → Remove or correct it
-    └── NO  → Is it a rare but valid case?
-                   ├── YES → Keep it, note it
-                   └── NO  → Investigate further!
+     YES  Remove or correct it
+     NO   Is it a rare but valid case?
+                    YES  Keep it, note it
+                    NO   Investigate further!
 ```
 
 ---
@@ -174,17 +174,17 @@ Is the outlier a data ERROR?
 
 | Domain                  | Why Outliers Matter                                      |
 | ----------------------- | -------------------------------------------------------- |
-| **Banking**       | One ₹50 lakh transaction in a student account → Fraud! |
-| **Manufacturing** | One defective batch in 10,000 → Recall before damage    |
-| **Healthcare**    | One patient with 400 blood pressure → Emergency!        |
-| **E-commerce**    | Negative quantity order → Data bug → Fix immediately   |
+| **Banking**       | One 50 lakh transaction in a student account  Fraud! |
+| **Manufacturing** | One defective batch in 10,000  Recall before damage    |
+| **Healthcare**    | One patient with 400 blood pressure  Emergency!        |
+| **E-commerce**    | Negative quantity order  Data bug  Fix immediately   |
 
 ---
 
-## ✅ Key Takeaways
+##  Key Takeaways
 
 1. Outliers are data points far from the rest
-2. Use **IQR method** (Q1 - 1.5×IQR, Q3 + 1.5×IQR) to detect them
+2. Use **IQR method** (Q1 - 1.5IQR, Q3 + 1.5IQR) to detect them
 3. Use **Z-score** for normally distributed data (|z| > 3)
 4. **Boxplots** visually show outliers as dots
 5. Always ask: is this outlier an **error** or a **genuine rare value**?
@@ -195,9 +195,9 @@ Is the outlier a data ERROR?
 
 1. A student scored 200 marks out of 100. What type of issue is this?
 2. Calculate the IQR for: [10, 20, 25, 30, 35, 40, 100]
-3. Billionaires in a salary dataset — remove or keep?
+3. Billionaires in a salary dataset  remove or keep?
 4. What does a Z-score of -3.5 mean?
 
 ---
 
-*Next: Session 2 → [Chart Selection Principles](../Session_2_Visualization_Fundamentals/01_Chart_Selection_Principles.md)*
+*Next: Session 2  [Chart Selection Principles](../Session_2_Visualization_Fundamentals/01_Chart_Selection_Principles.md)*

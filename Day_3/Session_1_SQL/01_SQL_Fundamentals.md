@@ -1,4 +1,4 @@
-# ️ SQL for Data Analytics
+#  SQL for Data Analytics
 
 > **Learning Goal:** Understand why SQL is the backbone of data analytics and how it compares to Pandas.
 
@@ -21,7 +21,7 @@ While Pandas is great for data on your local machine, SQL is where "Big Data" li
 
 ---
 
-## ️ The Core Concepts
+##  The Core Concepts
 
 SQL works on **Tables** (similar to DataFrames).
 
@@ -34,7 +34,7 @@ SQL works on **Tables** (similar to DataFrames).
 
 ##  SQL in Python (SQLite)
 
-In this session, we will use **SQLite**. It’s a lightweight database that doesn't require a server. It’s built directly into Python!
+In this session, we will use **SQLite**. Its a lightweight database that doesn't require a server. Its built directly into Python!
 
 ```python
 import sqlite3
@@ -55,7 +55,7 @@ print(result)
 
 ---
 
-## ✅ Why Data Analysts Love SQL?
+##  Why Data Analysts Love SQL?
 
 1. **Efficiency**: Databases are optimized to filter millions of rows in milliseconds.
 2. **Filtering at Source**: Instead of downloading 1GB of data and filtering in Python, you can ask SQL to only send you the 10MB you actually need.
@@ -71,4 +71,4 @@ print(result)
 
 ---
 
-*Next Topic → [Basic Queries: SELECT & WHERE](./02_Basic_Queries.md)*
+*Next Topic  [Basic Queries: SELECT & WHERE](./02_Basic_Queries.md)*

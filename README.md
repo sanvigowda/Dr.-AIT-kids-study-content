@@ -9,28 +9,28 @@
 ```
 ```
 Data_analytics_complete/
-├── Day_1/
-│   ├── Session_1_Introduction/
-│   │   └── ...labs & documents
-│   ├── Session_2_Data_Collection_Cleaning/
-│   │   └── ...cleaned_ecommerce_data.csv
-│   ├── Session_3_Python_for_Analytics/
-│   │   └── ...session3_transactions_clean.csv
-│   ├── Mini_Project_SuperMart/
-│   │   └── ...scripts, data, output
-│   └── pandas_intro.md
-│
-└── Day_2/
-    ├── Session_1_EDA/
-    │   └── ...labs & documents
-    ├── Session_2_Visualization_Fundamentals/
-    │   └── ...labs & documents
-    ├── Session_3_Advanced_Visualization/
-    │   └── ...labs & documents
-    └── Mini_Project_Student_Performance/
-        └── student_performance_analysis.py
-├── Day_2_Complete_EDA_and_Visualization.ipynb
-├── students_data.csv
+ Day_1/
+    Session_1_Introduction/
+       ...labs & documents
+    Session_2_Data_Collection_Cleaning/
+       ...cleaned_ecommerce_data.csv
+    Session_3_Python_for_Analytics/
+       ...session3_transactions_clean.csv
+    Mini_Project_SuperMart/
+       ...scripts, data, output
+    pandas_intro.md
+
+ Day_2/
+     Session_1_EDA/
+        ...labs & documents
+     Session_2_Visualization_Fundamentals/
+        ...labs & documents
+     Session_3_Advanced_Visualization/
+        ...labs & documents
+     Mini_Project_Student_Performance/
+         student_performance_analysis.py
+ Day_2_Complete_EDA_and_Visualization.ipynb
+ students_data.csv
 ```
 
 ---
@@ -126,18 +126,18 @@ python Day_1/Session_3_Python_for_Analytics/Lab_VSCode_Dataset_Manipulation.py
 The Day 1 model mini project is a complete analytics pipeline for a fictional retail chain with 5 stores across India.
 
 **What it covers:**
-- ✅ Loading raw CSV with data quality issues
-- ✅ Auditing and documenting 5 types of data problems
-- ✅ Cleaning: duplicates, invalid prices, inconsistent text, missing values, mixed date formats
-- ✅ Feature engineering: revenue, quarter, membership, basket size
-- ✅ Multi-level analysis: store, category, quarterly trends
-- ✅ Dashboard: 6-panel dark-themed visualization
+-  Loading raw CSV with data quality issues
+-  Auditing and documenting 5 types of data problems
+-  Cleaning: duplicates, invalid prices, inconsistent text, missing values, mixed date formats
+-  Feature engineering: revenue, quarter, membership, basket size
+-  Multi-level analysis: store, category, quarterly trends
+-  Dashboard: 6-panel dark-themed visualization
 
 **Student Mini Project:** After studying the model project, students build their own version with a different dataset (see `Mini_Project_SuperMart/README.md`).
 
 ---
 
-## ️ Prerequisites
+##  Prerequisites
 
 | Tool | Version | Install |
 |------|---------|---------|
@@ -159,9 +159,9 @@ pip install pandas numpy matplotlib seaborn requests jupyter
 
 To run in Google Colab, open the `.ipynb` files directly:
 1. Go to [colab.research.google.com](https://colab.research.google.com)
-2. File → Open notebook → GitHub tab
+2. File  Open notebook  GitHub tab
 3. Paste this repo URL and select the notebook
 
 ---
 
-*Data Analytics Complete — Building real skills, one day at a time.*
+*Data Analytics Complete  Building real skills, one day at a time.*

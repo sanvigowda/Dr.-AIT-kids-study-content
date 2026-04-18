@@ -1,10 +1,10 @@
-#  Bar, Line, Pie, Histogram & Boxplot — Deep Dive
+#  Bar, Line, Pie, Histogram & Boxplot  Deep Dive
 
 > **Learning Goal:** Master the 5 most commonly used charts in data analysis using Matplotlib and Seaborn.
 
 ---
 
-## ️ Setup
+##  Setup
 
 ```python
 import matplotlib.pyplot as plt
@@ -20,7 +20,7 @@ df = pd.read_csv("students_data.csv")
 
 ---
 
-## 1️⃣ Bar Chart — "Which group is bigger?"
+## 1 Bar Chart  "Which group is bigger?"
 
 **Matplotlib:**
 ```python
@@ -64,7 +64,7 @@ plt.show()
 
 ---
 
-## 2️⃣ Line Chart — "How does this change over time?"
+## 2 Line Chart  "How does this change over time?"
 
 ```python
 months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
@@ -75,14 +75,14 @@ attendance  = [78, 80, 75, 82, 85, 88, 86, 89, 92, 90, 95, 93]
 
 fig, ax1 = plt.subplots(figsize=(10, 4))
 
-# Primary axis — study hours
+# Primary axis  study hours
 ax1.plot(months, study_hours, marker="o", color="steelblue",
          linewidth=2, label="Study Hours", markersize=7)
 ax1.set_xlabel("Month")
 ax1.set_ylabel("Study Hours", color="steelblue")
 ax1.fill_between(months, study_hours, alpha=0.1, color="steelblue")
 
-# Secondary axis — attendance
+# Secondary axis  attendance
 ax2 = ax1.twinx()
 ax2.plot(months, attendance, marker="s", color="coral",
          linewidth=2, linestyle="--", label="Attendance %", markersize=7)
@@ -96,7 +96,7 @@ plt.show()
 
 ---
 
-## 3️⃣ Pie Chart — "What portion of the whole?"
+## 3 Pie Chart  "What portion of the whole?"
 
 ```python
 city_counts = df["city"].value_counts()
@@ -113,18 +113,18 @@ axes[0].set_title("Students by City (Pie)")
 wedges, texts, autotexts = axes[1].pie(
     city_counts, labels=city_counts.index, autopct="%1.1f%%",
     colors=["#3498db", "#e74c3c", "#2ecc71"], startangle=90,
-    wedgeprops=dict(width=0.5))  # width<1 → donut!
+    wedgeprops=dict(width=0.5))  # width<1  donut!
 axes[1].set_title("Students by City (Donut)")
 
 plt.tight_layout()
 plt.show()
 ```
 
-> ⚠️ **Rule:** Use pie/donut only when you have **≤ 6 slices** and the percentages are **meaningfully different**.
+>  **Rule:** Use pie/donut only when you have ** 6 slices** and the percentages are **meaningfully different**.
 
 ---
 
-## 4️⃣ Histogram — "How is this value distributed?"
+## 4 Histogram  "How is this value distributed?"
 
 ```python
 fig, axes = plt.subplots(1, 3, figsize=(14, 4))
@@ -139,7 +139,7 @@ for ax, col, color in zip(axes, ["marks", "study_hours", "attendance"],
     ax.set_ylabel("Frequency")
     ax.legend(fontsize=8)
 
-plt.suptitle("Histograms — How values are spread out", fontweight="bold")
+plt.suptitle("Histograms  How values are spread out", fontweight="bold")
 plt.tight_layout()
 plt.show()
 ```
@@ -155,7 +155,7 @@ plt.show()
 
 ---
 
-## 5️⃣ Boxplot — "Where are the outliers?"
+## 5 Boxplot  "Where are the outliers?"
 
 ```python
 fig, axes = plt.subplots(1, 2, figsize=(12, 5))
@@ -179,7 +179,7 @@ plt.show()
 
 ---
 
-##  Matplotlib vs Seaborn — When to Use Which?
+##  Matplotlib vs Seaborn  When to Use Which?
 
 | Factor | Matplotlib | Seaborn |
 |--------|-----------|---------|
@@ -193,7 +193,7 @@ plt.show()
 
 ---
 
-## ✅ Key Takeaways
+##  Key Takeaways
 
 1. **Bar** = Compare groups | **Line** = Show trends over time
 2. **Pie** = Part of whole (max 6 slices) | **Histogram** = Distribution shape
@@ -203,4 +203,4 @@ plt.show()
 
 ---
 
-*Next Topic → [Visualization Ethics](./03_Visualization_Ethics.md)*
+*Next Topic  [Visualization Ethics](./03_Visualization_Ethics.md)*

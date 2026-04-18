@@ -28,7 +28,7 @@ df_txns.to_sql("transactions", conn, if_exists="replace", index=False)
 df_stores = pd.read_csv(STORES_DATA)
 df_stores.to_sql("stores", conn, if_exists="replace", index=False)
 
-print("✅ SQL Environment Ready: Databases 'transactions' and 'stores' loaded.\n")
+print(" SQL Environment Ready: Databases 'transactions' and 'stores' loaded.\n")
 
 # --- LAB TASKS ---
 

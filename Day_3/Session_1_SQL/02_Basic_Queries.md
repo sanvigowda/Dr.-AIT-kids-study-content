@@ -4,7 +4,7 @@
 
 ---
 
-## 1️⃣ SELECT: Picking Columns
+## 1 SELECT: Picking Columns
 
 The `SELECT` statement tells the database which columns you want.
 
@@ -20,7 +20,7 @@ SELECT txn_id, amount, category FROM transactions;
 
 ---
 
-## 2️⃣ WHERE: Filtering Rows
+## 2 WHERE: Filtering Rows
 
 The `WHERE` clause is the "Filter" of SQL.
 
@@ -36,7 +36,7 @@ The `WHERE` clause is the "Filter" of SQL.
 
 ---
 
-## 3️⃣ ORDER BY: Sorting Results
+## 3 ORDER BY: Sorting Results
 
 Use `ORDER BY` to sort your data. Default is ascending (`ASC`).
 
