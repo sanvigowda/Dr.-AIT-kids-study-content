@@ -1,10 +1,10 @@
-# 📊 Data Analytics Lifecycle
+#  Data Analytics Lifecycle
 
 > **Learning Goal:** Understand the end-to-end process of a data analytics project — from raw data to actionable business decisions.
 
 ---
 
-## 🔍 What Is the Data Analytics Lifecycle?
+##  What Is the Data Analytics Lifecycle?
 
 The **Data Analytics Lifecycle** is a structured, repeatable process that data analysts and scientists follow to extract meaningful insights from data.
 
@@ -14,7 +14,7 @@ Think of it like building a house:
 
 ---
 
-## 🏗️ The 6 Stages of the Data Analytics Lifecycle
+## ️ The 6 Stages of the Data Analytics Lifecycle
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -25,7 +25,7 @@ Think of it like building a house:
 
 ---
 
-### Stage 1: 🎯 Problem Definition
+### Stage 1:  Problem Definition
 
 **What it is:** Clearly defining the business question you are trying to answer.
 
@@ -43,7 +43,7 @@ Think of it like building a house:
 
 ---
 
-### Stage 2: 📥 Data Collection
+### Stage 2:  Data Collection
 
 **What it is:** Gathering raw data from relevant sources.
 
@@ -67,7 +67,7 @@ Think of it like building a house:
 
 ---
 
-### Stage 3: 🧹 Data Cleaning
+### Stage 3:  Data Cleaning
 
 **What it is:** Fixing or removing incorrect, incomplete, or duplicate data.
 
@@ -88,7 +88,7 @@ Think of it like building a house:
 
 ---
 
-### Stage 4: 🔍 Exploratory Data Analysis (EDA)
+### Stage 4:  Exploratory Data Analysis (EDA)
 
 **What it is:** Understanding the data through statistics and visualizations before building any model.
 
@@ -104,7 +104,7 @@ Think of it like building a house:
 
 ---
 
-### Stage 5: 📈 Analysis / Modeling
+### Stage 5:  Analysis / Modeling
 
 **What it is:** Applying statistical methods or machine learning to answer the question.
 
@@ -125,7 +125,7 @@ Think of it like building a house:
 
 ---
 
-### Stage 6: 💡 Insights & Communication
+### Stage 6:  Insights & Communication
 
 **What it is:** Presenting findings to stakeholders in a clear, actionable way.
 
@@ -143,7 +143,7 @@ Think of it like building a house:
 
 ---
 
-## 🔄 Is the Lifecycle Always Linear?
+##  Is the Lifecycle Always Linear?
 
 **No!** In real projects, you often loop back:
 
@@ -165,7 +165,7 @@ Back to Problem Definition
 
 ---
 
-## 🌟 Real-World Case Study: Netflix Recommendation Engine
+##  Real-World Case Study: Netflix Recommendation Engine
 
 | Stage | What Netflix Does |
 |-------|-------------------|
@@ -190,7 +190,7 @@ Back to Problem Definition
 
 ---
 
-## 🧠 Quick Check Questions
+##  Quick Check Questions
 
 1. Which stage comes before data cleaning?
 2. Why is problem definition the most critical stage?

@@ -1,10 +1,10 @@
-# 📊 Statistical Summaries in EDA
+#  Statistical Summaries in EDA
 
 > **Learning Goal:** Learn how to quickly understand a dataset using statistical measures — before writing a single line of complex code.
 
 ---
 
-## 🔍 What Is EDA?
+##  What Is EDA?
 
 **Exploratory Data Analysis (EDA)** is the first thing a data analyst does after cleaning data.
 
@@ -18,7 +18,7 @@ Think of it like a **doctor's first examination** of a patient:
 
 ---
 
-# 📐 Measures of Central Tendency
+#  Measures of Central Tendency
 
 These tell you **where the middle of your data is**.
 
@@ -28,7 +28,7 @@ These tell you **where the middle of your data is**.
 | **Median** | Middle value  | Data with outliers (e.g., incomes) |
 | **Mode**   | Most frequent | Categorical data                   |
 
-### 🧮 Real Example: Student Marks
+###  Real Example: Student Marks
 
 Marks: `[60, 65, 70, 72, 78, 80, 85, 88, 92, 95]`
 
@@ -36,12 +36,12 @@ Marks: `[60, 65, 70, 72, 78, 80, 85, 88, 92, 95]`
 - **Median** = (78+80) ÷ 2 = **79** ← middle two values
 - **Mode** = No repeat → no mode in this case
 
-> 💡 **When to use Median over Mean?**
+>  **When to use Median over Mean?**
 > If Bill Gates walks into a room of 10 average people, the **mean** income shoots up dramatically. But the **median** barely changes. For income, housing prices — always use median!
 
 ---
 
-## 📏 Measures of Spread (Dispersion)
+##  Measures of Spread (Dispersion)
 
 These tell you **how spread out your data is**.
 
@@ -52,7 +52,7 @@ These tell you **how spread out your data is**.
 | **Standard Deviation (SD)** | Square root of variance — same unit as data     |
 | **IQR**                     | Q3 − Q1 — middle 50% spread, outlier-resistant |
 
-### 📦 Understanding the 5-Number Summary
+###  Understanding the 5-Number Summary
 
 ```
 Min ──── Q1 ──── Median ──── Q3 ──── Max
@@ -70,7 +70,7 @@ Min ──── Q1 ──── Median ──── Q3 ──── Max
 
 ---
 
-## 🐼 Using Pandas for Statistical Summaries
+##  Using Pandas for Statistical Summaries
 
 ```python
 import pandas as pd
@@ -95,7 +95,7 @@ min     60.0         3.0        70.0   ← smallest
 max     95.0         8.0        98.0   ← largest
 ```
 
-### 📌 Individual Statistics
+###  Individual Statistics
 
 ```python
 df["marks"].mean()      # Average
@@ -110,7 +110,7 @@ df["marks"].value_counts()   # Frequency count (great for categories)
 
 ---
 
-## 📊 Frequency Distribution
+##  Frequency Distribution
 
 Shows how many times each value (or range of values) appears.
 
@@ -139,7 +139,7 @@ marks range
 
 ---
 
-## 🌍 Real-World Example: E-Commerce
+##  Real-World Example: E-Commerce
 
 > An e-commerce company wants to understand customer spending:
 >
@@ -162,7 +162,7 @@ marks range
 
 ---
 
-## 🧠 Quick Check Questions
+##  Quick Check Questions
 
 1. If a dataset has a mean of 50 and median of 30, what does this tell you?
 2. A class has marks: [45, 50, 52, 55, 99]. Which is a better summary — mean or median?

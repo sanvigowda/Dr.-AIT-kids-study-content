@@ -1,4 +1,4 @@
-# 🔎 Filtering & Aggregation in Pandas
+#  Filtering & Aggregation in Pandas
 
 > **Learning Goal:** Master filtering rows with conditions and summarizing data with groupby and aggregation — the most used operations in real analytics work.
 
@@ -6,7 +6,7 @@
 
 ## Part 1: Filtering Data
 
-### 🔍 Basic Boolean Filtering
+###  Basic Boolean Filtering
 
 ```python
 import pandas as pd
@@ -56,7 +56,7 @@ print(f"Orders not returned: {len(not_returned)}")
 
 ---
 
-### 🎯 Advanced Filtering Methods
+###  Advanced Filtering Methods
 
 ```python
 # ─── isin() — filter multiple values ──────────────────────────────────
@@ -88,7 +88,7 @@ top_orders = sales.query("amount > @min_amount and returned == False")
 
 ---
 
-### 📊 Multiple Condition Filtering — Real Scenario
+###  Multiple Condition Filtering — Real Scenario
 
 ```python
 # Business Question: Find high-value orders in electronics that were NOT returned
@@ -108,7 +108,7 @@ print(top_electronics[['customer', 'city', 'amount']].to_string(index=False))
 
 ## Part 2: Aggregation with GroupBy
 
-### 🔵 Basic GroupBy
+###  Basic GroupBy
 
 Think of GroupBy like Excel's PivotTable — split the data into groups, apply a function, and combine the results.
 
@@ -131,7 +131,7 @@ print(order_count)
 
 ---
 
-### 📈 Multiple Aggregations with agg()
+###  Multiple Aggregations with agg()
 
 ```python
 # Multiple stats at once for each category
@@ -154,7 +154,7 @@ print(category_stats)
 
 ---
 
-### 🌐 Multi-Level GroupBy
+###  Multi-Level GroupBy
 
 ```python
 # Group by TWO columns: category × city
@@ -174,7 +174,7 @@ print(pivot)
 
 ---
 
-### 🔄 transform() — Add Aggregated Values Back to Original
+###  transform() — Add Aggregated Values Back to Original
 
 ```python
 # Add a column with category total revenue WHILE keeping all rows
@@ -192,7 +192,7 @@ print(sales[['customer', 'category', 'amount', 'pct_of_category', 'rank_in_categ
 
 ---
 
-### 💹 Real-World Example: E-Commerce Sales Analysis
+###  Real-World Example: E-Commerce Sales Analysis
 
 ```python
 import pandas as pd
@@ -231,7 +231,7 @@ print(region_avg)
 
 ---
 
-### 🪟 Window Functions with rolling() & expanding()
+###  Window Functions with rolling() & expanding()
 
 ```python
 import pandas as pd

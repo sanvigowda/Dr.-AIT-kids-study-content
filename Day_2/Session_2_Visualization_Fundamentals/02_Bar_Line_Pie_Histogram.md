@@ -1,10 +1,10 @@
-# 📊 Bar, Line, Pie, Histogram & Boxplot — Deep Dive
+#  Bar, Line, Pie, Histogram & Boxplot — Deep Dive
 
 > **Learning Goal:** Master the 5 most commonly used charts in data analysis using Matplotlib and Seaborn.
 
 ---
 
-## 🛠️ Setup
+## ️ Setup
 
 ```python
 import matplotlib.pyplot as plt
@@ -52,7 +52,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-> 💡 **Seaborn Tip:** `palette="Set2"` gives beautiful pre-made color combinations. Try `"pastel"`, `"coolwarm"`, `"Blues"`.
+>  **Seaborn Tip:** `palette="Set2"` gives beautiful pre-made color combinations. Try `"pastel"`, `"coolwarm"`, `"Blues"`.
 
 **Horizontal bar chart** (great when labels are long):
 ```python
@@ -179,7 +179,7 @@ plt.show()
 
 ---
 
-## 🎨 Matplotlib vs Seaborn — When to Use Which?
+##  Matplotlib vs Seaborn — When to Use Which?
 
 | Factor | Matplotlib | Seaborn |
 |--------|-----------|---------|
@@ -189,7 +189,7 @@ plt.show()
 | Best for | Custom complex charts | Quick beautiful charts |
 | Statistical charts | Manual | Built-in (violin, pairplot...) |
 
-> 💡 **Best practice:** Use **Seaborn for quick exploration**, **Matplotlib for final polish**.
+>  **Best practice:** Use **Seaborn for quick exploration**, **Matplotlib for final polish**.
 
 ---
 

@@ -1,4 +1,4 @@
-# 🔄 Removing Duplicates & Data Transformation
+#  Removing Duplicates & Data Transformation
 
 > **Learning Goal:** Learn to find and remove duplicate data, and apply transformations to shape data for analysis.
 
@@ -19,7 +19,7 @@
 
 ---
 
-### 🔍 Detecting Duplicates
+###  Detecting Duplicates
 
 ```python
 import pandas as pd
@@ -51,7 +51,7 @@ print(orders[orders.duplicated(subset=['order_id'], keep='first')])
 
 ---
 
-### 🗑️ Removing Duplicates
+### ️ Removing Duplicates
 
 ```python
 # Remove fully duplicate rows (keep first occurrence)
@@ -75,7 +75,7 @@ df_clean = df_unique_orders.reset_index(drop=True)
 
 ---
 
-### 🏦 Real-World Example: Banking Duplicate Transactions
+###  Real-World Example: Banking Duplicate Transactions
 
 ```python
 import pandas as pd
@@ -106,7 +106,7 @@ Transformation reshapes data into a format suitable for analysis.
 
 ---
 
-### 🔤 1. Data Type Conversion
+###  1. Data Type Conversion
 
 ```python
 import pandas as pd
@@ -138,7 +138,7 @@ print(df)
 
 ---
 
-### 🔡 2. String Transformations
+###  2. String Transformations
 
 ```python
 import pandas as pd
@@ -164,7 +164,7 @@ print(customers)
 
 ---
 
-### 📅 3. Date & Time Transformations
+###  3. Date & Time Transformations
 
 ```python
 import pandas as pd
@@ -194,7 +194,7 @@ print(df.head())
 
 ---
 
-### 🏷️ 4. Binning / Discretization (Grouping continuous into categories)
+### ️ 4. Binning / Discretization (Grouping continuous into categories)
 
 ```python
 import pandas as pd
@@ -226,7 +226,7 @@ print(employees)
 
 ---
 
-### 🔀 5. Encoding Categorical Variables
+###  5. Encoding Categorical Variables
 
 ```python
 import pandas as pd
@@ -250,7 +250,7 @@ print(df_encoded)
 
 ---
 
-### 📐 6. Normalization & Standardization
+###  6. Normalization & Standardization
 
 ```python
 import pandas as pd

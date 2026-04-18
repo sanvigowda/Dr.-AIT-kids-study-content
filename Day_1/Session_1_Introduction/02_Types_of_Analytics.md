@@ -1,10 +1,10 @@
-# 📊 Types of Analytics
+#  Types of Analytics
 
 > **Learning Goal:** Understand the 4 types of analytics and know when to use each one in real business scenarios.
 
 ---
 
-## 🎯 The Analytics Spectrum
+##  The Analytics Spectrum
 
 Analytics exists on a spectrum from **describing what happened** to **recommending what to do**:
 
@@ -209,7 +209,7 @@ Directly drives optimized business decisions.
 
 ---
 
-## 📊 Comparison Table
+##  Comparison Table
 
 | Feature | Descriptive | Diagnostic | Predictive | Prescriptive |
 |---------|-------------|------------|------------|--------------|
@@ -222,7 +222,7 @@ Directly drives optimized business decisions.
 
 ---
 
-## 🏭 Industry Examples
+##  Industry Examples
 
 ### E-Commerce (Meesho / Amazon)
 - **Descriptive:** "What are the top 10 products sold this week?"
@@ -248,7 +248,7 @@ Directly drives optimized business decisions.
 
 ---
 
-## 🧠 Quick Check Questions
+##  Quick Check Questions
 
 1. A retail company creates a report showing last month's revenue. What type of analytics is this?
 2. You build a model to predict customer churn. What type is this?

@@ -1,10 +1,10 @@
-# 📥 Data Sources — CSV, APIs, and Databases
+#  Data Sources — CSV, APIs, and Databases
 
 > **Learning Goal:** Learn how to collect data from the three most common sources: CSV files, APIs, and databases — with hands-on Python examples.
 
 ---
 
-## 🌐 Where Does Data Come From?
+##  Where Does Data Come From?
 
 In the real world, data lives in many places. As a data analyst, you need to know how to **access data from multiple sources** and bring it into Python for analysis.
 

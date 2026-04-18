@@ -1,12 +1,12 @@
-# 🏭 Industry Applications & Career Pathways in Data Analytics
+#  Industry Applications & Career Pathways in Data Analytics
 
 > **Learning Goal:** Understand where data analytics is applied across industry sectors and map out the career landscape.
 
 ---
 
-## 🌍 Data Analytics Across Industries
+##  Data Analytics Across Industries
 
-### 1. 🛒 Retail & E-Commerce
+### 1.  Retail & E-Commerce
 
 | Application | Real Example | Impact |
 |------------|--------------|--------|
@@ -20,7 +20,7 @@
 
 ---
 
-### 2. 🏦 Banking & Finance (BFSI)
+### 2.  Banking & Finance (BFSI)
 
 | Application | Real Example | Impact |
 |------------|--------------|--------|
@@ -34,7 +34,7 @@
 
 ---
 
-### 3. 🏥 Healthcare & Pharma
+### 3.  Healthcare & Pharma
 
 | Application | Real Example | Impact |
 |------------|--------------|--------|
@@ -48,7 +48,7 @@
 
 ---
 
-### 4. 📱 Technology & Social Media
+### 4.  Technology & Social Media
 
 | Application | Real Example | Impact |
 |------------|--------------|--------|
@@ -62,7 +62,7 @@
 
 ---
 
-### 5. 🏗️ Manufacturing & Supply Chain
+### 5. ️ Manufacturing & Supply Chain
 
 | Application | Real Example | Impact |
 |------------|--------------|--------|
@@ -73,7 +73,7 @@
 
 ---
 
-### 6. 🚗 Transportation & Logistics
+### 6.  Transportation & Logistics
 
 | Application | Real Example | Impact |
 |------------|--------------|--------|
@@ -84,7 +84,7 @@
 
 ---
 
-## 👨‍💼 Career Pathways in Data Analytics
+## ‍ Career Pathways in Data Analytics
 
 ### The Data Career Landscape
 
@@ -99,7 +99,7 @@ Data Quality Analyst         →   BI Developer             →   Director of An
 
 ---
 
-### 📊 Role Comparison
+###  Role Comparison
 
 | Role | What They Do | Average CTC (India) | Key Skills |
 |------|-------------|---------------------|------------|
@@ -114,7 +114,7 @@ Data Quality Analyst         →   BI Developer             →   Director of An
 
 ---
 
-### 🛠️ Skills Required by Role
+### ️ Skills Required by Role
 
 #### For Data Analyst (Your Starting Point!)
 
@@ -147,7 +147,7 @@ All Data Analyst skills +
 
 
 
-### 💼 Top Companies Hiring Data Analysts in India
+###  Top Companies Hiring Data Analysts in India
 
 | Sector | Companies |
 |--------|-----------|
@@ -162,7 +162,7 @@ All Data Analyst skills +
 
 
 
-### 🔮 Future Trends to Watch
+###  Future Trends to Watch
 
 1. **Generative AI + Analytics:** ChatGPT/Gemini can now write SQL and Python analysis code — analysts who *understand* data deeply will be more valuable
 2. **Real-time Analytics:** Stream processing (Kafka, Spark Streaming) growing rapidly
@@ -182,7 +182,7 @@ All Data Analyst skills +
 
 ---
 
-## 🧠 Quick Check Questions
+##  Quick Check Questions
 
 1. Name 3 ways banks use data analytics
 2. What is the difference between a Data Analyst and a Data Scientist?

@@ -95,7 +95,7 @@ ax.annotate(f"⭐ {top['name']} (Top scorer: {top['marks']})",
             arrowprops=dict(arrowstyle="->", color="darkgreen"),
             fontsize=9, color="darkgreen",
             bbox=dict(boxstyle="round,pad=0.3", fc="lightyellow", ec="gray"))
-ax.annotate(f"📉 {low['name']} (Needs help: {low['marks']})",
+ax.annotate(f" {low['name']} (Needs help: {low['marks']})",
             xy=(low["study_hours"], low["marks"]),
             xytext=(low["study_hours"] + 0.5, low["marks"] + 8),
             arrowprops=dict(arrowstyle="->", color="darkred"),
@@ -179,7 +179,7 @@ print("   ✅ Saved: Day_2/part3_distributions.png")
 print("[4] Building the Full Mini Dashboard...")
 
 fig4 = plt.figure(figsize=(18, 11))
-fig4.suptitle("📊 Student Performance Analytics Dashboard — Day 2 Capstone",
+fig4.suptitle(" Student Performance Analytics Dashboard — Day 2 Capstone",
               fontsize=16, fontweight="bold", y=1.01)
 
 gs = gridspec.GridSpec(2, 4, figure=fig4, hspace=0.45, wspace=0.4)
@@ -194,7 +194,7 @@ bars = ax1.bar(avg_city.index, avg_city.values, color=bar_colors, edgecolor="bla
 for bar in bars:
     ax1.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.5,
              f"{bar.get_height():.1f}", ha="center", fontsize=9, fontweight="bold")
-ax1.set_title("Avg Marks by City\n(🏆 Gold = Best)", fontweight="bold", fontsize=9)
+ax1.set_title("Avg Marks by City\n( Gold = Best)", fontweight="bold", fontsize=9)
 ax1.set_ylim(0, 100)
 ax1.set_ylabel("Marks")
 
@@ -220,17 +220,17 @@ ax3.set_title("Correlation Heatmap", fontweight="bold", fontsize=9)
 ax4 = fig4.add_subplot(gs[0, 3])
 ax4.axis("off")
 kpi_text = (
-    "📊 KPIs\n"
+    " KPIs\n"
     "─────────────────────\n"
     f"  Avg Marks:   {avg_marks:.1f}\n"
     f"  Avg Attend:  {avg_attend:.1f}%\n"
     f"  Avg Study:   {avg_study:.1f} hrs\n\n"
-    "🏅 RANKINGS\n"
+    " RANKINGS\n"
     "─────────────────────\n"
     f"  Top:  {top_student} (95)\n"
     f"  Low:  {low_student} (60)\n"
-    f"  City: {best_city} 🏆\n\n"
-    "📈 CORRELATIONS\n"
+    f"  City: {best_city} \n\n"
+    " CORRELATIONS\n"
     "─────────────────────\n"
     f"  Study↔Marks:  {corr_sh_marks:.2f}\n"
     f"  Attend↔Marks: {corr_at_marks:.2f}"
@@ -273,7 +273,7 @@ ax6.set_xlabel("Grade")
 ax7 = fig4.add_subplot(gs[1, 3])
 ax7.axis("off")
 actions = (
-    "💡 INSIGHTS\n"
+    " INSIGHTS\n"
     "─────────────────────\n"
     "1. More study hours =\n"
     "   higher marks (r=0.96)\n\n"
@@ -281,7 +281,7 @@ actions = (
     "   90%+ → score 80+\n\n"
     "3. Bangalore leads\n"
     "   (avg 86.7 marks)\n\n"
-    "🎯 ACTIONS\n"
+    " ACTIONS\n"
     "─────────────────────\n"
     "▸ Set 6-hr study goal\n"
     "▸ Alert <80% attendance\n"

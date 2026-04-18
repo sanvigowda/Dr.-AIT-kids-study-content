@@ -1,10 +1,10 @@
-# 🚀 Advanced Data Visualization
+#  Advanced Data Visualization
 
 > **Learning Goal:** Learn how to create dense, information-rich visualizations that summarize complex, multi-variable relationships in a single chart.
 
 ---
 
-## 🧩 The Limits of Basic Charts
+##  The Limits of Basic Charts
 
 A bar chart or a scatter plot is excellent for looking at one or two columns. But what if you have a dataset with 20 columns? 
 
@@ -14,11 +14,11 @@ Plotting 20 separate scatter plots is incredibly tedious and makes it impossible
 
 ---
 
-## 🔥 1. The Correlation Heatmap
+##  1. The Correlation Heatmap
 
 A correlation heatmap takes a correlation matrix (which is just a grid of numbers between -1 and 1) and color-codes it. This allows your brain to instantly identify strong positive (often dark red/blue) and strong negative relationships without reading a single number.
 
-### 💻 Code Example:
+###  Code Example:
 ```python
 import pandas as pd
 import seaborn as sns
@@ -43,7 +43,7 @@ plt.show()
 
 ---
 
-## 👯 2. The Pairplot
+##  2. The Pairplot
 
 If you want to visually check *every* combination of numerical columns simultaneously, the `pairplot` is your best friend.
 
@@ -51,7 +51,7 @@ A Pairplot creates a grid where:
 - The **diagonal** reveals the distribution (histogram/KDE) of a single variable.
 - The **non-diagonal** spaces show scatterplots of every variable against every other variable.
 
-### 💻 Code Example:
+###  Code Example:
 ```python
 # Pass the dataframe to pairplot, and color points based on the 'city' column
 sns.pairplot(df, hue="city", palette="Dark2")
@@ -62,11 +62,11 @@ plt.show()
 
 ---
 
-## 📊 3. Subplots (Dashboards)
+##  3. Subplots (Dashboards)
 
 Often, you want to present multiple different charts side-by-side as a "dashboard". Matplotlib's `subplots` let you divide your canvas into a grid and put a different chart in each slot.
 
-### 💻 Code Example:
+###  Code Example:
 ```python
 # Create a 1x3 grid of empty charts
 fig, axes = plt.subplots(nrows=1, ncols=3, figsize=(15, 5))
@@ -90,7 +90,7 @@ plt.show()
 
 ---
 
-## 💾 Saving Your Masterpieces
+##  Saving Your Masterpieces
 
 Once you've built the perfect chart, you need to save it so you can drop it into a presentation or send it to your team in an email.
 
@@ -104,7 +104,7 @@ plt.savefig("my_amazing_dashboard.png", dpi=300, bbox_inches="tight")
 
 ---
 
-## 🌍 Real-World Example: Fraud Detection
+##  Real-World Example: Fraud Detection
 
 > A bank is trying to map out credit card fraud. They have a dataset with 30 columns reflecting user behaviour (login times, transaction amounts, location changes).
 > 
@@ -122,7 +122,7 @@ plt.savefig("my_amazing_dashboard.png", dpi=300, bbox_inches="tight")
 
 ---
 
-## 🧠 Quick Check Questions
+##  Quick Check Questions
 
 1. Why shouldn't you run a `pairplot` on a dataset with 100 columns?
 2. In a Seaborn heatmap, what does `annot=True` do?
@@ -130,4 +130,4 @@ plt.savefig("my_amazing_dashboard.png", dpi=300, bbox_inches="tight")
 
 ---
 
-🎉 **Congratulations! You've completed the Day 2 Data Analytics Curriculum.** You now know how to generate raw statistics, map correlations, hunt outliers, and visualize data beautifully!
+ **Congratulations! You've completed the Day 2 Data Analytics Curriculum.** You now know how to generate raw statistics, map correlations, hunt outliers, and visualize data beautifully!

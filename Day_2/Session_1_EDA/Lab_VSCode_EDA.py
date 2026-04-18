@@ -232,7 +232,7 @@ axes[1, 2].set_title("Grade Distribution")
 plt.tight_layout()
 plt.savefig("Day_2/session_1_eda_dashboard.png", dpi=130, bbox_inches="tight")
 plt.show()
-print("\n📊 EDA Dashboard saved as 'Day_2/session_1_eda_dashboard.png'")
+print("\n EDA Dashboard saved as 'Day_2/session_1_eda_dashboard.png'")
 
 print("\n" + "=" * 60)
 print("  ✅  Session 1 Lab Complete!")

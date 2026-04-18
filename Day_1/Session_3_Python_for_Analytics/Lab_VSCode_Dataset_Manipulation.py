@@ -42,7 +42,7 @@ print(f"\nArray shape: {monthly_sales.shape}  (stores × months)")
 print(f"Data type: {monthly_sales.dtype}")
 
 # ─── NumPy Operations ─────────────────────────────────────────────────────────
-print("\n📊 STORE PERFORMANCE (using NumPy axis operations):")
+print("\n STORE PERFORMANCE (using NumPy axis operations):")
 print("─" * 40)
 
 # Annual total per store (sum across columns, axis=1)
@@ -57,7 +57,7 @@ for i, store in enumerate(stores):
           f"Avg=₹{store_avg[i]:.0f} | "
           f"Best Month={months[best_month_idx[i]]}")
 
-print("\n📅 MONTHLY PERFORMANCE (across all stores):")
+print("\n MONTHLY PERFORMANCE (across all stores):")
 print("─" * 40)
 monthly_totals = monthly_sales.sum(axis=0)
 peak_month_idx = monthly_totals.argmax()
@@ -67,7 +67,7 @@ print(f"  Slowest Month: {months[monthly_totals.argmin()]} (Total: ₹{monthly_t
 # ─── Boolean Indexing ─────────────────────────────────────────────────────────
 target = 2000
 above_target = monthly_sales > target
-print(f"\n🎯 Months above ₹{target:,} target per store:")
+print(f"\n Months above ₹{target:,} target per store:")
 for i, store in enumerate(stores):
     count = above_target[i].sum()
     print(f"  {store}: {count}/12 months exceeded target")
@@ -77,7 +77,7 @@ for i, store in enumerate(stores):
 quarterly = monthly_sales.reshape(4, 4, 3)
 quarterly_totals = quarterly.sum(axis=2)  # Sum within each quarter
 
-print("\n📈 QUARTERLY TOTALS:")
+print("\n QUARTERLY TOTALS:")
 print(f"{'Store':<12} {'Q1':>8} {'Q2':>8} {'Q3':>8} {'Q4':>8}")
 print("─" * 50)
 for i, store in enumerate(stores):
@@ -87,7 +87,7 @@ for i, store in enumerate(stores):
 # ─── Growth Rate Calculation ──────────────────────────────────────────────────
 # Month-over-month growth (percentage change)
 mom_growth = np.diff(monthly_sales, axis=1) / monthly_sales[:, :-1] * 100
-print("\n📉 Average Month-over-Month Growth:")
+print("\n Average Month-over-Month Growth:")
 for i, store in enumerate(stores):
     avg_growth = mom_growth[i].mean()
     print(f"  {store}: {avg_growth:+.1f}% average monthly growth")
@@ -177,7 +177,7 @@ print(f"Their average basket: ₹{high_value['amount'].mean():.2f}")
 # Store ranking by revenue — find the best store directly
 store_revenue = transactions.groupby('store')['amount'].sum()
 best_store = store_revenue.idxmax()
-print(f"\n🏆 Best performing store: {best_store} (₹{store_revenue[best_store]:,.0f})")
+print(f"\n Best performing store: {best_store} (₹{store_revenue[best_store]:,.0f})")
 
 # ─────────────────────────────────────────────────────────────────────────────
 # PART C: VISUALIZATION DASHBOARD
@@ -247,11 +247,11 @@ for i, v in enumerate(member_avg.values):
 
 plt.savefig('session3_lab_dashboard.png', dpi=100, bbox_inches='tight')
 plt.show()
-print("📊 Dashboard saved as 'session3_lab_dashboard.png'")
+print(" Dashboard saved as 'session3_lab_dashboard.png'")
 
 # ─── Save Final Analysis ──────────────────────────────────────────────────────
 transactions.to_csv('session3_transactions_clean.csv', index=False)
-print("💾 Transaction data saved as 'session3_transactions_clean.csv'")
+print(" Transaction data saved as 'session3_transactions_clean.csv'")
 
 print("\n" + "=" * 65)
 print("✅ Session 3 Lab Complete!")

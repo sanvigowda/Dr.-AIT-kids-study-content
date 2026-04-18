@@ -4,7 +4,7 @@
 
 ---
 
-## 🤔 Why Does Visualization Ethics Matter?
+##  Why Does Visualization Ethics Matter?
 
 > "With great power comes great responsibility." — Uncle Ben (and Data Analysts too!)
 
@@ -17,7 +17,7 @@ In 2020, a government agency published a COVID case chart with a **reversed Y-ax
 
 ---
 
-## 🚫 Common Misleading Chart Techniques
+##  Common Misleading Chart Techniques
 
 ### 1. Truncated Y-Axis (Most Common!)
 
@@ -112,7 +112,7 @@ sales_all  = [45000, 42000, 85000, 90000, 92000, 41000]
 
 ---
 
-## 🎨 GOOD vs BAD: Side-by-Side Example
+##  GOOD vs BAD: Side-by-Side Example
 
 ```python
 import matplotlib.pyplot as plt
@@ -144,7 +144,7 @@ plt.show()
 
 ---
 
-## 🌍 Real-World Consequences
+##  Real-World Consequences
 
 | What Happened | Impact |
 |--------------|--------|
@@ -165,7 +165,7 @@ plt.show()
 
 ---
 
-## 🧠 Quick Check Questions
+##  Quick Check Questions
 
 1. You're making a bar chart showing student marks (all between 70–90). Should you start Y at 0 or 70? Why?
 2. A company shows only January–March sales data in their annual report. What's wrong?

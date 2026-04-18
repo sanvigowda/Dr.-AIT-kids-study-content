@@ -1,10 +1,10 @@
-# 📈 Data Visualization & Chart Selection
+#  Data Visualization & Chart Selection
 
 > **Learning Goal:** Learn how to select the right chart for the right data and translate raw numbers into a clear visual story.
 
 ---
 
-## 🎨 Why Visualizations Matter
+##  Why Visualizations Matter
 
 In Exploratory Data Analysis (EDA), our brains process visual information much faster than numbers in a table. 
 
@@ -34,7 +34,7 @@ In the Data Analytics ecosystem, two libraries reign supreme:
 
 ---
 
-## 🎯 Chart Selection Guide
+##  Chart Selection Guide
 
 The hardest part of visualization isn't writing the code; it's choosing the right chart. Ask yourself: **What am I trying to show?**
 
@@ -71,7 +71,7 @@ When you want to see the 5-number summary (Min, Q1, Median, Q3, Max) visually.
 
 ---
 
-## 💻 The Anatomy of a Good Plot
+##  The Anatomy of a Good Plot
 
 A plot without labels is useless. Every single time you make a chart, standard practice requires:
 1. **A clear title**
@@ -105,7 +105,7 @@ plt.show()
 
 ---
 
-## 🌍 Real-World Example: Sales Team
+##  Real-World Example: Sales Team
 
 > You are analyzing the Q1 sales performance of a retail store.
 > - **Use a Line Chart** to show total sales volume from Jan to March.
@@ -125,7 +125,7 @@ plt.show()
 
 ---
 
-## 🧠 Quick Check Questions
+##  Quick Check Questions
 
 1. If you wanted to show the stock price of Apple over the last 5 years, what chart would you use?
 2. You want to see the relationship between a person's age and their income. What chart should you choose?

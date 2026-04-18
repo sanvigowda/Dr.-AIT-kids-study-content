@@ -1,4 +1,4 @@
-# 🛒 Mini Project: SuperMart Sales Intelligence Dashboard
+#  Mini Project: SuperMart Sales Intelligence Dashboard
 
 ## Project Overview
 
@@ -20,7 +20,7 @@
 
 ---
 
-## 🎯 Business Problem
+##  Business Problem
 
 **SuperMart** is a fictional retail chain with 5 stores across India. The sales manager has a dataset of transactions but doesn't know:
 
@@ -34,7 +34,7 @@
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Mini_Project_SuperMart/
@@ -53,7 +53,7 @@ Mini_Project_SuperMart/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Option A: Google Colab
 1. Open `notebooks/SuperMart_Analysis_Colab.ipynb` in Google Colab
@@ -74,7 +74,7 @@ python scripts/supermart_analysis.py
 
 ---
 
-## 📊 Dataset Description
+##  Dataset Description
 
 **File:** `data/supermart_raw.csv`
 
@@ -96,7 +96,7 @@ python scripts/supermart_analysis.py
 
 ---
 
-## 🔍 Analysis Questions to Answer
+##  Analysis Questions to Answer
 
 Your pipeline should produce answers to:
 
@@ -110,7 +110,7 @@ Your pipeline should produce answers to:
 
 ---
 
-## 📈 Expected Outputs
+##  Expected Outputs
 
 After completing the project, you should have:
 
@@ -121,7 +121,7 @@ After completing the project, you should have:
 
 ---
 
-## 💡 Hints & Guidance
+##  Hints & Guidance
 
 <details>
 <summary>Hint 1: Data Cleaning Checklist</summary>
@@ -162,7 +162,7 @@ df.groupby('category').agg(
 
 ---
 
-## 🎓 Learning Outcomes
+##  Learning Outcomes
 
 By completing this project, you will:
 - Follow a complete data analytics lifecycle on a realistic dataset
@@ -173,7 +173,7 @@ By completing this project, you will:
 
 ---
 
-## 📝 Submission Checklist
+##  Submission Checklist
 
 - [ ] `cleaned_data.csv` generated successfully
 - [ ] Dashboard chart (`dashboard.png`) shows 4 panels

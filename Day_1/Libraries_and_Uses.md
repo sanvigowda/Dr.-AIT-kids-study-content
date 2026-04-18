@@ -1,10 +1,10 @@
-# 📚 Python Libraries Used in Day 1 — Data Analytics Complete
+#  Python Libraries Used in Day 1 — Data Analytics Complete
 
 > A quick-reference guide to every library used across Day 1 sessions, their purpose, and the key functions you'll use most.
 
 ---
 
-## 1. 🔢 NumPy (`numpy`)
+## 1.  NumPy (`numpy`)
 
 **What it is:** The core numerical computing library for Python. Provides fast, multi-dimensional arrays and mathematical operations.
 
@@ -40,7 +40,7 @@
 
 ---
 
-## 2. 🐼 Pandas (`pandas`)
+## 2.  Pandas (`pandas`)
 
 **What it is:** The core data manipulation library. Provides `Series` (1D) and `DataFrame` (2D table) for loading, cleaning, and analyzing structured data.
 
@@ -143,7 +143,7 @@
 
 ---
 
-## 3. 📊 Matplotlib (`matplotlib.pyplot`)
+## 3.  Matplotlib (`matplotlib.pyplot`)
 
 **What it is:** The foundational plotting library for Python. Gives precise control over every element of a chart.
 
@@ -173,7 +173,7 @@
 
 ---
 
-## 4. 🌈 Seaborn (`seaborn`)
+## 4.  Seaborn (`seaborn`)
 
 **What it is:** Built on top of Matplotlib. Creates beautiful statistical charts with less code.
 
@@ -193,7 +193,7 @@
 
 ---
 
-## 5. 🌐 Requests (`requests`)
+## 5.  Requests (`requests`)
 
 **What it is:** The standard library for making HTTP requests to APIs. Lets you fetch live data from the internet.
 
@@ -210,7 +210,7 @@
 
 ---
 
-## 6. 🗄️ SQLite3 (`sqlite3`)
+## 6. ️ SQLite3 (`sqlite3`)
 
 **What it is:** Python's built-in module for working with SQLite databases — no server needed.
 
@@ -228,7 +228,7 @@
 
 ---
 
-## 7. 🤖 scikit-learn (`sklearn`)
+## 7.  scikit-learn (`sklearn`)
 
 **What it is:** The most popular machine learning library. Day 1 uses only its preprocessing utilities.
 
@@ -244,7 +244,7 @@
 
 ---
 
-## 8. 🛣️ Pathlib (`pathlib`)
+## 8. ️ Pathlib (`pathlib`)
 
 **What it is:** Python's built-in module for file system path handling. Cleaner than `os.path`.
 
@@ -258,7 +258,7 @@
 
 ---
 
-## 🗺️ Which Library for Which Task?
+## ️ Which Library for Which Task?
 
 | Task | Use This |
 |------|----------|
@@ -274,7 +274,7 @@
 
 ---
 
-## 📦 Install Everything at Once
+##  Install Everything at Once
 
 ```bash
 pip install pandas numpy matplotlib seaborn requests scikit-learn

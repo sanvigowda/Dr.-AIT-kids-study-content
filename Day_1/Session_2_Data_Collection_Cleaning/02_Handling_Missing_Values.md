@@ -1,10 +1,10 @@
-# 🧹 Handling Missing Values
+#  Handling Missing Values
 
 > **Learning Goal:** Understand why missing values occur, how to detect them, and the right strategies to handle them — without distorting your analysis.
 
 ---
 
-## 🤔 Why Do Missing Values Exist?
+##  Why Do Missing Values Exist?
 
 Missing values are one of the most common data quality problems. They arise from:
 
@@ -22,7 +22,7 @@ Missing values are one of the most common data quality problems. They arise from
 
 ---
 
-## 🔍 Step 1: Detect Missing Values
+##  Step 1: Detect Missing Values
 
 ```python
 import pandas as pd
@@ -71,7 +71,7 @@ purchase_amount   2  → 25.0%
 
 ---
 
-## 🚫 Option 1: Drop Missing Values
+##  Option 1: Drop Missing Values
 
 ### When to Drop?
 ✅ When very few rows have missing data (< 5% of total)  
@@ -205,7 +205,7 @@ print(df_imputed.round(2))
 
 ---
 
-## 📋 Decision Framework: Which Strategy to Use?
+##  Decision Framework: Which Strategy to Use?
 
 ```
 Is the column important for analysis?
@@ -224,7 +224,7 @@ Is the column important for analysis?
 
 ---
 
-## 🏳 Creating Missing Indicator Columns
+##  Creating Missing Indicator Columns
 
 Sometimes the fact that something is missing IS important information!
 
@@ -264,7 +264,7 @@ print(df)
 
 ---
 
-## 🧠 Quick Check Questions
+##  Quick Check Questions
 
 1. When would you use `median` instead of `mean` for imputation?
 2. What is forward fill and when is it appropriate?

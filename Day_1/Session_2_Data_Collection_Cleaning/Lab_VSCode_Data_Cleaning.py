@@ -75,7 +75,7 @@ raw_data = {
 }
 
 df_raw = pd.DataFrame(raw_data)
-print(f"\n📦 Raw dataset: {df_raw.shape[0]} rows × {df_raw.shape[1]} columns")
+print(f"\n Raw dataset: {df_raw.shape[0]} rows × {df_raw.shape[1]} columns")
 print(df_raw.to_string())
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -85,22 +85,22 @@ print("\n" + "=" * 65)
 print("STEP 1: DATA AUDIT")
 print("=" * 65)
 
-print("\n🔍 ISSUE 1 — MISSING VALUES:")
+print("\n ISSUE 1 — MISSING VALUES:")
 missing_report = pd.DataFrame({
     'Missing Count': df_raw.isnull().sum(),
     'Missing %': (df_raw.isnull().sum() / len(df_raw) * 100).round(1)
 })
 print(missing_report[missing_report['Missing Count'] > 0])
 
-print("\n🔍 ISSUE 2 — DUPLICATES:")
+print("\n ISSUE 2 — DUPLICATES:")
 print(f"  Full duplicate rows: {df_raw.duplicated().sum()}")
 print(f"  Duplicate order_ids: {df_raw.duplicated(subset=['order_id']).sum()}")
 
-print("\n🔍 ISSUE 3 — INVALID VALUES:")
+print("\n ISSUE 3 — INVALID VALUES:")
 print(f"  Negative prices: {(df_raw['price'] < 0).sum()} rows")
 print(f"  Prices = 0: {(df_raw['price'] == 0).sum()} rows")
 
-print("\n🔍 ISSUE 4 — INCONSISTENT TEXT:")
+print("\n ISSUE 4 — INCONSISTENT TEXT:")
 print(f"  Unique categories: {df_raw['category'].str.lower().unique()}")
 print(f"  Cities (sample): {df_raw['city'].dropna().str.lower().unique()[:5]}")
 
@@ -185,7 +185,7 @@ print("\n" + "=" * 65)
 print("STEP 3: VALIDATION")
 print("=" * 65)
 
-print(f"\n📊 Final shape: {df.shape[0]} rows × {df.shape[1]} columns")
+print(f"\n Final shape: {df.shape[0]} rows × {df.shape[1]} columns")
 print(f"   Missing values remaining: {df.isnull().sum().sum()}")
 print(f"   Duplicate rows: {df.duplicated().sum()}")
 print(f"   Negative prices: {(df['price'] < 0).sum()}")
@@ -202,15 +202,15 @@ print("STEP 4: ANALYSIS (Now We Can Trust the Data!)")
 print("=" * 65)
 
 # Revenue by category
-print("\n💰 Revenue by Category:")
+print("\n Revenue by Category:")
 print(df.groupby('category')['revenue'].sum().sort_values(ascending=False).apply(lambda x: f"₹{x:,.0f}"))
 
 # Top cities
-print("\n🏙️ Top Cities by Revenue:")
+print("\n️ Top Cities by Revenue:")
 print(df.groupby('city')['revenue'].sum().sort_values(ascending=False).head(5).apply(lambda x: f"₹{x:,.0f}"))
 
 # Customer tiers
-print("\n👥 Customer Tier Distribution:")
+print("\n Customer Tier Distribution:")
 print(df['customer_tier'].value_counts())
 
 # ─── Visualization ──────────────────────────────────────────────────────────
@@ -248,9 +248,9 @@ axes[1, 1].grid(axis='y', alpha=0.3)
 plt.tight_layout()
 plt.savefig('session2_lab_output.png', dpi=100, bbox_inches='tight')
 plt.show()
-print("\n📊 Charts saved as 'session2_lab_output.png'")
+print("\n Charts saved as 'session2_lab_output.png'")
 
 # ─── Save cleaned data ────────────────────────────────────────────────────────
 df.to_csv('cleaned_ecommerce_data.csv', index=False)
-print("💾 Cleaned data saved as 'cleaned_ecommerce_data.csv'")
+print(" Cleaned data saved as 'cleaned_ecommerce_data.csv'")
 print("\n✅ Session 2 Lab Complete!")

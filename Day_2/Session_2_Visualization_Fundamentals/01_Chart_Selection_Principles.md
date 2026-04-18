@@ -1,10 +1,10 @@
-# 📊 Chart Selection Principles
+#  Chart Selection Principles
 
 > **Learning Goal:** Learn HOW to pick the right chart for the right data — the most common mistake beginners make is using the wrong chart type!
 
 ---
 
-## 🎯 Why Chart Selection Matters
+##  Why Chart Selection Matters
 
 > "A good chart makes data obvious. A bad chart makes people confused — or worse, misleads them."
 
@@ -16,7 +16,7 @@ Imagine explaining student performance:
 
 ---
 
-## 🗺️ The Chart Selection Guide
+## ️ The Chart Selection Guide
 
 | What You Want to Show | Best Chart Type |
 |----------------------|-----------------|
@@ -32,7 +32,7 @@ Imagine explaining student performance:
 
 ---
 
-## 📊 Chart Type 1: Bar Chart
+##  Chart Type 1: Bar Chart
 
 **Use when:** Comparing values across categories (cities, genders, products)
 
@@ -57,7 +57,7 @@ plt.show()
 
 ---
 
-## 📈 Chart Type 2: Line Chart
+##  Chart Type 2: Line Chart
 
 **Use when:** Showing trends over time (monthly sales, daily temperature)
 
@@ -81,7 +81,7 @@ plt.show()
 
 ---
 
-## 🥧 Chart Type 3: Pie Chart
+##  Chart Type 3: Pie Chart
 
 **Use when:** Showing how a whole is divided (market share, budget allocation)
 
@@ -102,7 +102,7 @@ plt.show()
 
 ---
 
-## 📉 Chart Type 4: Histogram
+##  Chart Type 4: Histogram
 
 **Use when:** Showing the distribution/frequency of a numerical variable
 
@@ -127,7 +127,7 @@ plt.show()
 
 ---
 
-## 📦 Chart Type 5: Boxplot
+##  Chart Type 5: Boxplot
 
 **Use when:** Spotting outliers and comparing spread between groups
 
@@ -154,7 +154,7 @@ plt.show()
 
 ---
 
-## 🎨 Quick Decision Chart
+##  Quick Decision Chart
 
 ```
 My data has TIME? ──── YES → Line Chart
@@ -193,7 +193,7 @@ Am I showing RELATIONSHIPS? → Scatter Plot / Heatmap
 
 ---
 
-## 🧠 Quick Check Questions
+##  Quick Check Questions
 
 1. You want to show monthly website visitors for 2024. Which chart?
 2. You want to show how 5 departments split the company budget. Which chart?

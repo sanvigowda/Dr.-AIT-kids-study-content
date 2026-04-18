@@ -1,10 +1,10 @@
-* 🎯 Outlier Detection
+*  Outlier Detection
 
 > **Learning Goal:** Learn to identify data points that are unusually different from the rest — they can either be errors to fix or rare insights to study!
 
 ---
 
-## 🤔 What Is an Outlier?
+##  What Is an Outlier?
 
 An **outlier** is a data point that is **significantly different** from the rest of the data.
 
@@ -21,7 +21,7 @@ An **outlier** is a data point that is **significantly different** from the rest
 
 ---
 
-## 👀 Types of Outliers
+##  Types of Outliers
 
 ### 1. Point Outlier (Most Common)
 
@@ -48,7 +48,7 @@ A group of points that together are unusual.
 
 ---
 
-## 🔍 Method 1: IQR Method (Most Common)
+##  Method 1: IQR Method (Most Common)
 
 The **Interquartile Range (IQR)** method finds outliers using Q1 and Q3.
 
@@ -83,7 +83,7 @@ print(f"\nOutliers found:\n{outliers[['name', 'marks']]}")
 
 ---
 
-## 📏 Method 2: Z-Score Method
+##  Method 2: Z-Score Method
 
 The **Z-score** tells you how many standard deviations a value is from the mean.
 
@@ -112,7 +112,7 @@ for name, score, z in zip(df["name"], df["marks"], z_scores):
 
 ---
 
-## 📦 Method 3: Boxplot (Visual Method)
+##  Method 3: Boxplot (Visual Method)
 
 The **boxplot** is the fastest visual way to spot outliers.
 
@@ -149,7 +149,7 @@ plt.show()
 
 ---
 
-## 🛑 What To Do With Outliers?
+##  What To Do With Outliers?
 
 | Option                   | When to Use                                           |
 | ------------------------ | ----------------------------------------------------- |
@@ -170,7 +170,7 @@ Is the outlier a data ERROR?
 
 ---
 
-## 🌍 Real-World Importance
+##  Real-World Importance
 
 | Domain                  | Why Outliers Matter                                      |
 | ----------------------- | -------------------------------------------------------- |
@@ -191,7 +191,7 @@ Is the outlier a data ERROR?
 
 ---
 
-## 🧠 Quick Check Questions
+##  Quick Check Questions
 
 1. A student scored 200 marks out of 100. What type of issue is this?
 2. Calculate the IQR for: [10, 20, 25, 30, 35, 40, 100]

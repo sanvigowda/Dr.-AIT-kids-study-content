@@ -99,7 +99,7 @@ print("─" * 40)
 numeric_cols = ['gdp_per_capita', 'social_support', 'life_expectancy']
 correlations = df[numeric_cols + ['happiness_score']].corr()['happiness_score'].drop('happiness_score')
 for factor, corr in correlations.items():
-    direction = "📈 Positive" if corr > 0 else "📉 Negative"
+    direction = " Positive" if corr > 0 else " Negative"
     print(f"  {factor:30s}: {corr:+.3f}  {direction}")
 
 # ── 5. VISUALIZATION ─────────────────────────────────────────────────────────
@@ -133,7 +133,7 @@ plt.suptitle('Day 1 Lab: World Happiness Analysis', fontsize=14, fontweight='bol
 plt.tight_layout()
 plt.savefig('session1_lab_output.png', dpi=100, bbox_inches='tight')
 plt.show()
-print("\n📊 Chart saved as 'session1_lab_output.png'")
+print("\n Chart saved as 'session1_lab_output.png'")
 
 # ── 6. KEY FINDINGS ──────────────────────────────────────────────────────────
 print("\n" + "=" * 60)
@@ -141,8 +141,8 @@ print("KEY FINDINGS:")
 print("=" * 60)
 happiest = df.loc[df['happiness_score'].idxmax()]
 unhappiest = df.loc[df['happiness_score'].idxmin()]
-print(f"  🏆 Happiest: {happiest['country']} (Score: {happiest['happiness_score']})")
-print(f"  😔 Unhappiest: {unhappiest['country']} (Score: {unhappiest['happiness_score']})")
-print(f"  📊 Global average: {df['happiness_score'].mean():.2f}")
-print(f"  💡 GDP correlation: {correlations['gdp_per_capita']:+.3f}")
+print(f"   Happiest: {happiest['country']} (Score: {happiest['happiness_score']})")
+print(f"   Unhappiest: {unhappiest['country']} (Score: {unhappiest['happiness_score']})")
+print(f"   Global average: {df['happiness_score'].mean():.2f}")
+print(f"   GDP correlation: {correlations['gdp_per_capita']:+.3f}")
 print("\n✅ Lab complete! Explore the exercises in the Colab notebook.")

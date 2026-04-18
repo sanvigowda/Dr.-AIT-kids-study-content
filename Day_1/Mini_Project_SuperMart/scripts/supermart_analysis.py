@@ -83,7 +83,7 @@ audit_report['negative_prices'] = (df_raw['price'] <= 0).sum()
 # Inconsistent categories
 audit_report['unique_category_variants'] = df_raw['category'].nunique()
 
-print(f"\n📋 AUDIT RESULTS:")
+print(f"\n AUDIT RESULTS:")
 print(f"   {'Issue':<35} {'Count'}")
 print(f"   {'─'*35} {'─'*10}")
 print(f"   {'Full duplicate rows':<35} {audit_report['duplicate_rows']}")
@@ -190,7 +190,7 @@ print("STAGE 6: EXPLORATORY DATA ANALYSIS")
 print("═" * 70)
 
 # ─── Q1: Revenue by Store ─────────────────────────────────────────────────────
-print("\n📊 Q1: Revenue by Store:")
+print("\n Q1: Revenue by Store:")
 store_rev = df.groupby('store').agg(
     total_revenue=('revenue', 'sum'),
     transactions=('transaction_id', 'count'),
@@ -202,7 +202,7 @@ for store, row in store_rev.iterrows():
     print(f"  #{row['rank']} {store:<12} |{bar:<20}| ₹{row['total_revenue']:>10,.0f}")
 
 # ─── Q2: Revenue by Category ──────────────────────────────────────────────────
-print("\n📊 Q2: Category Performance:")
+print("\n Q2: Category Performance:")
 cat_stats = df.groupby('category').agg(
     revenue=('revenue', 'sum'),
     units=('quantity', 'sum'),
@@ -212,12 +212,12 @@ cat_stats = df.groupby('category').agg(
 print(cat_stats.to_string())
 
 # ─── Q3: Quarterly Trends ─────────────────────────────────────────────────────
-print("\n📊 Q3: Quarterly Store Performance:")
+print("\n Q3: Quarterly Store Performance:")
 quarterly_store = df.groupby(['quarter', 'store'])['revenue'].sum().unstack(fill_value=0).round(0)
 print(quarterly_store.to_string())
 
 # ─── Q4: Members vs Walk-in ───────────────────────────────────────────────────
-print("\n📊 Q4: Member vs Walk-In Customers:")
+print("\n Q4: Member vs Walk-In Customers:")
 member_stats = df.groupby('is_member').agg(
     count=('transaction_id', 'count'),
     avg_basket=('revenue', 'mean'),
@@ -229,10 +229,10 @@ print(member_stats.to_string())
 premium = ((member_stats.loc['Member', 'avg_basket'] -
             member_stats.loc['Walk-In', 'avg_basket']) /
            member_stats.loc['Walk-In', 'avg_basket'] * 100)
-print(f"\n  💡 Members spend {premium:.1f}% MORE per transaction than walk-in customers!")
+print(f"\n   Members spend {premium:.1f}% MORE per transaction than walk-in customers!")
 
 # ─── Q5: Discount Analysis ────────────────────────────────────────────────────
-print("\n📊 Q5: Discount Impact on Revenue:")
+print("\n Q5: Discount Impact on Revenue:")
 discount_groups = df.groupby('has_discount').agg(
     avg_revenue=('revenue', 'mean'),
     total_revenue=('revenue', 'sum'),
@@ -243,13 +243,13 @@ discount_groups.index = ['No Discount', 'With Discount']
 print(discount_groups.to_string())
 
 # ─── Q6: Top Products ─────────────────────────────────────────────────────────
-print("\n📊 Q6: Top 10 Products by Revenue:")
+print("\n Q6: Top 10 Products by Revenue:")
 top_products = df.groupby('product')['revenue'].sum().sort_values(ascending=False).head(10)
 for rank, (product, rev) in enumerate(top_products.items(), 1):
     print(f"  {rank:>2}. {product:<25} ₹{rev:>10,.0f}")
 
 # ─── Q7: High-value customer profile ─────────────────────────────────────────
-print("\n📊 Q7: High-Value Transaction Profile:")
+print("\n Q7: High-Value Transaction Profile:")
 q75 = df['revenue'].quantile(0.75)
 high_value_txns = df[df['revenue'] > q75]
 print(f"  Threshold (75th percentile): ₹{q75:,.0f}")
@@ -283,14 +283,14 @@ def style_ax(ax, title):
         spine.set_linewidth(0.5)
 
 # Header
-fig.text(0.5, 0.97, '🛒 SUPERMART SALES INTELLIGENCE DASHBOARD',
+fig.text(0.5, 0.97, ' SUPERMART SALES INTELLIGENCE DASHBOARD',
          ha='center', va='top', fontsize=16, fontweight='bold', color=TEXT_COLOR)
 fig.text(0.5, 0.94, 'Model Mini Project — Data Analytics Complete Day 1',
          ha='center', va='top', fontsize=10, color='#888888')
 
 # Chart 1: Revenue by Store (horizontal bar)
 ax1 = fig.add_subplot(gs[0, :2])
-style_ax(ax1, '📦 Total Revenue by Store')
+style_ax(ax1, ' Total Revenue by Store')
 store_vals = store_rev['total_revenue'].sort_values()
 bars = ax1.barh(store_vals.index, store_vals.values / 1000, color=ACCENT_COLORS[:len(store_vals)], alpha=0.85)
 for bar, val in zip(bars, store_vals.values):
@@ -301,7 +301,7 @@ ax1.grid(axis='x', alpha=0.15, color='white')
 
 # Chart 2: Category pie
 ax2 = fig.add_subplot(gs[0, 2])
-style_ax(ax2, '🏷️ Revenue by Category')
+style_ax(ax2, '️ Revenue by Category')
 cat_vals = cat_stats['revenue']
 wedges, texts, autotexts = ax2.pie(cat_vals, labels=None, autopct='%1.0f%%',
                                     colors=ACCENT_COLORS, startangle=90,
@@ -314,7 +314,7 @@ ax2.legend(cat_vals.index, loc='lower left', fontsize=7,
 
 # Chart 3: Quarterly trend line
 ax3 = fig.add_subplot(gs[1, :2])
-style_ax(ax3, '📈 Quarterly Revenue Trend by Store')
+style_ax(ax3, ' Quarterly Revenue Trend by Store')
 q_data = df.groupby(['quarter', 'store'])['revenue'].sum().reset_index()
 stores_list = df['store'].unique()
 for i, store in enumerate(stores_list):
@@ -330,7 +330,7 @@ ax3.grid(alpha=0.15, color='white')
 
 # Chart 4: Member vs Walk-in comparison
 ax4 = fig.add_subplot(gs[1, 2])
-style_ax(ax4, '👥 Member vs Walk-In Spend')
+style_ax(ax4, ' Member vs Walk-In Spend')
 labels = ['Walk-In', 'Member']
 avgs = [member_stats.loc['Walk-In', 'avg_basket'], member_stats.loc['Member', 'avg_basket']]
 bars = ax4.bar(labels, avgs, color=['#FF6B6B', '#4ECB71'], alpha=0.85, width=0.5)
@@ -343,7 +343,7 @@ ax4.set_ylim(0, max(avgs) * 1.2)
 
 # Chart 5: Revenue distribution (histogram)
 ax5 = fig.add_subplot(gs[2, :2])
-style_ax(ax5, '📊 Transaction Revenue Distribution')
+style_ax(ax5, ' Transaction Revenue Distribution')
 ax5.hist(df['revenue'], bins=35, color='#00D4FF', alpha=0.75, edgecolor='#333355')
 ax5.axvline(df['revenue'].mean(), color='#FFD93D', linewidth=2,
             linestyle='--', label=f'Mean: ₹{df["revenue"].mean():.0f}')
@@ -356,7 +356,7 @@ ax5.grid(alpha=0.15, color='white')
 
 # Chart 6: Payment method
 ax6 = fig.add_subplot(gs[2, 2])
-style_ax(ax6, '💳 Payment Method Shares')
+style_ax(ax6, ' Payment Method Shares')
 pay_counts = df['payment_method'].value_counts()
 ax6.bar(pay_counts.index, pay_counts.values, color=ACCENT_COLORS, alpha=0.85)
 ax6.tick_params(axis='x', rotation=20)
@@ -365,7 +365,7 @@ ax6.grid(axis='y', alpha=0.15, color='white')
 
 plt.savefig('output/dashboard.png', dpi=120, bbox_inches='tight', facecolor=DARK_BG)
 plt.show()
-print("📊 Dashboard saved to output/dashboard.png")
+print(" Dashboard saved to output/dashboard.png")
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # STAGE 8: BUSINESS INSIGHT SUMMARY
@@ -382,12 +382,12 @@ member_premium = ((member_stats.loc['Member', 'avg_basket'] -
                   member_stats.loc['Walk-In', 'avg_basket'] * 100)
 
 insights = [
-    f"🏆 {top_store} is the top-performing store with ₹{store_rev.loc[top_store, 'total_revenue']:,.0f} total revenue.",
-    f"📦 {top_cat} is the highest-grossing category, accounting for {cat_stats.loc[top_cat, 'revenue']/df['revenue'].sum()*100:.1f}% of total revenue.",
-    f"📈 {best_quarter} was the strongest quarter across all stores.",
-    f"👥 Members spend {member_premium:.1f}% more per transaction — growing the loyalty program could boost revenue significantly.",
-    f"💳 UPI is the most popular payment method, indicating a digital-savvy customer base.",
-    f"🎯 {len(high_value_txns)} transactions ({len(high_value_txns)/len(df)*100:.1f}%) are high-value (>₹{q75:,.0f}) — these customers deserve premium retention efforts.",
+    f" {top_store} is the top-performing store with ₹{store_rev.loc[top_store, 'total_revenue']:,.0f} total revenue.",
+    f" {top_cat} is the highest-grossing category, accounting for {cat_stats.loc[top_cat, 'revenue']/df['revenue'].sum()*100:.1f}% of total revenue.",
+    f" {best_quarter} was the strongest quarter across all stores.",
+    f" Members spend {member_premium:.1f}% more per transaction — growing the loyalty program could boost revenue significantly.",
+    f" UPI is the most popular payment method, indicating a digital-savvy customer base.",
+    f" {len(high_value_txns)} transactions ({len(high_value_txns)/len(df)*100:.1f}%) are high-value (>₹{q75:,.0f}) — these customers deserve premium retention efforts.",
 ]
 
 for i, insight in enumerate(insights, 1):

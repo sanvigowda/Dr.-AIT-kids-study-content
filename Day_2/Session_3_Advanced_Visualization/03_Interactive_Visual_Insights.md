@@ -1,10 +1,10 @@
-# 💡 Interactive Visual Insights
+#  Interactive Visual Insights
 
 > **Learning Goal:** Go beyond static charts — learn how to add interactivity and create "talking" visualizations that guide the viewer to the insight.
 
 ---
 
-## 🤔 What Makes a Visualization "Insightful"?
+##  What Makes a Visualization "Insightful"?
 
 A chart becomes insightful when the **viewer knows exactly what to do** after seeing it.
 
@@ -16,7 +16,7 @@ A chart becomes insightful when the **viewer knows exactly what to do** after se
 
 ---
 
-## 🏷️ Technique 1: Annotate the Key Insight
+## ️ Technique 1: Annotate the Key Insight
 
 Add **text annotations** directly on the chart to highlight what matters.
 
@@ -68,7 +68,7 @@ plt.show()
 
 ---
 
-## 🎨 Technique 2: Color to Highlight, Not Decorate
+##  Technique 2: Color to Highlight, Not Decorate
 
 Use color **purposefully** to draw attention.
 
@@ -85,7 +85,7 @@ for bar in bars:
     plt.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.5,
              f"{bar.get_height():.1f}", ha="center", fontweight="bold")
 
-plt.annotate("🏆 Top City!", xy=(0, avg_city.max()),
+plt.annotate(" Top City!", xy=(0, avg_city.max()),
              xytext=(0.2, avg_city.max() - 5), fontsize=11, color="goldenrod")
 
 plt.title("Best Performing City Highlighted")
@@ -97,7 +97,7 @@ plt.show()
 
 ---
 
-## 📊 Technique 3: Dashboard Layout with Text Summary
+##  Technique 3: Dashboard Layout with Text Summary
 
 Combine charts + text boxes to create a **story-driven dashboard**.
 
@@ -127,13 +127,13 @@ ax2.set_ylabel("Marks")
 ax3 = fig.add_subplot(1, 3, 3)
 ax3.axis("off")   # Turn off axes for text panel
 insights = (
-    "📌 KEY INSIGHTS\n"
+    " KEY INSIGHTS\n"
     "─────────────────────────\n"
     f"• Avg Marks:    {df['marks'].mean():.1f}\n"
     f"• Top Student:  Vikram (95)\n"
     f"• Best City:    Bangalore ({avg_city.max():.1f})\n"
     f"• Study ↔ Marks: r = {df['study_hours'].corr(df['marks']):.2f}\n\n"
-    "📋 ACTIONS:\n"
+    " ACTIONS:\n"
     "─────────────────────────\n"
     "• Set min 6 hrs study goal\n"
     "• Alert students < 80% attend"
@@ -150,7 +150,7 @@ plt.show()
 
 ---
 
-## 🌐 Technique 4: Simple Plotly Interactive Chart
+##  Technique 4: Simple Plotly Interactive Chart
 
 For truly interactive charts (hover tooltips, zoom, pan), use **Plotly**.
 
@@ -173,7 +173,7 @@ fig.update_traces(marker=dict(line=dict(width=1, color="black")))
 fig.show()  # Opens in browser!
 ```
 
-> 💡 Plotly charts are **interactive in web browsers** and Jupyter notebooks — great for presentations!
+>  Plotly charts are **interactive in web browsers** and Jupyter notebooks — great for presentations!
 
 ---
 

@@ -1,10 +1,10 @@
-# 🔗 Correlation Analysis
+#  Correlation Analysis
 
 > **Learning Goal:** Understand how to find and measure relationships between variables — one of the most powerful tools in a data analyst's toolkit.
 
 ---
 
-## 🤔 What Is Correlation?
+##  What Is Correlation?
 
 **Correlation** measures how strongly two variables are related and in **which direction**.
 
@@ -18,7 +18,7 @@
 
 ---
 
-## 📏 The Correlation Coefficient (r)
+##  The Correlation Coefficient (r)
 
 The **correlation coefficient** is a number between **-1 and +1** that quantifies the relationship.
 
@@ -44,7 +44,7 @@ Neg.     Neg.   Neg.        Pos.    Pos.    Pos.
 
 ---
 
-## 🐼 Calculating Correlation with Pandas
+##  Calculating Correlation with Pandas
 
 ```python
 import pandas as pd
@@ -78,7 +78,7 @@ age             -0.12       -0.08    -0.10    1.00
 
 ---
 
-## 🔥 Visualizing Correlation with a Heatmap
+##  Visualizing Correlation with a Heatmap
 
 ```python
 import seaborn as sns
@@ -97,14 +97,14 @@ plt.tight_layout()
 plt.show()
 ```
 
-> 🎨 **Color guide for coolwarm:**
-> - 🔴 Dark red = Strong positive (+1.0)
+>  **Color guide for coolwarm:**
+> -  Dark red = Strong positive (+1.0)
 > - ⚪ White = No correlation (0)
-> - 🔵 Dark blue = Strong negative (-1.0)
+> -  Dark blue = Strong negative (-1.0)
 
 ---
 
-## 👀 Visualizing with a Scatter Plot Matrix
+##  Visualizing with a Scatter Plot Matrix
 
 ```python
 pd.plotting.scatter_matrix(
@@ -139,11 +139,11 @@ This is the **most important rule** in data analysis!
 - This **makes logical sense**, but we'd still need a **controlled study** to prove causation
 - Maybe students who study more also sleep better, eat better, etc. (hidden variables)
 
-> 💡 **The third variable problem:** There's often a hidden "confounding variable" that causes both!
+>  **The third variable problem:** There's often a hidden "confounding variable" that causes both!
 
 ---
 
-## 🌍 Real-World Use Cases
+##  Real-World Use Cases
 
 | Industry | Correlation Used For |
 |----------|---------------------|
@@ -164,7 +164,7 @@ This is the **most important rule** in data analysis!
 
 ---
 
-## 🧠 Quick Check Questions
+##  Quick Check Questions
 
 1. If `r = -0.85`, what does this mean?
 2. In your student dataset, which two variables are most correlated?

@@ -1,10 +1,10 @@
-# 🔥 Heatmaps & Distribution Plots
+#  Heatmaps & Distribution Plots
 
 > **Learning Goal:** Master heatmaps for correlation data and learn 4 types of distribution plots to deeply understand how your data is shaped.
 
 ---
 
-## 🔥 Heatmaps
+##  Heatmaps
 
 A **heatmap** uses color intensity to show values in a matrix (table). Perfect for correlation matrices.
 
@@ -64,7 +64,7 @@ plt.show()
 
 ---
 
-## 📊 Distribution Plots
+##  Distribution Plots
 
 Distribution plots show **how values are spread** across a range.
 
@@ -98,7 +98,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-> 💡 KDE is great for **comparing distributions** across groups side-by-side.
+>  KDE is great for **comparing distributions** across groups side-by-side.
 
 ---
 
@@ -160,11 +160,11 @@ plt.tight_layout()
 plt.show()
 ```
 
-> 💡 For small datasets (< 50 rows), **always show the actual data points** — it's more honest than just showing averages!
+>  For small datasets (< 50 rows), **always show the actual data points** — it's more honest than just showing averages!
 
 ---
 
-## 📊 Choosing the Right Distribution Plot
+##  Choosing the Right Distribution Plot
 
 | Plot | Dataset Size | Shows |
 |------|-------------|-------|
@@ -176,7 +176,7 @@ plt.show()
 
 ---
 
-## 🔥 Combined: Violin + Strip (Best of Both)
+##  Combined: Violin + Strip (Best of Both)
 
 ```python
 plt.figure(figsize=(8, 5))

@@ -1,10 +1,10 @@
-# 📊 Data Analytics Complete
+#  Data Analytics Complete
 
 > **A complete Day-by-Day Data Analytics course with hands-on labs, notebooks, and real-world mini projects.**
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 ```
@@ -35,7 +35,7 @@ Data_analytics_complete/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Run the Day 2 Complete Notebook
 You can run the full EDA and Visualization pipeline in one go:
@@ -48,7 +48,7 @@ You can run the full EDA and Visualization pipeline in one go:
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Run the Day 1 Model Mini Project
 
@@ -81,7 +81,7 @@ python Day_1/Session_3_Python_for_Analytics/Lab_VSCode_Dataset_Manipulation.py
 
 ---
 
-## 📚 Day 1 Topics Covered
+##  Day 1 Topics Covered
 
 | Session | Topics |
 |---------|--------|
@@ -94,7 +94,7 @@ python Day_1/Session_3_Python_for_Analytics/Lab_VSCode_Dataset_Manipulation.py
 
 ---
 
-## 📚 Day 2 Topics Covered
+##  Day 2 Topics Covered
 
 | Session | Topics |
 |---------|--------|
@@ -110,7 +110,7 @@ python Day_1/Session_3_Python_for_Analytics/Lab_VSCode_Dataset_Manipulation.py
 
 ---
 
-## 🎯 Project: SuperMart Sales Intelligence
+##  Project: SuperMart Sales Intelligence
 
 The Day 1 model mini project is a complete analytics pipeline for a fictional retail chain with 5 stores across India.
 
@@ -126,7 +126,7 @@ The Day 1 model mini project is a complete analytics pipeline for a fictional re
 
 ---
 
-## 🛠️ Prerequisites
+## ️ Prerequisites
 
 | Tool | Version | Install |
 |------|---------|---------|
@@ -144,7 +144,7 @@ pip install pandas numpy matplotlib seaborn requests jupyter
 
 ---
 
-## 📓 Google Colab
+##  Google Colab
 
 To run in Google Colab, open the `.ipynb` files directly:
 1. Go to [colab.research.google.com](https://colab.research.google.com)

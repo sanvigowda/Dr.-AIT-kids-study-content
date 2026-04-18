@@ -1,10 +1,10 @@
-# 🔀 Multi-Variable Visualization
+#  Multi-Variable Visualization
 
 > **Learning Goal:** Learn how to visualize relationships between MORE than two variables at once — the most powerful skill in exploratory data analysis.
 
 ---
 
-## 🤔 Why Multi-Variable Visualization?
+##  Why Multi-Variable Visualization?
 
 With just two variables:
 - Study hours vs Marks → Scatter plot ✅
@@ -17,7 +17,7 @@ But real questions need more context:
 
 ---
 
-## 🎨 Key Techniques
+##  Key Techniques
 
 ### 1. Color (Hue) — Add a 3rd Variable
 
@@ -146,7 +146,7 @@ plt.show()
 
 ---
 
-## 📊 Summary: Which Technique for What?
+##  Summary: Which Technique for What?
 
 | Extra Variable Type | Technique |
 |--------------------|-----------|

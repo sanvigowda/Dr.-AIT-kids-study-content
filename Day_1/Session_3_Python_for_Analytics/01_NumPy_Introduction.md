@@ -1,10 +1,10 @@
-# 🔢 Introduction to NumPy
+#  Introduction to NumPy
 
 > **Learning Goal:** Understand NumPy arrays and core operations — the foundation for all data science in Python.
 
 ---
 
-## 🤔 Why NumPy?
+##  Why NumPy?
 
 Before NumPy, Python lists handled data. But Python lists are **slow** for large datasets.
 
@@ -25,7 +25,7 @@ tax_prices = prices * 1.1  # No loop needed! Works on entire array
 
 ---
 
-## 🏗️ Creating NumPy Arrays
+## ️ Creating NumPy Arrays
 
 ```python
 import numpy as np
@@ -55,7 +55,7 @@ print(prices.dtype, ids.dtype)
 
 ---
 
-## 🔍 Array Indexing & Slicing
+##  Array Indexing & Slicing
 
 ```python
 import numpy as np
@@ -120,7 +120,7 @@ print(f"Total return: {((stock_a[-1] - stock_a[0]) / stock_a[0]) * 100:.2f}%")
 
 ---
 
-## 📐 Array Reshaping — Critical for Data Science
+##  Array Reshaping — Critical for Data Science
 
 ```python
 import numpy as np
@@ -150,7 +150,7 @@ print("Extended shape:", arr_3d.shape)
 
 ---
 
-## 🔗 Array Concatenation & Stacking
+##  Array Concatenation & Stacking
 
 ```python
 import numpy as np

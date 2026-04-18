@@ -1,22 +1,22 @@
-# 🐼 Pandas & DataFrame Operations
+#  Pandas & DataFrame Operations
 
 > **Learning Goal:** Master the Pandas library — the most important tool for data analysis in Python.
 
 ---
 
-## 📖 Getting Started with Pandas
+##  Getting Started with Pandas
 
 Before we dive into the code, it's essential to understand that **Pandas** is the industry standard for data manipulation in Python. It's built on top of NumPy and offers high-performance, easy-to-use data structures.
 
-### 🎯 Let's Dive Deep!
+###  Let's Dive Deep!
 To complement this session and gain an official credential, we highly recommend completing the:
-[🔗 **Kaggle Pandas Certification**](https://www.kaggle.com/learn/pandas)
+[ **Kaggle Pandas Certification**](https://www.kaggle.com/learn/pandas)
 
 This will help you master the fundamentals and prepare you for real-world data challenges.
 
 ---
 
-## 🤔 What is Pandas?
+##  What is Pandas?
 
 **Pandas** is a Python library that provides two primary data structures:
 - **Series** → 1D labeled array (like a single column)
@@ -27,7 +27,7 @@ This will help you master the fundamentals and prepare you for real-world data c
 
 ---
 
-## 🏗️ Creating DataFrames
+## ️ Creating DataFrames
 
 ```python
 import pandas as pd
@@ -56,7 +56,7 @@ print("\nShape:", df.shape)  # (5, 6)
 
 ---
 
-## 🔍 Exploring a DataFrame
+##  Exploring a DataFrame
 
 ```python
 # First look at the data
@@ -79,7 +79,7 @@ print(df['department'].value_counts())  # Frequency of each category
 
 ---
 
-## 📌 Selecting Data: Columns and Rows
+##  Selecting Data: Columns and Rows
 
 ```python
 # ─── Select Columns ────────────────────────────────────────────────────
@@ -113,7 +113,7 @@ high_earners = df[df['salary'] > 75000]
 
 ---
 
-## 🔄 Adding, Updating, Deleting Columns
+##  Adding, Updating, Deleting Columns
 
 ```python
 # ─── Add new columns ──────────────────────────────────────────────────
@@ -155,7 +155,7 @@ print(df.head())
 
 ---
 
-## 🔀 Sorting Data
+##  Sorting Data
 
 ```python
 # Sort by salary (descending = highest first)
@@ -172,7 +172,7 @@ df_sorted_idx = df.sort_index()
 
 ---
 
-## 🔗 Joining DataFrames (Like SQL JOIN)
+##  Joining DataFrames (Like SQL JOIN)
 
 ```python
 import pandas as pd
